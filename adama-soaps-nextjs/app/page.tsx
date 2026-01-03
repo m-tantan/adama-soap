@@ -14,7 +14,7 @@ export default function Home() {
       <section 
         className="text-neutral-white relative overflow-hidden"
         style={{
-          backgroundColor: 'rgb(88, 88, 67)',
+          backgroundColor: '#4D4B36',
           paddingTop: '100px',
           paddingBottom: '100px'
         }}
@@ -87,7 +87,7 @@ export default function Home() {
       </section>
 
       {/* Best Sellers */}
-      <section style={{ paddingTop: '64px', paddingBottom: '64px', backgroundColor: 'rgb(88, 88, 67)' }}>
+      <section style={{ paddingTop: '64px', paddingBottom: '64px', backgroundColor: '#4D4B36' }}>
         <div className="max-w-[980px] mx-auto px-6 lg:px-8">
           <div className="flex justify-between items-center mb-12">
             <h2 
@@ -121,7 +121,7 @@ export default function Home() {
       {/* Our Story */}
       <section 
         style={{
-          backgroundColor: 'rgb(88, 88, 67)',
+          backgroundColor: '#29291F',
           paddingTop: '64px',
           paddingBottom: '64px'
         }}
@@ -130,7 +130,7 @@ export default function Home() {
           <div className="grid md:grid-cols-2 items-center" style={{ gap: '48px' }}>
             <div className="relative" style={{ aspectRatio: '3/4' }}>
               <Image
-                src="/images/about/denise-yoav.jpg"
+                src="/images/about/yoav-denis.jpg"
                 alt="Denise and Yoav - Adama Soaps Founders"
                 fill
                 className="object-cover"
@@ -219,7 +219,7 @@ export default function Home() {
       </section>
 
       {/* Cafe Partners Section */}
-      <section style={{ paddingTop: '64px', paddingBottom: '64px', backgroundColor: 'rgb(88, 88, 67)' }}>
+      <section style={{ paddingTop: '64px', paddingBottom: '64px', backgroundColor: '#29291F' }}>
         <div className="max-w-[980px] mx-auto px-6 lg:px-8">
           <h2 
             className="font-title font-bold text-center mb-12"
@@ -320,7 +320,7 @@ export default function Home() {
       </section>
 
       {/* Follow Us Section */}
-      <section style={{ paddingTop: '64px', paddingBottom: '64px', backgroundColor: 'rgb(88, 88, 67)' }}>
+      <section style={{ paddingTop: '64px', paddingBottom: '64px', backgroundColor: '#29291F' }}>
         <div className="max-w-[980px] mx-auto px-6 lg:px-8 text-center">
           <h2 
             className="font-title font-bold mb-12"
