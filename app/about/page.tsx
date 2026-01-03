@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import { withBasePath } from '@/lib/utils';
 
 export default function AboutPage() {
   return (
@@ -25,7 +26,7 @@ export default function AboutPage() {
           }}
         >
           <Image
-            src="/images/about/soap-making.jpg"
+            src={withBasePath('/images/about/soap-making.jpg')}
             alt="Making soap together"
             fill
             className="object-cover"

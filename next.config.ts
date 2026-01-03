@@ -10,6 +10,7 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true,
   },
+  trailingSlash: true, // Required for static export with locales
 };
 
 export default nextConfig;

@@ -1,0 +1,187 @@
+{
+  "metadata": {
+    "title": "Adama Soaps - Natural Handcrafted Soaps from Coffee Grounds",
+    "description": "Eco-friendly soaps made from recycled coffee grounds. Sustainable, natural, and good for your skin."
+  },
+  "navigation": {
+    "home": "Home",
+    "bestSellers": "Best Sellers",
+    "about": "About",
+    "instagram": "Instagram",
+    "more": "More",
+    "cart": "Cart",
+    "shop": "Shop",
+    "contact": "Contact",
+    "selectLanguage": "Select Language",
+    "language": {
+      "en": "English",
+      "de": "Deutsch"
+    }
+  },
+  "hero": {
+    "title": "Crafted from Used Coffee Grounds",
+    "description": "Explore our range of eco-friendly soaps crafted with care using natural ingredients, designed to rejuvenate your skin while honoring the planet.",
+    "cta": "Shop Now",
+    "alt": {
+      "handcraftedSoap": "Handcrafted Soap",
+      "coffeeGroundSoap": "Coffee Ground Soap"
+    }
+  },
+  "sections": {
+    "bestSellers": "Best Sellers",
+    "discover": "Discover",
+    "ourStory": "Our Story",
+    "followUs": "Follow Us"
+  },
+  "story": {
+    "whoWeAre": "Who We Are",
+    "whoWeAreText": "At Adama Soaps, we pride ourselves on creating natural, eco-friendly soaps from used coffee grounds. Our focus is on simplicity, honesty, and sustainability, aiming to reduce waste while delivering high-quality products that nurture your skin.",
+    "ourMission": "Our Mission",
+    "ourMissionText": "We strive to promote sustainability through our handcrafted soaps and engage consumers about the benefits of coffee grounds as an ingredient.",
+    "why": "Why",
+    "whyText": "Our commitment to the environment guides every step of our process, from sourcing materials to packaging, ensuring that your choice of soap is one that supports a healthy planet.",
+    "foundersAlt": "Denise and Yoav - Adama Soaps Founders"
+  },
+  "cafePartners": {
+    "title": "We turn their coffee waste into soaps — you'll find Adama available in these cafés.",
+    "onlineShop": "Online Shop",
+    "wagnersJuicery": "Wagners Juicery",
+    "maritaCafe": "Marita Cafe",
+    "cooperation": "Cooperation with a local cafe, turning their Coffee waste into soaps",
+    "map": {
+      "title": "📍 Interactive Map - Munich, Germany",
+      "note": "(Map integration available on full site)"
+    }
+  },
+  "about": {
+    "title": "Our Sudsy Story",
+    "paragraphs": {
+      "p1": "It all started when my boyfriend said, \"Honey, we should make soap!\" I thought he was being clean about our relationship, but no—he literally meant soap.",
+      "p2": "Armed with nothing but recycled coffee grounds (because apparently throwing them away is a grounds for divorce) and an unreasonable amount of YouTube tutorials, we embarked on our lathery journey.",
+      "p3": "The first batch? Let's just say it was a total wash. The second batch? A clean sweep of failures. But by the third batch, we finally got it right—and that's when things really started to soap up!",
+      "p4": "Now we make all our soaps by hand in Germany, using only the finest natural ingredients and a healthy dose of questionable puns. Our motto? \"We're lye-ing if we say it's easy, but we're not lye-ing about the quality!\"",
+      "p5": "P.S. My boyfriend insists I mention that she does 90% of the actual work. I provide moral support and terrible jokes. It's a clean division of labor. 🧼"
+    },
+    "whyCoffeeGrounds": {
+      "title": "Why Coffee Grounds?",
+      "text": "Because we're recycling champions and because coffee grounds are nature's best exfoliant. Plus, it gives us an excuse to drink more coffee during the \"research phase.\" Win-win! ☕"
+    },
+    "alt": {
+      "soapMaking": "Making soap together"
+    }
+  },
+  "shop": {
+    "title": "Our Soaps"
+  },
+  "product": {
+    "addToCart": "Add to Cart",
+    "addToCartIcon": "🛒 Add to Cart",
+    "ingredients": "Ingredients:",
+    "price": "Price",
+    "features": {
+      "madeFromCoffeeGrounds": "🌱 Made from recycled coffee grounds",
+      "ecoFriendly": "♻️ Eco-friendly and sustainable",
+      "handcraftedInGermany": "🇩🇪 Handcrafted in Germany"
+    },
+    "altView": "view {number}"
+  },
+  "products": {
+    "calm": {
+      "name": "Calm",
+      "description": "A soothing soap crafted with calming essential oils and coffee grounds for gentle exfoliation.",
+      "ingredients": [
+        "Recycled Coffee Grounds",
+        "Coconut Oil",
+        "Olive Oil",
+        "Lavender Essential Oil",
+        "Chamomile",
+        "Shea Butter"
+      ]
+    },
+    "forest-soap": {
+      "name": "Forest",
+      "description": "Earthy forest-inspired soap with pine and cedarwood scents, combined with natural coffee exfoliant.",
+      "ingredients": [
+        "Recycled Coffee Grounds",
+        "Coconut Oil",
+        "Olive Oil",
+        "Pine Essential Oil",
+        "Cedarwood Essential Oil",
+        "Shea Butter"
+      ]
+    },
+    "clc-soap": {
+      "name": "CLC Soap (Coffee-Lemon-Cedar)",
+      "description": "Our best-selling handcrafted soap made from recycled coffee grounds. Natural exfoliation with refreshing lemon and cedar scents.",
+      "ingredients": [
+        "Recycled Coffee Grounds",
+        "Coconut Oil",
+        "Olive Oil",
+        "Lemon Essential Oil",
+        "Cedar Essential Oil",
+        "Shea Butter"
+      ]
+    },
+    "lavender-bliss-soap": {
+      "name": "Lavender Bliss Soap",
+      "description": "Calming lavender soap with coffee grounds for gentle exfoliation.",
+      "ingredients": []
+    },
+    "mint-refresh-soap": {
+      "name": "Mint Refresh Soap",
+      "description": "Invigorating peppermint soap with natural coffee exfoliant.",
+      "ingredients": []
+    },
+    "citrus-burst-soap": {
+      "name": "Citrus Burst Soap",
+      "description": "Energizing citrus blend with coffee grounds.",
+      "ingredients": []
+    }
+  },
+  "ribbons": {
+    "new": "New",
+    "bestSeller": "Best Seller",
+    "sale": "Sale"
+  },
+  "footer": {
+    "brandName": "Adama Soaps",
+    "contact": "Contact",
+    "phone": "015730104878",
+    "email": "info@mysite.com",
+    "address": {
+      "street": "Holzstr.11 2/a,",
+      "city": "80469 Munich",
+      "country": "Germany"
+    },
+    "policies": "Policies",
+    "policyLinks": {
+      "privacy": "Privacy Policy",
+      "accessibility": "Accessibility Statement",
+      "shipping": "Shipping Policy",
+      "terms": "Terms & Conditions",
+      "refund": "Refund Policy"
+    },
+    "newsletter": {
+      "title": "Stay in Touch",
+      "emailPlaceholder": "Enter your email here",
+      "consent": "Yes, subscribe me to your newsletter.*",
+      "subscribe": "Subscribe"
+    },
+    "copyright": "© 2035 by Adama Soaps. Powered and secured by Wix",
+    "social": {
+      "facebook": "Facebook",
+      "instagram": "Instagram",
+      "twitter": "X (Twitter)",
+      "tiktok": "TikTok"
+    }
+  },
+  "instagram": {
+    "alt": "Instagram post",
+    "handle": "@wix"
+  },
+  "common": {
+    "learnMore": "Learn More",
+    "viewProduct": "View Product",
+    "shopNow": "Shop Now"
+  }
+}
