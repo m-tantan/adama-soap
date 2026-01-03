@@ -6,6 +6,12 @@ import { products } from '@/data/products';
 import { useState } from 'react';
 import { use } from 'react';
 
+export function generateStaticParams() {
+  return products.map((product) => ({
+    slug: product.slug,
+  }));
+}
+
 export default function ProductPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = use(params);
   const product = products.find(p => p.slug === slug);
