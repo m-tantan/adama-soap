@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
+import Header from '@/components/Header';
+import Footer from '@/components/Footer';
 
-export const metadata: Metadata = {
-  title: "Adama Soaps - Natural Handcrafted Soaps from Coffee Grounds",
-  description: "Eco-friendly soaps made from recycled coffee grounds. Sustainable, natural, and good for your skin.",
+export const metadata = {
+  title: 'Adama Soaps - Natural Handcrafted Soaps from Coffee Grounds',
+  description: 'Eco-friendly handcrafted soaps made from used coffee grounds. Natural, sustainable, and good for your skin.',
 };
 
 export default function RootLayout({
