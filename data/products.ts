@@ -1,5 +1,4 @@
 import { Product } from '@/types';
-import { withBasePath } from '@/lib/utils';
 
 export const products: Product[] = [
   {
@@ -7,7 +6,7 @@ export const products: Product[] = [
     name: 'Calm',
     slug: 'calm',
     price: 9.50,
-    images: [withBasePath('/images/products/calm-soap.png'), withBasePath('/images/products/calm-soap.png')],
+    images: ['/images/products/calm-soap.png', '/images/products/calm-soap.png'],
     description: 'A soothing soap crafted with calming essential oils and coffee grounds for gentle exfoliation.',
     ribbon: 'New',
     inStock: true,
@@ -18,7 +17,7 @@ export const products: Product[] = [
     name: 'Forest',
     slug: 'forest-soap',
     price: 9.50,
-    images: [withBasePath('/images/products/forest-soap.jpg')],
+    images: ['/images/products/forest-soap.jpg'],
     description: 'Earthy forest-inspired soap with pine and cedarwood scents, combined with natural coffee exfoliant.',
     inStock: true,
     ingredients: ['Recycled Coffee Grounds', 'Coconut Oil', 'Olive Oil', 'Pine Essential Oil', 'Cedarwood Essential Oil', 'Shea Butter']
@@ -28,7 +27,7 @@ export const products: Product[] = [
     name: 'CLC Soap (Coffee-Lemon-Cedar)',
     slug: 'clc-soap',
     price: 6.00,
-    images: [withBasePath('/images/products/clc-soap-1.png'), withBasePath('/images/products/clc-soap-1.png')],
+    images: ['/images/products/clc-soap-1.png', '/images/products/clc-soap-1.png'],
     description: 'Our best-selling handcrafted soap made from recycled coffee grounds. Natural exfoliation with refreshing lemon and cedar scents.',
     ribbon: 'Best Seller',
     inStock: true,
@@ -39,7 +38,7 @@ export const products: Product[] = [
     name: 'Lavender Bliss Soap',
     slug: 'lavender-bliss-soap',
     price: 6.00,
-    images: [withBasePath('/images/products/tote-bag-1.jpg')],
+    images: ['/images/products/tote-bag-1.jpg'],
     description: 'Calming lavender soap with coffee grounds for gentle exfoliation.',
     inStock: true
   },
@@ -48,7 +47,7 @@ export const products: Product[] = [
     name: 'Mint Refresh Soap',
     slug: 'mint-refresh-soap',
     price: 6.00,
-    images: [withBasePath('/images/products/tote-bag-2.jpg')],
+    images: ['/images/products/tote-bag-2.jpg'],
     description: 'Invigorating peppermint soap with natural coffee exfoliant.',
     inStock: true
   },
@@ -58,7 +57,7 @@ export const products: Product[] = [
     slug: 'citrus-burst-soap',
     price: 5.50,
     salePrice: 4.50,
-    images: [withBasePath('/images/products/placeholder.jpg')],
+    images: ['/images/products/placeholder.jpg'],
     description: 'Energizing citrus blend with coffee grounds.',
     ribbon: 'Sale',
     inStock: true

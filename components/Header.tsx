@@ -3,7 +3,6 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import { useState } from 'react';
-import { withBasePath } from '@/lib/utils';
 
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -73,7 +72,7 @@ export default function Header() {
             style={{ flex: '0 0 auto', margin: '0 60px' }}
           >
             <Image
-              src={withBasePath('/images/logo.png')}
+              src="/images/logo.png"
               alt="Adama Soaps"
               width={130}
               height={75}
@@ -138,7 +137,7 @@ export default function Header() {
             className="transition-opacity duration-300 hover:opacity-80"
           >
             <Image
-              src={withBasePath('/images/logo.png')}
+              src="/images/logo.png"
               alt="Adama Soaps"
               width={155}
               height={95}
