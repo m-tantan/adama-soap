@@ -1,10 +1,9 @@
 /**
  * Get the base path for the application
- * In production, this returns the configured basePath
- * In development, this returns an empty string
+ * Always returns empty string for Vercel deployment
  */
 export function getBasePath() {
-  return process.env.NODE_ENV === 'production' ? '/adama-soap' : '';
+  return '';
 }
 
 /**
@@ -13,9 +12,5 @@ export function getBasePath() {
  * @returns The path with the base path prepended
  */
 export function withBasePath(path: string) {
-  if (!path) return path;
-  if (path.startsWith('http') || path.startsWith('//')) return path;
-  
-  const basePath = getBasePath();
-  return `${basePath}${path}`;
+  return path;
 }
