@@ -74,8 +74,8 @@ export default function Footer() {
                 color: "rgb(255, 255, 255)",
               }}
             >
-              <p>015730104878</p>
-              <p>info@mysite.com</p>
+              <p>+491715798625</p>
+              <p>Adamasoaps@gmail.com</p>
               <p>Holzstr.11 2/a,</p>
               <p>80469 Munich</p>
               <p>Germany</p>
@@ -83,7 +83,7 @@ export default function Footer() {
           </div>
 
           {/* Links */}
-          <div>
+          {/* <div>
             <h4
               className="font-heading font-normal mb-4"
               style={{
@@ -152,11 +152,11 @@ export default function Footer() {
                 Refund Policy
               </Link>
             </div>
-          </div>
+          </div> */}
         </div>
 
         {/* Newsletter Section */}
-        <div
+        {/* <div
           style={{
             marginTop: "48px",
             paddingTop: "32px",
@@ -172,7 +172,7 @@ export default function Footer() {
               fontWeight: "600",
             }}
           >
-            Stay in Touch
+            Get in touch
           </h4>
           <form className="flex flex-col gap-3 max-w-md">
             <input
@@ -224,7 +224,7 @@ export default function Footer() {
               Subscribe
             </button>
           </form>
-        </div>
+        </div> */}
 
         <div
           className="text-center font-body"

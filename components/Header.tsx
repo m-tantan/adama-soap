@@ -51,7 +51,7 @@ export default function Header() {
               About
             </Link>
             <a 
-              href="https://instagram.com/wix" 
+              href="https://instagram.com/yoavmanor1" 
               target="_blank"
               rel="noopener noreferrer"
               className="font-menu transition-opacity duration-300 hover:opacity-70"
