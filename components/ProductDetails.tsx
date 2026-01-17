@@ -99,7 +99,7 @@ export default function ProductDetails({ product }: { product: Product }) {
                   className="line-through font-heading"
                   style={{
                     fontSize: '25px',
-                    color: 'rgb(114, 114, 114)'
+                    color: 'rgb(95, 95, 95)'
                   }}
                 >
                   €{product.price.toFixed(2)}

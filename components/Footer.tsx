@@ -99,7 +99,7 @@ export default function Footer() {
               style={{
                 fontSize: '15px',
                 lineHeight: '24px',
-                color: 'rgb(207, 203, 192)'
+                color: 'rgb(255, 255, 255)'
               }}
             >
               <p>015730104878</p>
@@ -130,7 +130,7 @@ export default function Footer() {
                 style={{
                   fontSize: '15px',
                   lineHeight: '24px',
-                  color: 'rgb(207, 203, 192)'
+                  color: 'rgb(255, 255, 255)'
                 }}
               >
                 Privacy Policy
@@ -141,7 +141,7 @@ export default function Footer() {
                 style={{
                   fontSize: '15px',
                   lineHeight: '24px',
-                  color: 'rgb(207, 203, 192)'
+                  color: 'rgb(255, 255, 255)'
                 }}
               >
                 Accessibility Statement
@@ -152,7 +152,7 @@ export default function Footer() {
                 style={{
                   fontSize: '15px',
                   lineHeight: '24px',
-                  color: 'rgb(207, 203, 192)'
+                  color: 'rgb(255, 255, 255)'
                 }}
               >
                 Shipping Policy
@@ -163,7 +163,7 @@ export default function Footer() {
                 style={{
                   fontSize: '15px',
                   lineHeight: '24px',
-                  color: 'rgb(207, 203, 192)'
+                  color: 'rgb(255, 255, 255)'
                 }}
               >
                 Terms & Conditions
@@ -174,7 +174,7 @@ export default function Footer() {
                 style={{
                   fontSize: '15px',
                   lineHeight: '24px',
-                  color: 'rgb(207, 203, 192)'
+                  color: 'rgb(255, 255, 255)'
                 }}
               >
                 Refund Policy
@@ -224,7 +224,7 @@ export default function Footer() {
                 className="font-body"
                 style={{
                   fontSize: '14px',
-                  color: 'rgb(207, 203, 192)',
+                  color: 'rgb(255, 255, 255)',
                   cursor: 'pointer'
                 }}
               >

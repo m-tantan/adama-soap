@@ -26,7 +26,7 @@ export default function AboutPage() {
           }}
         >
           <Image
-            src={withBasePath('/images/about/soap-making.jpg')}
+            src={withBasePath('/images/about/yoav-denis.jpg')}
             alt="Making soap together"
             fill
             className="object-cover"
@@ -39,7 +39,7 @@ export default function AboutPage() {
             style={{
               fontSize: '17px',
               lineHeight: '1.6em',
-              color: '#F5F5DC'
+              color: 'rgb(255, 255, 255)'
             }}
           >
             It all started when my boyfriend said, "Honey, we should make soap!" I thought he was being clean about our relationship, but no—he literally meant soap.
@@ -50,7 +50,7 @@ export default function AboutPage() {
             style={{
               fontSize: '17px',
               lineHeight: '1.6em',
-              color: '#F5F5DC'
+              color: 'rgb(255, 255, 255)'
             }}
           >
             Armed with nothing but recycled coffee grounds (because apparently throwing them away is a <em>grounds</em> for divorce) and an unreasonable amount of YouTube tutorials, we embarked on our lathery journey.
@@ -61,7 +61,7 @@ export default function AboutPage() {
             style={{
               fontSize: '17px',
               lineHeight: '1.6em',
-              color: '#F5F5DC'
+              color: 'rgb(255, 255, 255)'
             }}
           >
             The first batch? Let's just say it was a total wash. The second batch? A clean sweep of failures. But by the third batch, we finally got it right—and that's when things really started to <em>soap</em> up!
@@ -72,7 +72,7 @@ export default function AboutPage() {
             style={{
               fontSize: '17px',
               lineHeight: '1.6em',
-              color: '#F5F5DC'
+              color: 'rgb(255, 255, 255)'
             }}
           >
             Now we make all our soaps by hand in Germany, using only the finest natural ingredients and a healthy dose of questionable puns. Our motto? "We're lye-ing if we say it's easy, but we're not lye-ing about the quality!"
@@ -83,7 +83,7 @@ export default function AboutPage() {
             style={{
               fontSize: '17px',
               lineHeight: '1.6em',
-              color: '#F5F5DC',
+              color: 'rgb(255, 255, 255)',
               fontStyle: 'italic'
             }}
           >

@@ -6,8 +6,8 @@ import { products } from '@/data/products';
 import { withBasePath } from '@/lib/utils';
 
 export default function Home() {
-  // Get only Calm and Forest for Best Sellers carousel
-  const bestSellers = products.filter(p => p.slug === 'calm' || p.slug === 'forest-soap');
+  // Get Calm and Sunny Sage for Best Sellers carousel
+  const bestSellers = products.filter(p => p.slug === 'calm' || p.slug === 'sunny-sage');
 
   return (
     <>
@@ -64,7 +64,7 @@ export default function Home() {
               fontSize: '20px',
               lineHeight: '1.5em',
               fontWeight: '400',
-              color: '#F5F5DC'
+              color: 'rgb(255, 255, 255)'
             }}
           >
             Explore our range of eco-friendly soaps crafted with care using natural ingredients, designed to rejuvenate your skin while honoring the planet.
@@ -167,7 +167,7 @@ export default function Home() {
                 style={{
                   fontSize: '17px',
                   lineHeight: '1.5em',
-                  color: '#F5F5DC'
+                  color: 'rgb(255, 255, 255)'
                 }}
               >
                 At Adama Soaps, we pride ourselves on creating natural, eco-friendly soaps from used coffee grounds. Our focus is on simplicity, honesty, and sustainability, aiming to reduce waste while delivering high-quality products that nurture your skin.
@@ -177,7 +177,7 @@ export default function Home() {
                 style={{
                   fontSize: '25px',
                   lineHeight: '1.4em',
-                  color: '#F5F5DC',
+                  color: 'rgb(255, 255, 255)',
                   fontWeight: '600'
                 }}
               >
@@ -188,7 +188,7 @@ export default function Home() {
                 style={{
                   fontSize: '17px',
                   lineHeight: '1.5em',
-                  color: '#F5F5DC'
+                  color: 'rgb(255, 255, 255)'
                 }}
               >
                 We strive to promote sustainability through our handcrafted soaps and engage consumers about the benefits of coffee grounds as an ingredient.
@@ -198,7 +198,7 @@ export default function Home() {
                 style={{
                   fontSize: '25px',
                   lineHeight: '1.4em',
-                  color: '#F5F5DC',
+                  color: 'rgb(255, 255, 255)',
                   fontWeight: '600'
                 }}
               >
@@ -209,7 +209,7 @@ export default function Home() {
                 style={{
                   fontSize: '17px',
                   lineHeight: '1.5em',
-                  color: '#F5F5DC'
+                  color: 'rgb(255, 255, 255)'
                 }}
               >
                 Our commitment to the environment guides every step of our process, from sourcing materials to packaging, ensuring that your choice of soap is one that supports a healthy planet.
@@ -247,13 +247,13 @@ export default function Home() {
               >
                 Online Shop
               </h3>
-              <p className="mb-2" style={{ fontSize: '15px', color: '#F5F5DC' }}>
+              <p className="mb-2" style={{ fontSize: '15px', color: 'rgb(255, 255, 255)' }}>
                 📍 Holzstraße 11, 80469 München, Germany
               </p>
-              <p className="mb-2" style={{ fontSize: '15px', color: '#F5F5DC' }}>
+              <p className="mb-2" style={{ fontSize: '15px', color: 'rgb(255, 255, 255)' }}>
                 📞 +4915730104878
               </p>
-              <p style={{ fontSize: '15px', color: '#F5F5DC' }}>
+              <p style={{ fontSize: '15px', color: 'rgb(255, 255, 255)' }}>
                 🌐 <a href="http://Adama-soaps.com" target="_blank" rel="noopener noreferrer" className="underline hover:opacity-70">Adama-soaps.com</a>
               </p>
             </div>
@@ -270,13 +270,13 @@ export default function Home() {
               >
                 Wagners Juicery
               </h3>
-              <p className="mb-3" style={{ fontSize: '14px', color: '#F5F5DC', fontStyle: 'italic' }}>
+              <p className="mb-3" style={{ fontSize: '14px', color: 'rgb(255, 255, 255)', fontStyle: 'italic', opacity: 0.9 }}>
                 Cooperation with a local cafe, turning thier Coffee waste into soaps
               </p>
-              <p className="mb-2" style={{ fontSize: '15px', color: '#F5F5DC' }}>
+              <p className="mb-2" style={{ fontSize: '15px', color: 'rgb(255, 255, 255)' }}>
                 📍 Fraunhoferstraße 43, 80469 München, Germany
               </p>
-              <p style={{ fontSize: '15px', color: '#F5F5DC' }}>
+              <p style={{ fontSize: '15px', color: 'rgb(255, 255, 255)' }}>
                 🌐 <a href="http://wagnersjuicery.com" target="_blank" rel="noopener noreferrer" className="underline hover:opacity-70">wagnersjuicery.com</a>
               </p>
             </div>
@@ -293,16 +293,16 @@ export default function Home() {
               >
                 Marita Cafe
               </h3>
-              <p className="mb-3" style={{ fontSize: '14px', color: '#F5F5DC', fontStyle: 'italic' }}>
+              <p className="mb-3" style={{ fontSize: '14px', color: 'rgb(255, 255, 255)', fontStyle: 'italic', opacity: 0.9 }}>
                 Cooperation with a local cafe, turning thier Coffee waste into soaps
               </p>
-              <p className="mb-2" style={{ fontSize: '15px', color: '#F5F5DC' }}>
+              <p className="mb-2" style={{ fontSize: '15px', color: 'rgb(255, 255, 255)' }}>
                 📍 Schulstraße 34, 80634 München, Germany
               </p>
-              <p className="mb-2" style={{ fontSize: '15px', color: '#F5F5DC' }}>
+              <p className="mb-2" style={{ fontSize: '15px', color: 'rgb(255, 255, 255)' }}>
                 📞 089 13 011 652
               </p>
-              <p style={{ fontSize: '15px', color: '#F5F5DC' }}>
+              <p style={{ fontSize: '15px', color: 'rgb(255, 255, 255)' }}>
                 🌐 <a href="https://www.marita-cafe.de" target="_blank" rel="noopener noreferrer" className="underline hover:opacity-70">marita-cafe.de</a>
               </p>
             </div>
@@ -310,10 +310,10 @@ export default function Home() {
           
           {/* Map Placeholder */}
           <div className="bg-white/5 border border-white/20 rounded-lg p-8 text-center">
-            <p style={{ fontSize: '16px', color: '#F5F5DC' }}>
+            <p style={{ fontSize: '16px', color: 'rgb(255, 255, 255)' }}>
               📍 Interactive Map - Munich, Germany
             </p>
-            <p style={{ fontSize: '14px', color: '#F5F5DC', opacity: 0.7, marginTop: '8px' }}>
+            <p style={{ fontSize: '14px', color: 'rgb(255, 255, 255)', opacity: 0.8, marginTop: '8px' }}>
               (Map integration available on full site)
             </p>
           </div>

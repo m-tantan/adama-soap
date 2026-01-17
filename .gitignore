@@ -41,3 +41,4 @@ yarn-error.log*
 next-env.d.ts
 
 .playwright-mcp/*
+# 20150205_223420.mp

@@ -107,7 +107,7 @@ export default function ProductCard({ product }: ProductCardProps) {
               className="line-through font-body"
               style={{
                 fontSize: '15px',
-                color: 'rgb(114, 114, 114)'
+                color: 'rgb(95, 95, 95)'
               }}
             >
               €{product.price.toFixed(2)}

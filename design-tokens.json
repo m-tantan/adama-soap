@@ -11,6 +11,12 @@
       "light": "rgb(254, 250, 241)",
       "dark": "rgb(191, 191, 126)"
     },
+    "text": {
+      "onDark": "rgb(255, 255, 255)",
+      "onLight": "rgb(41, 41, 31)",
+      "muted": "rgb(207, 203, 192)",
+      "mutedDark": "rgb(159, 157, 142)"
+    },
     "accent": {
       "peach": {
         "DEFAULT": "rgb(249, 197, 180)",
@@ -25,9 +31,9 @@
       },
       "green": {
         "light": "rgb(177, 211, 187)",
-        "DEFAULT": "rgb(127, 168, 139)",
-        "dark": "rgb(64, 124, 81)",
-        "darker": "rgb(43, 83, 54)",
+        "DEFAULT": "rgb(100, 150, 115)",
+        "dark": "rgb(50, 110, 70)",
+        "darker": "rgb(35, 80, 50)",
         "darkest": "rgb(21, 41, 27)"
       },
       "blue": {
@@ -45,10 +51,12 @@
       "black": "rgb(0, 0, 0)",
       "gray": {
         "light": "rgb(217, 217, 217)",
-        "DEFAULT": "rgb(114, 114, 114)",
-        "dark": "rgb(176, 176, 176)"
+        "DEFAULT": "rgb(95, 95, 95)",
+        "dark": "rgb(60, 60, 60)"
       },
-      "dark": "rgb(41, 41, 31)"
+      "dark": "rgb(41, 41, 31)",
+      "darkBg": "rgb(88, 88, 67)",
+      "veryDark": "rgb(29, 29, 19)"
     },
     "error": "rgb(237, 28, 36)",
     "info": "rgb(0, 136, 203)",

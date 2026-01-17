@@ -3,7 +3,7 @@ import { products } from '@/data/products';
 
 export default function ShopPage() {
   return (
-    <div className="max-w-[980px] mx-auto px-6 lg:px-8" style={{ paddingTop: '48px', paddingBottom: '64px' }}>
+    <div className="max-w-[980px] mx-auto px-6 lg:px-8" style={{ paddingTop: '48px', paddingBottom: '64px', backgroundColor: 'rgb(254, 250, 241)' }}>
       <h1 
         className="font-title font-bold mb-12"
         style={{

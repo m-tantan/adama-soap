@@ -21,6 +21,12 @@ const config: Config = {
           light: designTokens.colors.secondary.light,
           dark: designTokens.colors.secondary.dark,
         },
+        text: {
+          onDark: designTokens.colors.text.onDark,
+          onLight: designTokens.colors.text.onLight,
+          muted: designTokens.colors.text.muted,
+          mutedDark: designTokens.colors.text.mutedDark,
+        },
         accent: {
           peach: {
             DEFAULT: designTokens.colors.accent.peach.DEFAULT,
@@ -59,6 +65,8 @@ const config: Config = {
             dark: designTokens.colors.neutral.gray.dark,
           },
           dark: designTokens.colors.neutral.dark,
+          darkBg: designTokens.colors.neutral.darkBg,
+          veryDark: designTokens.colors.neutral.veryDark,
         },
         error: designTokens.colors.error,
         info: designTokens.colors.info,
