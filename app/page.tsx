@@ -313,27 +313,9 @@ export default function Home() {
                 sizes="(max-width: 768px) 50vw, 300px"
               />
             </div>
-            <div className="relative aspect-square overflow-hidden rounded-lg">
-              <Image
-                src={withBasePath('/images/about/instagram-3.jpg')}
-                alt="Instagram post"
-                fill
-                className="object-cover hover:scale-110 transition-transform duration-300"
-                sizes="(max-width: 768px) 50vw, 300px"
-              />
-            </div>
-            <div className="relative aspect-square overflow-hidden rounded-lg">
-              <Image
-                src={withBasePath('/images/about/instagram-4.jpg')}
-                alt="Instagram post"
-                fill
-                className="object-cover hover:scale-110 transition-transform duration-300"
-                sizes="(max-width: 768px) 50vw, 300px"
-              />
-            </div>
           </div>
           <a 
-            href="https://instagram.com/wix" 
+            href="" 
             target="_blank" 
             rel="noopener noreferrer"
             className="inline-block font-heading transition-opacity duration-300 hover:opacity-70"
