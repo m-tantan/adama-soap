@@ -9,57 +9,66 @@ export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-50" style={{ backgroundColor: '#403F2B', boxShadow: '0 2px 4px rgba(0, 0, 0, 0.2)' }}>
+    <header
+      className="sticky top-0 z-50"
+      style={{
+        backgroundColor: "#403F2B",
+        boxShadow: "0 2px 4px rgba(0, 0, 0, 0.2)",
+      }}
+    >
       <nav className="max-w-[1400px] mx-auto px-6 lg:px-8">
-        <div className="hidden md:flex justify-between items-center" style={{ height: '80px' }}>
+        <div
+          className="hidden md:flex justify-between items-center"
+          style={{ height: "80px" }}
+        >
           {/* Left Nav */}
-          <div className="flex" style={{ gap: '32px', flex: '1' }}>
-            <Link 
-              href="/" 
+          <div className="flex" style={{ gap: "32px", flex: "1" }}>
+            <Link
+              href="/"
               className="font-menu transition-opacity duration-300 hover:opacity-70"
               style={{
-                fontSize: '16px',
-                lineHeight: '1.4em',
-                color: '#FFFFFF',
-                fontWeight: '400'
+                fontSize: "16px",
+                lineHeight: "1.4em",
+                color: "#FFFFFF",
+                fontWeight: "400",
               }}
             >
               Home
             </Link>
-            <Link 
-              href="/shop" 
+            <Link
+              href="/shop"
               className="font-menu transition-opacity duration-300 hover:opacity-70"
               style={{
-                fontSize: '16px',
-                lineHeight: '1.4em',
-                color: '#FFFFFF',
-                fontWeight: '400'
+                fontSize: "16px",
+                lineHeight: "1.4em",
+                color: "#FFFFFF",
+                fontWeight: "400",
               }}
             >
               Best Sellers
             </Link>
-            <Link 
-              href="/about" 
+            <Link
+              href="/about"
               className="font-menu transition-opacity duration-300 hover:opacity-70"
               style={{
-                fontSize: '16px',
-                lineHeight: '1.4em',
-                color: '#FFFFFF',
-                fontWeight: '400'
+                fontSize: "16px",
+                lineHeight: "1.4em",
+                color: "#FFFFFF",
+                fontWeight: "400",
               }}
             >
               About
             </Link>
-            <a 
-              href="https://instagram.com/yoavmanor1" 
+            <a
+              href="https://instagram.com/yoavmanor1"
               target="_blank"
               rel="noopener noreferrer"
               className="font-menu transition-opacity duration-300 hover:opacity-70"
               style={{
-                fontSize: '16px',
-                lineHeight: '1.4em',
-                color: '#FFFFFF',
-                fontWeight: '400'
+                fontSize: "16px",
+                lineHeight: "1.4em",
+                color: "#FFFFFF",
+                fontWeight: "400",
               }}
             >
               Instagram
@@ -67,13 +76,13 @@ export default function Header() {
           </div>
 
           {/* Logo (Center) */}
-          <Link 
-            href="/" 
+          <Link
+            href="/"
             className="transition-opacity duration-300 hover:opacity-80"
-            style={{ flex: '0 0 auto', margin: '0 60px' }}
+            style={{ flex: "0 0 auto", margin: "0 60px" }}
           >
             <Image
-              src={withBasePath('/images/logo.png')}
+              src={withBasePath("/images/logo.png")}
               alt="Adama Soaps"
               width={130}
               height={75}
@@ -83,18 +92,21 @@ export default function Header() {
           </Link>
 
           {/* Right Nav */}
-          <div className="flex items-center justify-end" style={{ gap: '32px', flex: '1' }}>
+          <div
+            className="flex items-center justify-end"
+            style={{ gap: "32px", flex: "1" }}
+          >
             <div className="relative group">
               <button
                 className="font-menu transition-opacity duration-300 hover:opacity-70"
                 style={{
-                  fontSize: '16px',
-                  lineHeight: '1.4em',
-                  color: '#FFFFFF',
-                  fontWeight: '400',
-                  background: 'none',
-                  border: 'none',
-                  cursor: 'pointer'
+                  fontSize: "16px",
+                  lineHeight: "1.4em",
+                  color: "#FFFFFF",
+                  fontWeight: "400",
+                  background: "none",
+                  border: "none",
+                  cursor: "pointer",
                 }}
               >
                 More
@@ -103,20 +115,20 @@ export default function Header() {
             <button
               className="font-menu transition-opacity duration-300 hover:opacity-70 flex items-center"
               style={{
-                fontSize: '14px',
-                color: '#FFFFFF',
-                fontWeight: '400',
-                background: 'none',
-                border: '1px solid rgba(255, 255, 255, 0.3)',
-                padding: '6px 12px',
-                borderRadius: '4px',
-                cursor: 'pointer'
+                fontSize: "14px",
+                color: "#FFFFFF",
+                fontWeight: "400",
+                background: "none",
+                border: "1px solid rgba(255, 255, 255, 0.3)",
+                padding: "6px 12px",
+                borderRadius: "4px",
+                cursor: "pointer",
               }}
             >
               <span>English</span>
-              <span style={{ marginLeft: '4px', fontSize: '10px' }}>▼</span>
+              <span style={{ marginLeft: "4px", fontSize: "10px" }}>▼</span>
             </button>
-            <Link 
+            {/* <Link 
               href="/cart" 
               className="font-menu transition-opacity duration-300 hover:opacity-70"
               style={{
@@ -126,19 +138,22 @@ export default function Header() {
               }}
             >
               🛒 <span style={{ fontSize: '20px', fontWeight: '600' }}>0</span>
-            </Link>
+            </Link> */}
           </div>
         </div>
 
         {/* Mobile View */}
-        <div className="md:hidden flex justify-between items-center" style={{ height: '120px' }}>
+        <div
+          className="md:hidden flex justify-between items-center"
+          style={{ height: "120px" }}
+        >
           {/* Logo Mobile */}
-          <Link 
-            href="/" 
+          <Link
+            href="/"
             className="transition-opacity duration-300 hover:opacity-80"
           >
             <Image
-              src={withBasePath('/images/logo.png')}
+              src={withBasePath("/images/logo.png")}
               alt="Adama Soaps"
               width={155}
               height={95}
@@ -148,23 +163,23 @@ export default function Header() {
           </Link>
 
           {/* Cart Icon Mobile */}
-          <Link 
-            href="/cart" 
+          <Link
+            href="/cart"
             className="md:hidden font-menu transition-colors duration-300 hover:opacity-70"
             style={{
-              fontSize: '16px',
-              color: 'rgb(64, 63, 43)',
-              fontWeight: '400'
+              fontSize: "16px",
+              color: "rgb(64, 63, 43)",
+              fontWeight: "400",
             }}
           >
             🛒 Cart (0)
           </Link>
 
           {/* Mobile Menu Button */}
-          <button 
+          <button
             className="md:hidden text-2xl"
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-            style={{ color: 'rgb(64, 63, 43)' }}
+            style={{ color: "rgb(64, 63, 43)" }}
           >
             ☰
           </button>
@@ -173,42 +188,42 @@ export default function Header() {
         {/* Mobile Menu */}
         {mobileMenuOpen && (
           <div className="md:hidden pb-4 space-y-3">
-            <Link 
-              href="/" 
+            <Link
+              href="/"
               className="block font-menu"
               style={{
-                fontSize: '16px',
-                color: 'rgb(64, 63, 43)'
+                fontSize: "16px",
+                color: "rgb(64, 63, 43)",
               }}
             >
               Home
             </Link>
-            <Link 
-              href="/shop" 
+            <Link
+              href="/shop"
               className="block font-menu"
               style={{
-                fontSize: '16px',
-                color: 'rgb(64, 63, 43)'
+                fontSize: "16px",
+                color: "rgb(64, 63, 43)",
               }}
             >
               Shop
             </Link>
-            <Link 
-              href="/about" 
+            <Link
+              href="/about"
               className="block font-menu"
               style={{
-                fontSize: '16px',
-                color: 'rgb(64, 63, 43)'
+                fontSize: "16px",
+                color: "rgb(64, 63, 43)",
               }}
             >
               About
             </Link>
-            <Link 
-              href="/contact" 
+            <Link
+              href="/contact"
               className="block font-menu"
               style={{
-                fontSize: '16px',
-                color: 'rgb(64, 63, 43)'
+                fontSize: "16px",
+                color: "rgb(64, 63, 43)",
               }}
             >
               Contact

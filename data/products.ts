@@ -6,7 +6,7 @@ export const products: Product[] = [
     id: '1',
     name: 'Calm',
     slug: 'calm',
-    price: 9.50,
+    price: 7.50,
     images: [
       withBasePath('/images/products/Calm/Whisk_ab556fd70c14b5e942b46e79b621f67edr.png'),
       withBasePath('/images/products/Calm/Whisk_ba9b8b2d9c4df33ae784132f53d103f6dr.png'),
@@ -21,7 +21,7 @@ export const products: Product[] = [
     id: '2',
     name: 'Sunny Sage',
     slug: 'sunny-sage',
-    price: 9.50,
+    price: 7.50,
     images: [
       withBasePath('/images/products/SunnySage/Whisk_2ad69ab69811f7db3dc4bf4d3ff164e4eg.png'),
       withBasePath('/images/products/SunnySage/Whisk_75ea0189cf0145da5a14ddb2722e623beg.png'),
