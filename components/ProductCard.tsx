@@ -58,34 +58,6 @@ export default function ProductCard({ product }: ProductCardProps) {
             transform: imageIndex === 1 ? 'scale(1.05)' : 'scale(1)'
           }}
         />
-        
-        {/* Add to Cart overlay on hover */}
-        <div 
-          className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300"
-          style={{
-            backgroundColor: 'rgba(0, 0, 0, 0.15)'
-          }}
-        >
-          <button
-            className="bg-neutral-white text-neutral-dark font-button transition-all duration-300 hover:scale-110"
-            style={{
-              padding: '12px 24px',
-              borderRadius: '5px',
-              fontSize: '16px',
-              lineHeight: '16px',
-              fontWeight: '600',
-              boxShadow: '0 1px 4px rgba(0, 0, 0, 0.3)',
-              border: 'none',
-              cursor: 'pointer'
-            }}
-            onClick={(e) => {
-              e.preventDefault();
-              // Add to cart logic here
-            }}
-          >
-            🛒 Add to Cart
-          </button>
-        </div>
       </div>
       
       <h3 

@@ -89,22 +89,6 @@ export default function BestSellersCarousel({ products }: BestSellersCarouselPro
                   className="object-cover"
                   sizes="(max-width: 768px) 100vw, 50vw"
                 />
-                {/* Add to Cart Button Overlay */}
-                <div className="absolute inset-0 flex items-center justify-center bg-black/0 group-hover:bg-black/20 transition-all duration-300">
-                  <button
-                    className="opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-white text-neutral-dark font-button px-6 py-3 rounded-full"
-                    style={{
-                      fontSize: '15px',
-                      fontWeight: '600'
-                    }}
-                    onClick={(e) => {
-                      e.preventDefault();
-                      // Add to cart logic here
-                    }}
-                  >
-                    🛒 Add to Cart
-                  </button>
-                </div>
               </div>
 
               {/* Product Info */}
