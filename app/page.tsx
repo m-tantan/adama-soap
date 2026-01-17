@@ -20,32 +20,6 @@ export default function Home() {
           paddingBottom: '100px'
         }}
       >
-        {/* Hero Background Images */}
-        <div className="absolute inset-0 flex items-center justify-center opacity-30">
-          <div className="relative w-full h-full flex items-center justify-around max-w-[1200px] px-8">
-            <div className="relative" style={{ width: '280px', height: '280px' }}>
-              <Image
-                src={withBasePath('/images/hero-1.jpg')}
-                alt="Handcrafted Soap"
-                fill
-                className="object-contain"
-                priority
-                sizes="280px"
-              />
-            </div>
-            <div className="relative" style={{ width: '380px', height: '380px' }}>
-              <Image
-                src={withBasePath('/images/hero-soap-product.jpg')}
-                alt="Coffee Ground Soap"
-                fill
-                className="object-contain"
-                priority
-                sizes="380px"
-              />
-            </div>
-          </div>
-        </div>
-        
         <div className="max-w-[980px] mx-auto px-6 lg:px-8 text-center relative z-10">
           <h1 
             className="font-title font-bold mb-6"
@@ -59,7 +33,7 @@ export default function Home() {
             Crafted from Used Coffee Grounds
           </h1>
           <p 
-            className="font-heading mb-8 max-w-[700px] mx-auto"
+            className="font-heading max-w-[700px] mx-auto"
             style={{
               fontSize: '20px',
               lineHeight: '1.5em',
@@ -69,21 +43,6 @@ export default function Home() {
           >
             Explore our range of eco-friendly soaps crafted with care using natural ingredients, designed to rejuvenate your skin while honoring the planet.
           </p>
-          <Link 
-            href="/shop" 
-            className="inline-block bg-neutral-white font-button transition-all duration-300 hover:opacity-90 hover:scale-105"
-            style={{
-              color: 'rgb(64, 63, 43)',
-              padding: '16px 32px',
-              borderRadius: '300px',
-              fontSize: '16px',
-              lineHeight: '16px',
-              fontWeight: '600',
-              boxShadow: '0 1px 4px rgba(0, 0, 0, 0.3)'
-            }}
-          >
-            Shop Now
-          </Link>
         </div>
       </section>
 
