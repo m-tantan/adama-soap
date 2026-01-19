@@ -13,9 +13,6 @@ export function getBasePath() {
  * @returns The path with the base path prepended
  */
 export function withBasePath(path: string) {
-  if (!path) return path;
-  if (path.startsWith('http') || path.startsWith('//')) return path;
   
-  const basePath = getBasePath();
-  return `${basePath}${path}`;
+  return path;
 }

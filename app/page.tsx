@@ -245,60 +245,16 @@ export default function Home() {
                 style={{ fontSize: "15px", color: "rgb(255, 255, 255)" }}
               >
                 📞 +4915730104878
-                
               </p>
               <p style={{ fontSize: "15px", color: "rgb(255, 255, 255)" }}>
-                🌐{" "}
+                🌐
                 <a
-                  href="http://Adama-soaps.com"
+                  href="https://adamasoaps.com"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="underline hover:opacity-70"
                 >
                   Adama-soaps.com
-                </a>
-              </p>
-            </div>
-
-            {/* Wagners Juicery */}
-            <div className="bg-white/10 backdrop-blur-sm p-6 rounded-lg">
-              <h3
-                className="font-heading mb-4"
-                style={{
-                  fontSize: "22px",
-                  color: "#FFFFFF",
-                  fontWeight: "600",
-                }}
-              >
-                Wagners Juicery
-              </h3>
-              <p
-                className="mb-3"
-                style={{
-                  fontSize: "14px",
-                  color: "rgb(255, 255, 255)",
-                  fontStyle: "italic",
-                  opacity: 0.9,
-                }}
-              >
-                Cooperation with a local cafe, turning thier Coffee waste into
-                soaps
-              </p>
-              <p
-                className="mb-2"
-                style={{ fontSize: "15px", color: "rgb(255, 255, 255)" }}
-              >
-                📍 Fraunhoferstraße 43, 80469 München, Germany
-              </p>
-              <p style={{ fontSize: "15px", color: "rgb(255, 255, 255)" }}>
-                🌐{" "}
-                <a
-                  href="http://wagnersjuicery.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="underline hover:opacity-70"
-                >
-                  wagnersjuicery.com
                 </a>
               </p>
             </div>
@@ -348,6 +304,55 @@ export default function Home() {
                   className="underline hover:opacity-70"
                 >
                   marita-cafe.de
+                </a>
+              </p>
+            </div>
+
+            {/* Poppy Jones */}
+            <div className="bg-white/10 backdrop-blur-sm p-6 rounded-lg">
+              <h3
+                className="font-heading mb-4"
+                style={{
+                  fontSize: "22px",
+                  color: "#FFFFFF",
+                  fontWeight: "600",
+                }}
+              >
+                Poppi Farmer
+              </h3>
+              <p
+                className="mb-3"
+                style={{
+                  fontSize: "14px",
+                  color: "rgb(255, 255, 255)",
+                  fontStyle: "italic",
+                  opacity: 0.9,
+                }}
+              >
+                Cooperation with a local cafe, turning their coffee waste into
+                soaps
+              </p>
+              <p
+                className="mb-2"
+                style={{ fontSize: "15px", color: "rgb(255, 255, 255)" }}
+              >
+                📍 St.-Bonifatius-Straße 1, 81541 München, Germany
+              </p>
+              <p
+                className="mb-2"
+                style={{ fontSize: "15px", color: "rgb(255, 255, 255)" }}
+              >
+                📞 +49 175 164 3686
+              </p>
+              <p style={{ fontSize: "15px", color: "rgb(255, 255, 255)" }}>
+                🌐{" "}
+                <a
+                  href="https://www.poppifarmer.de/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="underline hover:opacity-70"
+                >
+                  poppifarmer.de
                 </a>
               </p>
             </div>
