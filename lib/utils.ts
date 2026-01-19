@@ -1,17 +1,9 @@
 /**
  * Get the base path for the application
- * Set USE_CUSTOM_DOMAIN to match next.config.ts
- * - true: Using custom domain (adamasoaps.com), basePath is empty
- * - false: Using github.io/repo-name, basePath is '/adama-soap'
+ * In production, this returns the configured basePath
+ * In development, this returns an empty string
  */
-const USE_CUSTOM_DOMAIN = true;
-
 export function getBasePath() {
-  // When using a custom domain, basePath should be empty
-  // When using username.github.io/repo-name, basePath should be '/repo-name'
-  if (USE_CUSTOM_DOMAIN) {
-    return '';
-  }
   return process.env.NODE_ENV === 'production' ? '/adama-soap' : '';
 }
 
