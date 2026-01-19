@@ -31,7 +31,7 @@ export default function Footer() {
             </h3>
             <div className="flex" style={{ gap: "16px", marginTop: "24px" }}>
               <a
-                href="https://instagram.com/yoavmanor1"
+                href="https://instagram.com/adamasoaps"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="transition-opacity duration-300 hover:opacity-70"

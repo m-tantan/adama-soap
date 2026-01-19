@@ -60,7 +60,7 @@ export default function Header() {
               About
             </Link>
             <a
-              href="https://instagram.com/yoavmanor1"
+              href="https://instagram.com/adamasoaps"
               target="_blank"
               rel="noopener noreferrer"
               className="font-menu transition-opacity duration-300 hover:opacity-70"
