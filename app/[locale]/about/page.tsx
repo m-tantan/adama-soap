@@ -25,7 +25,7 @@ export default function AboutPage() {
           }}
         >
           <Image
-            src="/images/about/soap-making.jpg"
+            src="/images/about/soap-making.png"
             alt="Making soap together"
             fill
             className="object-cover"

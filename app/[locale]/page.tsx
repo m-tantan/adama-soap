@@ -24,7 +24,7 @@ export default function Home() {
           <div className="relative w-full h-full flex items-center justify-around max-w-[1200px] px-8">
             <div className="relative" style={{ width: '280px', height: '280px' }}>
               <Image
-                src="/images/hero-1.jpg"
+                src="/images/hero-1.png"
                 alt="Handcrafted Soap"
                 fill
                 className="object-contain"
@@ -34,7 +34,7 @@ export default function Home() {
             </div>
             <div className="relative" style={{ width: '380px', height: '380px' }}>
               <Image
-                src="/images/hero-soap-product.jpg"
+                src="/images/hero-soap-product.png"
                 alt="Coffee Ground Soap"
                 fill
                 className="object-contain"
@@ -130,7 +130,7 @@ export default function Home() {
           <div className="grid md:grid-cols-2 items-center" style={{ gap: '48px' }}>
             <div className="relative" style={{ aspectRatio: '3/4' }}>
               <Image
-                src="/images/about/yoav-denis.jpg"
+                src="/images/about/yoav-denis.png"
                 alt="Denise and Yoav - Adama Soaps Founders"
                 fill
                 className="object-cover"
@@ -337,7 +337,7 @@ export default function Home() {
           <div className="grid grid-cols-2 gap-4 max-w-[600px] mx-auto mb-8">
             <div className="relative aspect-square overflow-hidden rounded-lg">
               <Image
-                src="/images/about/instagram-1.jpg"
+                src="/images/about/instagram-1.png"
                 alt="Instagram post"
                 fill
                 className="object-cover hover:scale-110 transition-transform duration-300"
@@ -346,7 +346,7 @@ export default function Home() {
             </div>
             <div className="relative aspect-square overflow-hidden rounded-lg">
               <Image
-                src="/images/about/instagram-2.jpg"
+                src="/images/about/instagram-2.png"
                 alt="Instagram post"
                 fill
                 className="object-cover hover:scale-110 transition-transform duration-300"
@@ -355,7 +355,7 @@ export default function Home() {
             </div>
             <div className="relative aspect-square overflow-hidden rounded-lg">
               <Image
-                src="/images/about/instagram-3.jpg"
+                src="/images/about/instagram-3.png"
                 alt="Instagram post"
                 fill
                 className="object-cover hover:scale-110 transition-transform duration-300"
@@ -364,7 +364,7 @@ export default function Home() {
             </div>
             <div className="relative aspect-square overflow-hidden rounded-lg">
               <Image
-                src="/images/about/instagram-4.jpg"
+                src="/images/about/instagram-4.png"
                 alt="Instagram post"
                 fill
                 className="object-cover hover:scale-110 transition-transform duration-300"

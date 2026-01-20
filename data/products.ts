@@ -17,7 +17,7 @@ export const products: Product[] = [
     name: 'Forest',
     slug: 'forest-soap',
     price: 9.50,
-    images: ['/images/products/forest-soap.jpg'],
+    images: ['/images/products/forest-soap.png'],
     description: 'Earthy forest-inspired soap with pine and cedarwood scents, combined with natural coffee exfoliant.',
     inStock: true,
     ingredients: ['Recycled Coffee Grounds', 'Coconut Oil', 'Olive Oil', 'Pine Essential Oil', 'Cedarwood Essential Oil', 'Shea Butter']
@@ -38,7 +38,7 @@ export const products: Product[] = [
     name: 'Lavender Bliss Soap',
     slug: 'lavender-bliss-soap',
     price: 6.00,
-    images: ['/images/products/tote-bag-1.jpg'],
+    images: ['/images/products/tote-bag-1.png'],
     description: 'Calming lavender soap with coffee grounds for gentle exfoliation.',
     inStock: true
   },
@@ -47,7 +47,7 @@ export const products: Product[] = [
     name: 'Mint Refresh Soap',
     slug: 'mint-refresh-soap',
     price: 6.00,
-    images: ['/images/products/tote-bag-2.jpg'],
+    images: ['/images/products/tote-bag-2.png'],
     description: 'Invigorating peppermint soap with natural coffee exfoliant.',
     inStock: true
   },
@@ -57,7 +57,7 @@ export const products: Product[] = [
     slug: 'citrus-burst-soap',
     price: 5.50,
     salePrice: 4.50,
-    images: ['/images/products/placeholder.jpg'],
+    images: ['/images/products/placeholder.png'],
     description: 'Energizing citrus blend with coffee grounds.',
     ribbon: 'Sale',
     inStock: true
