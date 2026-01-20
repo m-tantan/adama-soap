@@ -19,6 +19,7 @@ export default function RootLayout({
         <Header />
         <main className="min-h-screen">{children}</main>
         <Footer />
+        <script async src="//www.instagram.com/embed.js"></script>
       </body>
     </html>
   );

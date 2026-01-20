@@ -19,7 +19,7 @@ export default function Footer() {
             </h3>
             <div className="flex" style={{ gap: '16px', marginTop: '24px' }}>
               <a 
-                href="https://facebook.com/wix" 
+                href="https://facebook.com/your_facebook_page" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="transition-opacity duration-300 hover:opacity-70"
@@ -34,7 +34,7 @@ export default function Footer() {
                 </svg>
               </a>
               <a 
-                href="https://instagram.com/wix" 
+                href="https://instagram.com/your_instagram_handle" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="transition-opacity duration-300 hover:opacity-70"

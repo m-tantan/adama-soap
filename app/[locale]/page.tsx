@@ -335,45 +335,13 @@ export default function Home() {
           </h2>
           {/* Instagram Gallery */}
           <div className="grid grid-cols-2 gap-4 max-w-[600px] mx-auto mb-8">
-            <div className="relative aspect-square overflow-hidden rounded-lg">
-              <Image
-                src="/images/about/instagram-1.png"
-                alt="Instagram post"
-                fill
-                className="object-cover hover:scale-110 transition-transform duration-300"
-                sizes="(max-width: 768px) 50vw, 300px"
-              />
-            </div>
-            <div className="relative aspect-square overflow-hidden rounded-lg">
-              <Image
-                src="/images/about/instagram-2.png"
-                alt="Instagram post"
-                fill
-                className="object-cover hover:scale-110 transition-transform duration-300"
-                sizes="(max-width: 768px) 50vw, 300px"
-              />
-            </div>
-            <div className="relative aspect-square overflow-hidden rounded-lg">
-              <Image
-                src="/images/about/instagram-3.png"
-                alt="Instagram post"
-                fill
-                className="object-cover hover:scale-110 transition-transform duration-300"
-                sizes="(max-width: 768px) 50vw, 300px"
-              />
-            </div>
-            <div className="relative aspect-square overflow-hidden rounded-lg">
-              <Image
-                src="/images/about/instagram-4.png"
-                alt="Instagram post"
-                fill
-                className="object-cover hover:scale-110 transition-transform duration-300"
-                sizes="(max-width: 768px) 50vw, 300px"
-              />
-            </div>
+            <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/EXAMPLE_POST_1/" data-instgrm-version="14" style={{ maxWidth: '300px', width: '100%' }}></blockquote>
+            <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/EXAMPLE_POST_2/" data-instgrm-version="14" style={{ maxWidth: '300px', width: '100%' }}></blockquote>
+            <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/EXAMPLE_POST_3/" data-instgrm-version="14" style={{ maxWidth: '300px', width: '100%' }}></blockquote>
+            <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/EXAMPLE_POST_4/" data-instgrm-version="14" style={{ maxWidth: '300px', width: '100%' }}></blockquote>
           </div>
           <a 
-            href="https://instagram.com/wix" 
+            href="https://instagram.com/your_instagram_handle" 
             target="_blank" 
             rel="noopener noreferrer"
             className="inline-block font-heading transition-opacity duration-300 hover:opacity-70"
