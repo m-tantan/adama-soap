@@ -186,6 +186,7 @@ export default function Header() {
               target="_blank"
               rel="noopener noreferrer"
               className="block font-menu"
+              onClick={() => setMobileMenuOpen(false)}
               style={{
                 fontSize: '16px',
                 color: 'rgb(64, 63, 43)'
