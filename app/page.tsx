@@ -429,9 +429,13 @@ export default function Home() {
             Follow Us
           </h2>
           {/* Behold Widget */}
-          <div className="max-w-[900px] mx-auto mb-8">
-            <behold-widget feed-id="pZFcMAVkXGWFGApu2F2C"></behold-widget>
-          </div>
+          <div
+            className="max-w-[900px] mx-auto mb-8"
+            dangerouslySetInnerHTML={{
+              __html:
+                '<behold-widget feed-id="pZFcMAVkXGWFGApu2F2C"></behold-widget>',
+            }}
+          />
           <Script
             src="https://w.behold.so/widget.js"
             type="module"
