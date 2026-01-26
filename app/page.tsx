@@ -1,13 +1,17 @@
-import Link from 'next/link';
-import Image from 'next/image';
-import ProductCard from '@/components/ProductCard';
-import BestSellersCarousel from '@/components/BestSellersCarousel';
-import { products } from '@/data/products';
-import { withBasePath } from '@/lib/utils';
+import Link from "next/link";
+import Image from "next/image";
+import Script from "next/script";
+import ProductCard from "@/components/ProductCard";
+import BestSellersCarousel from "@/components/BestSellersCarousel";
+// import InstagramFeed from "@/components/InstagramFeed";
+import { products } from "@/data/products";
+import { withBasePath } from "@/lib/utils";
 
 export default function Home() {
   // Get Calm and Sunny Sage for Best Sellers carousel
-  const bestSellers = products.filter(p => p.slug === 'calm' || p.slug === 'sunny-sage');
+  const bestSellers = products.filter(
+    (p) => p.slug === "calm" || p.slug === "sunny-sage",
+  );
 
   return (
     <>
@@ -20,6 +24,17 @@ export default function Home() {
           paddingBottom: "100px",
         }}
       >
+        {/* Background Image with Overlay */}
+        <div className="absolute inset-0 z-0">
+          <Image
+            src={withBasePath("/images/hero-soaps.jpg")}
+            alt="Handcrafted coffee ground soaps"
+            fill
+            className="object-cover"
+            style={{ opacity: 0.2 }}
+            priority
+          />
+        </div>
         <div className="max-w-[980px] mx-auto px-6 lg:px-8 text-center relative z-10">
           <h1
             className="font-title font-bold mb-6"
@@ -30,7 +45,7 @@ export default function Home() {
               color: "#FFFFFF",
             }}
           >
-            Crafted from Used Coffee Grounds
+            Soap Crafted from Used Coffee Grounds
           </h1>
           <p
             className="font-heading max-w-[700px] mx-auto"
@@ -41,9 +56,25 @@ export default function Home() {
               color: "rgb(255, 255, 255)",
             }}
           >
-            Explore our range of eco-friendly soaps crafted with care using
-            natural ingredients, designed to rejuvenate your skin while honoring
-            the planet.
+            Explore our eco-friendly soaps crafted with care using natural
+            ingredients, designed to rejuvenate your skin while honoring the
+            planet.
+            <br />
+            <br />
+            Crafted from recycled coffee grounds, this natural body scrub soap
+            gently exfoliates the skin while deeply nourishing it with rich
+            plant oils.
+            <br /> The finely ground coffee removes dead skin cells and
+            stimulates circulation, leaving your skin smooth, refreshed and
+            alive.
+            <br />
+            <br />
+            Shea butter supports and protects the skin barrier, coconut oil
+            cleanses gently with a creamy lather, olive oil softens and
+            conditions the skin, and castor oil adds an extra layer of care for
+            a silky finish. Free from microplastics and unnecessary additives,
+            this soap turns waste into well-being — a daily ritual that’s good
+            for your skin and the planet.
           </p>
         </div>
       </section>
@@ -280,7 +311,7 @@ export default function Home() {
                   opacity: 0.9,
                 }}
               >
-                Cooperation with a local cafe, turning thier Coffee waste into
+                Cooperation with a local cafe, turning their Coffee waste into
                 soaps
               </p>
               <p
@@ -397,27 +428,37 @@ export default function Home() {
           >
             Follow Us
           </h2>
-          {/* Instagram Gallery */}
-          <div className="grid grid-cols-2 gap-4 max-w-[600px] mx-auto mb-8">
-            <div className="relative aspect-square overflow-hidden rounded-lg">
-              <Image
-                src={withBasePath("/images/about/instagram-1.jpg")}
-                alt="Instagram post"
-                fill
-                className="object-cover hover:scale-110 transition-transform duration-300"
-                sizes="(max-width: 768px) 50vw, 300px"
-              />
-            </div>
-            <div className="relative aspect-square overflow-hidden rounded-lg">
-              <Image
-                src={withBasePath("/images/about/instagram-2.jpg")}
-                alt="Instagram post"
-                fill
-                className="object-cover hover:scale-110 transition-transform duration-300"
-                sizes="(max-width: 768px) 50vw, 300px"
-              />
-            </div>
+          {/* Behold Widget */}
+          <div className="max-w-[900px] mx-auto mb-8">
+            <behold-widget feed-id="pZFcMAVkXGWFGApu2F2C"></behold-widget>
           </div>
+          <Script
+            src="https://w.behold.so/widget.js"
+            type="module"
+            strategy="lazyOnload"
+          />
+          <a
+            href="https://instagram.com/adamasoaps"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block mt-8 font-heading transition-opacity duration-300 hover:opacity-70"
+            style={{
+              fontSize: "17px",
+              color: "#FFFFFF",
+              fontWeight: "600",
+              textDecoration: "underline",
+            }}
+          >
+            @adamasoaps
+          </a>
+          {/* Instagram Feed Component (commented out for testing)
+          <InstagramFeed
+            fallbackImages={[
+              withBasePath("/images/about/instagram-1.jpg"),
+              withBasePath("/images/about/instagram-2.jpg"),
+            ]}
+          />
+          */}
         </div>
       </section>
     </>

@@ -96,22 +96,6 @@ export default function Header() {
             className="flex items-center justify-end"
             style={{ gap: "32px", flex: "1" }}
           >
-            <div className="relative group">
-              <button
-                className="font-menu transition-opacity duration-300 hover:opacity-70"
-                style={{
-                  fontSize: "16px",
-                  lineHeight: "1.4em",
-                  color: "#FFFFFF",
-                  fontWeight: "400",
-                  background: "none",
-                  border: "none",
-                  cursor: "pointer",
-                }}
-              >
-                More
-              </button>
-            </div>
             <button
               className="font-menu transition-opacity duration-300 hover:opacity-70 flex items-center"
               style={{

@@ -8,8 +8,8 @@ export const metadata: Metadata = {
   description:
     "Eco-friendly handcrafted soaps made from used coffee grounds. Natural, sustainable, and good for your skin.",
   icons: {
-    icon: "/images/logo.png",
-    apple: "/images/logo.png",
+    icon: "/images/logo-black.png",
+    apple: "/images/logo-black.png",
   },
 };
 
