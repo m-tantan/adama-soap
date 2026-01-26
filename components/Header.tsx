@@ -96,22 +96,6 @@ export default function Header() {
             className="flex items-center justify-end"
             style={{ gap: "32px", flex: "1" }}
           >
-            <div className="relative group">
-              <button
-                className="font-menu transition-opacity duration-300 hover:opacity-70"
-                style={{
-                  fontSize: "16px",
-                  lineHeight: "1.4em",
-                  color: "#FFFFFF",
-                  fontWeight: "400",
-                  background: "none",
-                  border: "none",
-                  cursor: "pointer",
-                }}
-              >
-                More
-              </button>
-            </div>
             <button
               className="font-menu transition-opacity duration-300 hover:opacity-70 flex items-center"
               style={{
@@ -128,17 +112,6 @@ export default function Header() {
               <span>English</span>
               <span style={{ marginLeft: "4px", fontSize: "10px" }}>▼</span>
             </button>
-            {/* <Link 
-              href="/cart" 
-              className="font-menu transition-opacity duration-300 hover:opacity-70"
-              style={{
-                fontSize: '16px',
-                color: '#FFFFFF',
-                fontWeight: '400'
-              }}
-            >
-              🛒 <span style={{ fontSize: '20px', fontWeight: '600' }}>0</span>
-            </Link> */}
           </div>
         </div>
 
@@ -162,24 +135,11 @@ export default function Header() {
             />
           </Link>
 
-          {/* Cart Icon Mobile */}
-          <Link
-            href="/cart"
-            className="md:hidden font-menu transition-colors duration-300 hover:opacity-70"
-            style={{
-              fontSize: "16px",
-              color: "rgb(64, 63, 43)",
-              fontWeight: "400",
-            }}
-          >
-            🛒 Cart (0)
-          </Link>
-
           {/* Mobile Menu Button */}
           <button
             className="md:hidden text-2xl"
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-            style={{ color: "rgb(64, 63, 43)" }}
+            style={{ color: "#FFFFFF" }}
           >
             ☰
           </button>
@@ -193,7 +153,7 @@ export default function Header() {
               className="block font-menu"
               style={{
                 fontSize: "16px",
-                color: "rgb(64, 63, 43)",
+                color: "#FFFFFF",
               }}
             >
               Home
@@ -203,7 +163,7 @@ export default function Header() {
               className="block font-menu"
               style={{
                 fontSize: "16px",
-                color: "rgb(64, 63, 43)",
+                color: "#FFFFFF",
               }}
             >
               Shop
@@ -213,21 +173,23 @@ export default function Header() {
               className="block font-menu"
               style={{
                 fontSize: "16px",
-                color: "rgb(64, 63, 43)",
+                color: "#FFFFFF",
               }}
             >
               About
             </Link>
-            <Link
-              href="/contact"
+            <a
+              href="https://instagram.com/adamasoaps"
+              target="_blank"
+              rel="noopener noreferrer"
               className="block font-menu"
               style={{
                 fontSize: "16px",
-                color: "rgb(64, 63, 43)",
+                color: "#FFFFFF",
               }}
             >
-              Contact
-            </Link>
+              Instagram
+            </a>
           </div>
         )}
       </nav>

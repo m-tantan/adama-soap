@@ -4,8 +4,11 @@ import Image from 'next/image';
 import { useState } from 'react';
 import { Product } from '@/types';
 
+type Tab = "story" | "ingredients";
+
 export default function ProductDetails({ product }: { product: Product }) {
   const [selectedImage, setSelectedImage] = useState(0);
+  const [activeTab, setActiveTab] = useState<Tab>("story");
 
   return (
     <div
@@ -33,8 +36,8 @@ export default function ProductDetails({ product }: { product: Product }) {
                     product.ribbon === "Sale"
                       ? "rgb(237, 28, 36)"
                       : product.ribbon === "New"
-                      ? "rgb(128, 21, 232)"
-                      : "rgb(0, 0, 0)",
+                        ? "rgb(128, 21, 232)"
+                        : "rgb(0, 0, 0)",
                   color: "rgb(255, 255, 255)",
                   padding: "8px 16px",
                   fontSize: "14px",
@@ -138,50 +141,105 @@ export default function ProductDetails({ product }: { product: Product }) {
             )}
           </div>
 
-          <p
-            className="font-body mb-8"
-            style={{
-              fontSize: "17px",
-              lineHeight: "1.5em",
-              color: "#D7D5AC",
-            }}
-          >
-            {product.description}
-          </p>
-
-          {product.ingredients && (
-            <div className="mb-8">
-              <h3
-                className="font-heading mb-3"
+          {/* Tabs */}
+          <div className="mb-6">
+            <div
+              className="flex"
+              style={{
+                gap: "16px",
+                borderBottom: "2px solid rgba(215, 213, 172, 0.2)",
+              }}
+            >
+              <button
+                onClick={() => setActiveTab("story")}
+                className="font-heading transition-all duration-300"
                 style={{
                   fontSize: "17px",
                   lineHeight: "1.5em",
-                  color: "#D7D5AC",
-                  fontWeight: "700",
+                  fontWeight: "600",
+                  color:
+                    activeTab === "story"
+                      ? "#D7D5AC"
+                      : "rgba(215, 213, 172, 0.5)",
+                  padding: "12px 24px",
+                  borderBottom:
+                    activeTab === "story"
+                      ? "2px solid #D7D5AC"
+                      : "2px solid transparent",
+                  marginBottom: "-2px",
+                  background: "none",
+                  border: "none",
+                  cursor: "pointer",
                 }}
               >
-                Ingredients:
-              </h3>
-              <ul className="space-y-2">
-                {product.ingredients.map((ingredient, i) => (
-                  <li
-                    key={i}
-                    className="font-body"
-                    style={{
-                      fontSize: "15px",
-                      lineHeight: "24px",
-                      color: "#D7D5AC",
-                      paddingLeft: "20px",
-                      position: "relative",
-                    }}
-                  >
-                    <span style={{ position: "absolute", left: "0" }}>•</span>
-                    {ingredient}
-                  </li>
-                ))}
-              </ul>
+                Description
+              </button>
+              <button
+                onClick={() => setActiveTab("ingredients")}
+                className="font-heading transition-all duration-300"
+                style={{
+                  fontSize: "17px",
+                  lineHeight: "1.5em",
+                  fontWeight: "600",
+                  color:
+                    activeTab === "ingredients"
+                      ? "#D7D5AC"
+                      : "rgba(215, 213, 172, 0.5)",
+                  padding: "12px 24px",
+                  borderBottom:
+                    activeTab === "ingredients"
+                      ? "2px solid #D7D5AC"
+                      : "2px solid transparent",
+                  marginBottom: "-2px",
+                  background: "none",
+                  border: "none",
+                  cursor: "pointer",
+                }}
+              >
+                Ingredients
+              </button>
             </div>
-          )}
+          </div>
+
+          {/* Tab Content */}
+          <div className="mb-8">
+            {activeTab === "story" && (
+              <div
+                className="font-body"
+                style={{
+                  fontSize: "17px",
+                  lineHeight: "1.7em",
+                  color: "#D7D5AC",
+                  whiteSpace: "pre-line",
+                }}
+              >
+                {product.description}
+              </div>
+            )}
+
+            {activeTab === "ingredients" && product.ingredients && (
+              <div>
+                <ul className="space-y-2">
+                  {product.ingredients.map((ingredient, i) => (
+                    <li
+                      key={i}
+                      className="font-body"
+                      style={{
+                        fontSize: "15px",
+                        lineHeight: "24px",
+                        color: "#D7D5AC",
+                        paddingLeft: "20px",
+                        position: "relative",
+                      }}
+                    >
+                      <span style={{ position: "absolute", left: "0" }}>•</span>
+                      {ingredient}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
+          </div>
 
           <button
             className="w-full font-button transition-all duration-300 hover:opacity-90 hover:scale-[1.02]"
