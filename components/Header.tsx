@@ -115,17 +115,6 @@ export default function Header() {
               <span>English</span>
               <span style={{ marginLeft: '4px', fontSize: '10px' }}>▼</span>
             </button>
-            <Link 
-              href="/cart" 
-              className="font-menu transition-opacity duration-300 hover:opacity-70"
-              style={{
-                fontSize: '16px',
-                color: '#FFFFFF',
-                fontWeight: '400'
-              }}
-            >
-              🛒 <span style={{ fontSize: '20px', fontWeight: '600' }}>0</span>
-            </Link>
           </div>
         </div>
 
@@ -146,19 +135,6 @@ export default function Header() {
             />
           </Link>
 
-          {/* Cart Icon Mobile */}
-          <Link 
-            href="/cart" 
-            className="md:hidden font-menu transition-colors duration-300 hover:opacity-70"
-            style={{
-              fontSize: '16px',
-              color: 'rgb(64, 63, 43)',
-              fontWeight: '400'
-            }}
-          >
-            🛒 Cart (0)
-          </Link>
-
           {/* Mobile Menu Button */}
           <button 
             className="md:hidden text-2xl"
@@ -175,6 +151,7 @@ export default function Header() {
             <Link 
               href="/" 
               className="block font-menu"
+              onClick={() => setMobileMenuOpen(false)}
               style={{
                 fontSize: '16px',
                 color: 'rgb(64, 63, 43)'
@@ -185,6 +162,7 @@ export default function Header() {
             <Link 
               href="/shop" 
               className="block font-menu"
+              onClick={() => setMobileMenuOpen(false)}
               style={{
                 fontSize: '16px',
                 color: 'rgb(64, 63, 43)'
@@ -195,6 +173,7 @@ export default function Header() {
             <Link 
               href="/about" 
               className="block font-menu"
+              onClick={() => setMobileMenuOpen(false)}
               style={{
                 fontSize: '16px',
                 color: 'rgb(64, 63, 43)'
@@ -202,16 +181,19 @@ export default function Header() {
             >
               About
             </Link>
-            <Link 
-              href="/contact" 
+            <a 
+              href="https://instagram.com/wix" 
+              target="_blank"
+              rel="noopener noreferrer"
               className="block font-menu"
+              onClick={() => setMobileMenuOpen(false)}
               style={{
                 fontSize: '16px',
                 color: 'rgb(64, 63, 43)'
               }}
             >
-              Contact
-            </Link>
+              Instagram
+            </a>
           </div>
         )}
       </nav>
