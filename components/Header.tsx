@@ -52,7 +52,7 @@ export default function Header() {
                 fontWeight: "400",
               }}
             >
-              Best Sellers
+              Shop
             </Link>
             <Link
               href="/about"

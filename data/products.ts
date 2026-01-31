@@ -12,16 +12,12 @@ export const products: Product[] = [
         "/images/products/Calm/Whisk_ab556fd70c14b5e942b46e79b621f67edr.png",
       ),
       withBasePath(
-        "/images/products/Calm/Whisk_ba9b8b2d9c4df33ae784132f53d103f6dr.png",
-      ),
-      withBasePath(
         "/images/products/Calm/Whisk_ef9b4054a8760cc8736453a83293b209dr.png",
       ),
       withBasePath("/images/products/Calm/Calm.png"),
     ],
     description:
       "Calm is your moment of pause.\n\nThe soft, floral scent of lavender gently wraps around your senses, helping to slow down the mind and relax the nervous system. Known for its balancing and calming properties, lavender supports deep relaxation and makes this soap perfect for evening showers or moments when you want to unwind.\n\nCombined with the natural exfoliating power of recycled coffee grounds and nourishing plant oils, Calm leaves your skin smooth, cared for and your body gently grounded.\n\nA quiet ritual. A deep breath. A sense of ease.",
-    ribbon: "Best Seller",
     inStock: true,
     ingredients: [
       "Olea Europaea Fruit Oil",
@@ -48,22 +44,9 @@ export const products: Product[] = [
       withBasePath(
         "/images/products/SunnySage/Whisk_85e3f10feaed6c99eae4d5c8b1c83db3eg.png",
       ),
-      withBasePath(
-        "/images/products/SunnySage/Whisk_8d0c2167d9ce36fa4a9475af8c78a234dr.png",
-      ),
-      withBasePath(
-        "/images/products/SunnySage/Whisk_cdnzywy4qtoyiznj1szxmwytygnkrtllztz40co.png",
-      ),
-      withBasePath(
-        "/images/products/SunnySage/Whisk_ff6b2bbc296e345bdd74cddd38ebdffaeg.png",
-      ),
-      withBasePath(
-        "/images/products/SunnySage/Whisk_2ad69ab69811f7db3dc4bf4d3ff164e4eg.png",
-      ),
     ],
     description:
       "Sunny Sage is clarity with a smile.\n\nHerbal, earthy sage meets the bright, uplifting freshness of orange — a scent that feels both cleansing and energising. Sage is traditionally known for its purifying and clarifying qualities, while orange essential oil brings warmth, lightness and a natural mood boost.\n\nThis combination makes Sunny Sage the perfect companion for morning showers or moments when you want to reset, recharge and feel refreshed from head to toe.\n\nA subtle spark of sunshine on your skin.",
-    ribbon: "New",
     inStock: true,
     ingredients: [
       "Olea Europaea Fruit Oil",
