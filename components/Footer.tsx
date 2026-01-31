@@ -235,9 +235,7 @@ export default function Footer() {
             fontSize: "15px",
             color: "rgb(159, 157, 142)",
           }}
-        >
-          © 2035 by Adama Soaps. Powered and secured by Wix
-        </div>
+        ></div>
       </div>
     </footer>
   );

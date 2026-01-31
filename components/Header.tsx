@@ -10,15 +10,22 @@ export default function Header() {
 
   return (
     <header
-      className="sticky top-0 z-50"
+      className="sticky top-0"
       style={{
         backgroundColor: "#403F2B",
         boxShadow: "0 2px 4px rgba(0, 0, 0, 0.2)",
+        zIndex: 9999,
+        isolation: "isolate",
       }}
     >
       <nav className="max-w-[1400px] mx-auto px-6 lg:px-8">
+        {/* Desktop Nav - using inline media query style due to Tailwind v4 !important issue */}
+        <style>{`
+          @media (max-width: 767px) { .desktop-nav { display: none !important; } }
+          @media (min-width: 768px) { .mobile-nav { display: none !important; } }
+        `}</style>
         <div
-          className="hidden md:flex justify-between items-center"
+          className="desktop-nav flex justify-between items-center"
           style={{ height: "80px" }}
         >
           {/* Left Nav */}
@@ -45,7 +52,7 @@ export default function Header() {
                 fontWeight: "400",
               }}
             >
-              Best Sellers
+              Shop
             </Link>
             <Link
               href="/about"
@@ -117,7 +124,7 @@ export default function Header() {
 
         {/* Mobile View */}
         <div
-          className="md:hidden flex justify-between items-center"
+          className="mobile-nav flex justify-between items-center"
           style={{ height: "120px" }}
         >
           {/* Logo Mobile */}
@@ -137,7 +144,7 @@ export default function Header() {
 
           {/* Mobile Menu Button */}
           <button
-            className="md:hidden text-2xl"
+            className="text-2xl"
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
             style={{ color: "#FFFFFF" }}
           >
@@ -147,7 +154,7 @@ export default function Header() {
 
         {/* Mobile Menu */}
         {mobileMenuOpen && (
-          <div className="md:hidden pb-4 space-y-3">
+          <div className="mobile-nav pb-4 space-y-3">
             <Link
               href="/"
               className="block font-menu"

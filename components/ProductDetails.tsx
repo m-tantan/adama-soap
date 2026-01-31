@@ -3,12 +3,16 @@
 import Image from 'next/image';
 import { useState } from 'react';
 import { Product } from '@/types';
+import PayPalButton from './PayPalButton';
+import { getPayPalButtonId } from '@/data/paypal-buttons';
 
 type Tab = "story" | "ingredients";
 
 export default function ProductDetails({ product }: { product: Product }) {
   const [selectedImage, setSelectedImage] = useState(0);
   const [activeTab, setActiveTab] = useState<Tab>("story");
+
+  const paypalButtonId = getPayPalButtonId(product.slug);
 
   return (
     <div
@@ -241,23 +245,12 @@ export default function ProductDetails({ product }: { product: Product }) {
             )}
           </div>
 
-          <button
-            className="w-full font-button transition-all duration-300 hover:opacity-90 hover:scale-[1.02]"
-            style={{
-              backgroundColor: "rgb(127, 168, 139)",
-              color: "rgb(255, 255, 255)",
-              padding: "16px 32px",
-              borderRadius: "300px",
-              fontSize: "16px",
-              lineHeight: "16px",
-              fontWeight: "600",
-              border: "none",
-              cursor: "pointer",
-              boxShadow: "0 1px 4px rgba(0, 0, 0, 0.3)",
-            }}
-          >
-            Add to Cart
-          </button>
+          {/* PayPal Button */}
+          {paypalButtonId && (
+            <div className="mb-6">
+              <PayPalButton buttonId={paypalButtonId} />
+            </div>
+          )}
 
           <div
             className="mt-6 p-6"

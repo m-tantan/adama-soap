@@ -98,7 +98,7 @@ export default function Home() {
                 letterSpacing: "-0.02em",
               }}
             >
-              Best Sellers
+              Shop
             </h2>
             <Link
               href="/shop"
@@ -110,7 +110,7 @@ export default function Home() {
                 textDecoration: "underline",
               }}
             >
-              Discover
+              Explore shop
             </Link>
           </div>
           <BestSellersCarousel products={bestSellers} />
