@@ -3,10 +3,21 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import { useState } from 'react';
-import { withBasePath } from '@/lib/utils';
+import { useTranslations, useLocale } from "next-intl";
+import { useRouter, usePathname } from "next/navigation";
+import { withBasePath } from "@/lib/utils";
 
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const t = useTranslations("navigation");
+  const locale = useLocale();
+  const router = useRouter();
+  const pathname = usePathname();
+
+  const switchLocale = (newLocale: string) => {
+    const pathWithoutLocale = pathname.replace(`/${locale}`, "") || "/";
+    router.push(`/${newLocale}${pathWithoutLocale}`);
+  };
 
   return (
     <header
@@ -31,7 +42,7 @@ export default function Header() {
           {/* Left Nav */}
           <div className="flex" style={{ gap: "32px", flex: "1" }}>
             <Link
-              href="/"
+              href={`/${locale}`}
               className="font-menu transition-opacity duration-300 hover:opacity-70"
               style={{
                 fontSize: "16px",
@@ -40,10 +51,10 @@ export default function Header() {
                 fontWeight: "400",
               }}
             >
-              Home
+              {t("home")}
             </Link>
             <Link
-              href="/shop"
+              href={`/${locale}/shop`}
               className="font-menu transition-opacity duration-300 hover:opacity-70"
               style={{
                 fontSize: "16px",
@@ -52,10 +63,10 @@ export default function Header() {
                 fontWeight: "400",
               }}
             >
-              Shop
+              {t("shop")}
             </Link>
             <Link
-              href="/about"
+              href={`/${locale}/about`}
               className="font-menu transition-opacity duration-300 hover:opacity-70"
               style={{
                 fontSize: "16px",
@@ -64,7 +75,7 @@ export default function Header() {
                 fontWeight: "400",
               }}
             >
-              About
+              {t("about")}
             </Link>
             <a
               href="https://instagram.com/adamasoaps"
@@ -78,13 +89,13 @@ export default function Header() {
                 fontWeight: "400",
               }}
             >
-              Instagram
+              {t("instagram")}
             </a>
           </div>
 
           {/* Logo (Center) */}
           <Link
-            href="/"
+            href={`/${locale}`}
             className="transition-opacity duration-300 hover:opacity-80"
             style={{ flex: "0 0 auto", margin: "0 60px" }}
           >
@@ -98,27 +109,33 @@ export default function Header() {
             />
           </Link>
 
-          {/* Right Nav */}
+          {/* Right Nav - Language Switcher */}
           <div
             className="flex items-center justify-end"
             style={{ gap: "32px", flex: "1" }}
           >
-            <button
-              className="font-menu transition-opacity duration-300 hover:opacity-70 flex items-center"
+            <select
+              value={locale}
+              onChange={(e) => switchLocale(e.target.value)}
+              className="font-menu transition-opacity duration-300 hover:opacity-70"
               style={{
                 fontSize: "14px",
                 color: "#FFFFFF",
                 fontWeight: "400",
-                background: "none",
+                background: "transparent",
                 border: "1px solid rgba(255, 255, 255, 0.3)",
                 padding: "6px 12px",
                 borderRadius: "4px",
                 cursor: "pointer",
               }}
             >
-              <span>English</span>
-              <span style={{ marginLeft: "4px", fontSize: "10px" }}>▼</span>
-            </button>
+              <option value="en" style={{ color: "#000" }}>
+                English
+              </option>
+              <option value="de" style={{ color: "#000" }}>
+                Deutsch
+              </option>
+            </select>
           </div>
         </div>
 
@@ -129,7 +146,7 @@ export default function Header() {
         >
           {/* Logo Mobile */}
           <Link
-            href="/"
+            href={`/${locale}`}
             className="transition-opacity duration-300 hover:opacity-80"
           >
             <Image
@@ -156,34 +173,34 @@ export default function Header() {
         {mobileMenuOpen && (
           <div className="mobile-nav pb-4 space-y-3">
             <Link
-              href="/"
+              href={`/${locale}`}
               className="block font-menu"
               style={{
                 fontSize: "16px",
                 color: "#FFFFFF",
               }}
             >
-              Home
+              {t("home")}
             </Link>
             <Link
-              href="/shop"
+              href={`/${locale}/shop`}
               className="block font-menu"
               style={{
                 fontSize: "16px",
                 color: "#FFFFFF",
               }}
             >
-              Shop
+              {t("shop")}
             </Link>
             <Link
-              href="/about"
+              href={`/${locale}/about`}
               className="block font-menu"
               style={{
                 fontSize: "16px",
                 color: "#FFFFFF",
               }}
             >
-              About
+              {t("about")}
             </Link>
             <a
               href="https://instagram.com/adamasoaps"
@@ -195,8 +212,28 @@ export default function Header() {
                 color: "#FFFFFF",
               }}
             >
-              Instagram
+              {t("instagram")}
             </a>
+            <select
+              value={locale}
+              onChange={(e) => switchLocale(e.target.value)}
+              className="font-menu mt-4"
+              style={{
+                fontSize: "14px",
+                color: "#FFFFFF",
+                background: "transparent",
+                border: "1px solid rgba(255, 255, 255, 0.3)",
+                padding: "6px 12px",
+                borderRadius: "4px",
+              }}
+            >
+              <option value="en" style={{ color: "#000" }}>
+                English
+              </option>
+              <option value="de" style={{ color: "#000" }}>
+                Deutsch
+              </option>
+            </select>
           </div>
         )}
       </nav>

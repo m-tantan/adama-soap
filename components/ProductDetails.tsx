@@ -2,15 +2,18 @@
 
 import Image from 'next/image';
 import { useState } from 'react';
-import { Product } from '@/types';
-import PayPalButton from './PayPalButton';
-import { getPayPalButtonId } from '@/data/paypal-buttons';
+import { useTranslations } from "next-intl";
+import { Product } from "@/types";
+import PayPalButton from "./PayPalButton";
+import { getPayPalButtonId } from "@/data/paypal-buttons";
 
 type Tab = "story" | "ingredients";
 
 export default function ProductDetails({ product }: { product: Product }) {
   const [selectedImage, setSelectedImage] = useState(0);
   const [activeTab, setActiveTab] = useState<Tab>("story");
+  const t = useTranslations("product");
+  const tRibbons = useTranslations("ribbons");
 
   const paypalButtonId = getPayPalButtonId(product.slug);
 
@@ -52,7 +55,11 @@ export default function ProductDetails({ product }: { product: Product }) {
                   letterSpacing: "0.5px",
                 }}
               >
-                {product.ribbon}
+                {product.ribbon === "Sale"
+                  ? tRibbons("sale")
+                  : product.ribbon === "New"
+                    ? tRibbons("new")
+                    : tRibbons("bestSeller")}
               </div>
             )}
             <Image
@@ -176,7 +183,7 @@ export default function ProductDetails({ product }: { product: Product }) {
                   cursor: "pointer",
                 }}
               >
-                Description
+                {t("description")}
               </button>
               <button
                 onClick={() => setActiveTab("ingredients")}
@@ -200,7 +207,7 @@ export default function ProductDetails({ product }: { product: Product }) {
                   cursor: "pointer",
                 }}
               >
-                Ingredients
+                {t("ingredients")}
               </button>
             </div>
           </div>
@@ -267,7 +274,7 @@ export default function ProductDetails({ product }: { product: Product }) {
                 color: "rgb(64, 63, 43)",
               }}
             >
-              🌱 Made from recycled coffee grounds
+              🌱 {t("madeFrom")}
             </p>
             <p
               className="font-body mb-2"
@@ -277,7 +284,7 @@ export default function ProductDetails({ product }: { product: Product }) {
                 color: "rgb(64, 63, 43)",
               }}
             >
-              ♻️ Eco-friendly and sustainable
+              ♻️ {t("ecoFriendly")}
             </p>
             <p
               className="font-body"
@@ -287,7 +294,7 @@ export default function ProductDetails({ product }: { product: Product }) {
                 color: "rgb(64, 63, 43)",
               }}
             >
-              🇩🇪 Handcrafted in Germany
+              🇩🇪 {t("handcraftedIn")}
             </p>
           </div>
         </div>

@@ -1,6 +1,11 @@
+"use client";
+
 import Link from "next/link";
+import { useTranslations } from "next-intl";
 
 export default function Footer() {
+  const t = useTranslations("footer");
+
   return (
     <footer
       style={{
@@ -27,7 +32,7 @@ export default function Footer() {
                 color: "rgb(255, 255, 255)",
               }}
             >
-              Adama Soaps
+              {t("brandName")}
             </h3>
             <div className="flex" style={{ gap: "16px", marginTop: "24px" }}>
               <a
@@ -64,7 +69,7 @@ export default function Footer() {
                 fontWeight: "600",
               }}
             >
-              Contact
+              {t("contact")}
             </h4>
             <div
               className="space-y-2 font-body"
