@@ -28,3 +28,91 @@ a {
   color: inherit;
   text-decoration: none;
 }
+
+/* PayPal Hosted Button Quantity Selector Styling */
+/* Uses design tokens for consistent theming */
+[id^="paypal-container"] select,
+.paypal-button-container select,
+select[aria-label="Quantity"] {
+  /* Background - using neutral.dark from design tokens */
+  background-color: rgb(41, 41, 31) !important;
+  
+  /* Text - using text.heading from design tokens */
+  color: #D7D5AC !important;
+  
+  /* Border - using border.light from design tokens */
+  border: 1px solid rgba(215, 213, 172, 0.3) !important;
+  border-radius: 5px !important;
+  
+  /* Padding - using spacing tokens */
+  padding: 12px 16px !important;
+  
+  /* Typography - using body font settings */
+  font-size: 15px !important;
+  line-height: 24px !important;
+  
+  /* Remove default appearance for custom styling */
+  appearance: none !important;
+  -webkit-appearance: none !important;
+  -moz-appearance: none !important;
+  
+  /* Custom dropdown arrow */
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%23D7D5AC' d='M6 8L1 3h10z'/%3E%3C/svg%3E") !important;
+  background-repeat: no-repeat !important;
+  background-position: right 12px center !important;
+  padding-right: 36px !important;
+  
+  /* Cursor */
+  cursor: pointer !important;
+  
+  /* Transition */
+  transition: all 0.2s ease !important;
+}
+
+/* Hover state */
+[id^="paypal-container"] select:hover,
+.paypal-button-container select:hover,
+select[aria-label="Quantity"]:hover {
+  border-color: rgba(215, 213, 172, 0.6) !important;
+}
+
+/* Focus state */
+[id^="paypal-container"] select:focus,
+.paypal-button-container select:focus,
+select[aria-label="Quantity"]:focus {
+  outline: none !important;
+  border-color: #D7D5AC !important;
+  box-shadow: 0 0 0 2px rgba(215, 213, 172, 0.2) !important;
+}
+
+/* Option styling - limited browser support but helps where available */
+[id^="paypal-container"] select option,
+.paypal-button-container select option,
+select[aria-label="Quantity"] option {
+  background-color: rgb(41, 41, 31) !important;
+  color: #D7D5AC !important;
+  padding: 12px 16px !important;
+}
+
+/* Selected option */
+[id^="paypal-container"] select option:checked,
+.paypal-button-container select option:checked,
+select[aria-label="Quantity"] option:checked {
+  background-color: rgb(64, 63, 43) !important;
+  color: #D7D5AC !important;
+}
+
+/* Hover on options */
+[id^="paypal-container"] select option:hover,
+.paypal-button-container select option:hover,
+select[aria-label="Quantity"] option:hover {
+  background-color: rgb(77, 75, 54) !important;
+}
+
+/* Label styling for Quantity label */
+[id^="paypal-container"] label,
+.paypal-button-container label {
+  color: #D7D5AC !important;
+  font-size: 14px !important;
+  font-weight: 500 !important;
+}
