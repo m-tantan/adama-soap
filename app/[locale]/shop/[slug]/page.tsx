@@ -32,9 +32,10 @@ export async function generateMetadata({
   }
 
   const price = product.salePrice || product.price;
+  const MAX_DESCRIPTION_LENGTH = 160; // Maximum length for meta description
   const description = product.description
     .split("\n\n")[0]
-    .substring(0, 160)
+    .substring(0, MAX_DESCRIPTION_LENGTH)
     .replace(/\n/g, " ");
 
   return {

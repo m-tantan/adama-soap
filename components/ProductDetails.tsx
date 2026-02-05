@@ -64,7 +64,7 @@ export default function ProductDetails({ product }: { product: Product }) {
             )}
             <Image
               src={product.images[selectedImage]}
-              alt={`${product.name} - Eco-friendly handcrafted coffee soap made from recycled coffee grounds in Munich`}
+              alt={`${product.name} handcrafted coffee soap`}
               fill
               className="object-cover"
               priority
