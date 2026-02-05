@@ -32,7 +32,7 @@ export default function Home() {
         <div className="absolute inset-0 z-0">
           <Image
             src={withBasePath("/images/hero-soaps.jpg")}
-            alt="Handcrafted coffee ground soaps"
+            alt="Eco-friendly natural coffee soaps handcrafted in Munich from recycled coffee grounds"
             fill
             className="object-cover"
             style={{ opacity: 0.2 }}
@@ -120,7 +120,7 @@ export default function Home() {
             <div className="relative" style={{ aspectRatio: "3/4" }}>
               <Image
                 src={withBasePath("/images/about/yoav-denis.jpg")}
-                alt="Denise and Yoav - Adama Soaps Founders"
+                alt="Denise and Yoav - Founders of Adama Soaps, eco-friendly soap makers in Munich, Germany"
                 fill
                 className="object-cover"
                 style={{

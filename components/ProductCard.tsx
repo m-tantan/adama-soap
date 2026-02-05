@@ -61,7 +61,7 @@ export default function ProductCard({ product }: ProductCardProps) {
         )}
         <Image
           src={product.images[imageIndex] || product.images[0]}
-          alt={product.name}
+          alt={`${product.name} - Natural handcrafted coffee soap made from recycled coffee grounds`}
           fill
           className="object-cover transition-all duration-400"
           style={{
