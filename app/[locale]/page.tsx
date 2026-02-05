@@ -120,7 +120,7 @@ export default function Home() {
             <div className="relative" style={{ aspectRatio: "3/4" }}>
               <Image
                 src={withBasePath("/images/about/yoav-denis.jpg")}
-                alt="Denise and Yoav - Adama Soaps Founders"
+                alt="Denise and Yoav, founders of Adama Soaps"
                 fill
                 className="object-cover"
                 style={{
