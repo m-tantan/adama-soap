@@ -2,12 +2,13 @@ import "./globals.css";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Adama Soaps - Natural Handcrafted Soaps from Coffee Grounds",
+  applicationName: "Adama Soaps",
+  title: "Adama Soaps - Handmade Vegan Coffee Soap from Munich",
   description:
-    "Eco-friendly handcrafted soaps made from used coffee grounds. Natural, sustainable, and good for your skin.",
+    "Handmade cold-process soap made with recycled coffee grounds from Munich cafés. Vegan, sustainable, plastic-free.",
   icons: {
-    icon: "/images/logo-black.png",
-    apple: "/images/logo-black.png",
+    icon: "/logo-black.svg",
+    apple: "/logo-black.svg",
   },
 };
 
@@ -16,5 +17,9 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  return children;
+  return (
+    <html lang="en">
+      <body>{children}</body>
+    </html>
+  );
 }

@@ -39,7 +39,7 @@ export default function AboutPage() {
         >
           <Image
             src={withBasePath("/images/about/yoav-denis.jpg")}
-            alt="Making soap together"
+            alt="Denis and Yoav making handmade vegan coffee soap from recycled coffee grounds in Munich"
             fill
             className="object-cover"
           />

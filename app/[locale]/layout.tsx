@@ -19,8 +19,31 @@ export async function generateMetadata({
   const messages = (await getMessages({ locale })) as any;
 
   return {
-    title: messages.metadata?.title || "Adama Soaps",
-    description: messages.metadata?.description || "Natural handcrafted soaps",
+    metadataBase: new URL("https://adamasoaps.com"),
+    applicationName: "Adama Soaps",
+    title:
+      messages.metadata?.title ||
+      "Adama Soaps - Handmade Vegan Coffee Soap from Munich",
+    description:
+      messages.metadata?.description ||
+      "Handmade cold-process soap made with recycled coffee grounds from Munich cafés. Vegan, sustainable, plastic-free.",
+    openGraph: {
+      title:
+        messages.metadata?.title ||
+        "Adama Soaps - Handmade Vegan Coffee Soap from Munich",
+      description:
+        messages.metadata?.description ||
+        "Handmade cold-process soap made with recycled coffee grounds from Munich cafés. Vegan, sustainable, plastic-free.",
+      siteName: "Adama Soaps",
+      locale: locale === "de" ? "de_DE" : "en_US",
+      type: "website",
+    },
+    alternates: {
+      languages: {
+        en: "/en/",
+        de: "/de/",
+      },
+    },
   };
 }
 

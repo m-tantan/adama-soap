@@ -1,7 +1,11 @@
 {
   "metadata": {
-    "title": "Adama Soaps - Natural Handcrafted Soaps from Coffee Grounds",
-    "description": "Eco-friendly handcrafted soaps made from used coffee grounds. Natural, sustainable, and good for your skin."
+    "title": "Adama Soaps - Handmade Vegan Coffee Soap from Munich",
+    "description": "Handmade cold-process soap made with recycled coffee grounds from Munich cafés. Vegan, sustainable, plastic-free.",
+    "shopTitle": "Shop - Handmade Vegan Coffee Soap | Adama Soaps",
+    "shopDescription": "Browse our collection of handmade vegan coffee soaps. Each bar is cold-processed with recycled coffee grounds from Munich cafés. Plastic-free and sustainable.",
+    "aboutTitle": "About Adama Soaps - Handmade Vegan Coffee Soap from Munich",
+    "aboutDescription": "Learn the story behind Adama Soaps — handmade vegan coffee soap crafted from recycled coffee grounds in Munich, Germany. Sustainable, plastic-free, zero waste."
   },
   "navigation": {
     "home": "Home",
@@ -12,8 +16,8 @@
     "language": "English"
   },
   "hero": {
-    "title": "Soap Crafted from Used Coffee Grounds",
-    "description": "Explore our eco-friendly soaps crafted with care using natural ingredients, designed to rejuvenate your skin while honoring the planet.\n\nCrafted from recycled coffee grounds, this natural body scrub soap gently exfoliates the skin while deeply nourishing it with rich plant oils.\n\nThe finely ground coffee removes dead skin cells and stimulates circulation, leaving your skin smooth, refreshed and alive.\n\nShea butter supports and protects the skin barrier, coconut oil cleanses gently with a creamy lather, olive oil softens and conditions the skin, and castor oil adds an extra layer of care for a silky finish. Free from microplastics and unnecessary additives, this soap turns waste into well-being — a daily ritual that's good for your skin and the planet."
+    "title": "Handmade Vegan Coffee Soap from Munich",
+    "description": "Discover our handmade soap from Munich — cold-process vegan soap crafted with recycled coffee grounds from local cafés.\n\nEach bar is a natural body scrub that gently exfoliates the skin while deeply nourishing it with rich plant oils. The finely ground upcycled coffee removes dead skin cells and stimulates circulation, leaving your skin smooth, refreshed and alive.\n\nShea butter supports and protects the skin barrier, coconut oil cleanses gently with a creamy lather, olive oil softens and conditions the skin, and castor oil adds an extra layer of care for a silky finish.\n\nPlastic-free, zero waste, and free from microplastics — this sustainable soap from Germany turns café waste into well-being. A daily ritual that's good for your skin and the planet."
   },
   "shop": {
     "title": "Shop",
@@ -24,11 +28,11 @@
   "ourStory": {
     "title": "Our Story",
     "whoWeAre": "Who We Are",
-    "whoWeAreText": "At Adama Soaps, we pride ourselves on creating natural, eco-friendly soaps from used coffee grounds. Our focus is on simplicity, honesty, and sustainability, aiming to reduce waste while delivering high-quality products that nurture your skin.",
+    "whoWeAreText": "At Adama Soaps, we make handmade vegan soap in Munich using recycled coffee grounds from local cafés. Our focus is on simplicity, honesty, and sustainability — reducing waste while delivering high-quality, plastic-free soap that nurtures your skin.",
     "ourMission": "Our Mission",
-    "ourMissionText": "We strive to promote sustainability through our handcrafted soaps and engage consumers about the benefits of coffee grounds as an ingredient.",
+    "ourMissionText": "We strive to promote sustainability through our cold-process handcrafted coffee soaps and show how upcycled coffee grounds create an exceptional natural skincare ingredient.",
     "why": "Why",
-    "whyText": "Our commitment to the environment guides every step of our process, from sourcing materials to packaging, ensuring that your choice of soap is one that supports a healthy planet."
+    "whyText": "Our commitment to the environment guides every step — from collecting coffee grounds at Munich cafés to our zero waste, plastic-free packaging. Every bar of sustainable soap you choose supports a healthier planet."
   },
   "cafePartners": {
     "title": "We turn their coffee waste into soaps — you'll find Adama available in these cafés.",
@@ -41,9 +45,9 @@
   "product": {
     "description": "Description",
     "ingredients": "Ingredients",
-    "madeFrom": "Made from recycled coffee grounds",
-    "ecoFriendly": "Eco-friendly and sustainable",
-    "handcraftedIn": "Handcrafted in Germany",
+    "madeFrom": "Made with upcycled coffee grounds from Munich cafés",
+    "ecoFriendly": "Vegan, plastic-free and zero waste",
+    "handcraftedIn": "Handmade cold-process soap from Munich, Germany",
     "addToCart": "Add to Cart",
     "outOfStock": "Out of Stock"
   },

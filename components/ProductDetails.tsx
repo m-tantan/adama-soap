@@ -2,7 +2,7 @@
 
 import Image from 'next/image';
 import { useState } from 'react';
-import { useTranslations } from "next-intl";
+import { useTranslations, useMessages } from "next-intl";
 import { Product } from "@/types";
 import PayPalButton from "./PayPalButton";
 import { getPayPalButtonId } from "@/data/paypal-buttons";
@@ -13,9 +13,21 @@ export default function ProductDetails({ product }: { product: Product }) {
   const [selectedImage, setSelectedImage] = useState(0);
   const [activeTab, setActiveTab] = useState<Tab>("story");
   const t = useTranslations("product");
+  const tProducts = useTranslations("products");
   const tRibbons = useTranslations("ribbons");
+  const messages = useMessages() as any;
 
   const paypalButtonId = getPayPalButtonId(product.slug);
+
+  // Use localized description and ingredients from translation messages, fallback to product data
+  const productMessages = messages?.products?.[product.slug];
+  const localizedDescription =
+    productMessages?.description || product.description;
+  const localizedIngredients: string[] = Array.isArray(
+    productMessages?.ingredients,
+  )
+    ? productMessages.ingredients
+    : product.ingredients || [];
 
   return (
     <div
@@ -64,7 +76,7 @@ export default function ProductDetails({ product }: { product: Product }) {
             )}
             <Image
               src={product.images[selectedImage]}
-              alt={product.name}
+              alt={`${product.name} - handmade vegan coffee soap made with recycled coffee grounds in Munich`}
               fill
               className="object-cover"
               priority
@@ -91,7 +103,7 @@ export default function ProductDetails({ product }: { product: Product }) {
                 >
                   <Image
                     src={img}
-                    alt={`${product.name} view ${idx + 1}`}
+                    alt={`${product.name} handmade vegan coffee soap - view ${idx + 1}`}
                     fill
                     className="object-cover"
                   />
@@ -224,14 +236,14 @@ export default function ProductDetails({ product }: { product: Product }) {
                   whiteSpace: "pre-line",
                 }}
               >
-                {product.description}
+                {localizedDescription}
               </div>
             )}
 
-            {activeTab === "ingredients" && product.ingredients && (
+            {activeTab === "ingredients" && localizedIngredients && (
               <div>
                 <ul className="space-y-2">
-                  {product.ingredients.map((ingredient, i) => (
+                  {localizedIngredients.map((ingredient, i) => (
                     <li
                       key={i}
                       className="font-body"

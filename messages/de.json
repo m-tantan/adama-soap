@@ -1,7 +1,11 @@
 {
   "metadata": {
-    "title": "Adama Soaps - Natürliche handgemachte Seifen aus Kaffeesatz",
-    "description": "Umweltfreundliche handgemachte Seifen aus gebrauchtem Kaffeesatz. Natürlich, nachhaltig und gut für Ihre Haut."
+    "title": "Adama Soaps - Handgemachte Vegane Kaffeeseife aus München",
+    "description": "Handgemachte kaltgerührte Seife aus recyceltem Kaffeesatz von Münchner Cafés. Vegan, nachhaltig, plastikfrei.",
+    "shopTitle": "Shop - Handgemachte Vegane Kaffeeseife | Adama Soaps",
+    "shopDescription": "Entdecken Sie unsere handgemachten veganen Kaffeeseifen. Jedes Stück wird kalt gerührt mit recyceltem Kaffeesatz aus Münchner Cafés. Plastikfrei und nachhaltig.",
+    "aboutTitle": "Über Adama Soaps - Handgemachte Vegane Kaffeeseife aus München",
+    "aboutDescription": "Erfahren Sie die Geschichte hinter Adama Soaps — handgemachte vegane Kaffeeseife aus recyceltem Kaffeesatz in München. Nachhaltig, plastikfrei, Zero Waste."
   },
   "navigation": {
     "home": "Startseite",
@@ -12,8 +16,8 @@
     "language": "Deutsch"
   },
   "hero": {
-    "title": "Seife aus gebrauchtem Kaffeesatz",
-    "description": "Entdecken Sie unsere umweltfreundlichen Seifen, die mit Sorgfalt aus natürlichen Zutaten hergestellt werden, um Ihre Haut zu beleben und gleichzeitig den Planeten zu schonen.\n\nAus recyceltem Kaffeesatz hergestellt, peelt diese natürliche Körperseife sanft die Haut und nährt sie gleichzeitig mit reichhaltigen Pflanzenölen.\n\nDer fein gemahlene Kaffee entfernt abgestorbene Hautzellen und regt die Durchblutung an, sodass Ihre Haut glatt, erfrischt und lebendig wird.\n\nSheabutter unterstützt und schützt die Hautbarriere, Kokosöl reinigt sanft mit einem cremigen Schaum, Olivenöl macht die Haut weich und geschmeidig, und Rizinusöl sorgt für eine zusätzliche Pflegeschicht und ein seidiges Finish. Frei von Mikroplastik und unnötigen Zusatzstoffen verwandelt diese Seife Abfall in Wohlbefinden — ein tägliches Ritual, das gut für Ihre Haut und den Planeten ist."
+    "title": "Handgemachte Vegane Kaffeeseife aus München",
+    "description": "Entdecken Sie unsere handgemachte Seife aus München — kaltgerührte vegane Seife aus recyceltem Kaffeesatz lokaler Cafés.\n\nJedes Stück ist ein natürliches Körperpeeling, das die Haut sanft peelt und gleichzeitig mit reichhaltigen Pflanzenölen nährt. Der fein gemahlene Upcycling-Kaffee entfernt abgestorbene Hautzellen und regt die Durchblutung an.\n\nSheabutter unterstützt und schützt die Hautbarriere, Kokosöl reinigt sanft mit einem cremigen Schaum, Olivenöl macht die Haut weich und geschmeidig, und Rizinusöl sorgt für ein seidiges Finish.\n\nPlastikfrei, Zero Waste, frei von Mikroplastik — diese nachhaltige Seife aus Deutschland verwandelt Café-Abfall in Wohlbefinden. Ein tägliches Ritual, das gut für Ihre Haut und den Planeten ist."
   },
   "shop": {
     "title": "Shop",
@@ -24,11 +28,11 @@
   "ourStory": {
     "title": "Unsere Geschichte",
     "whoWeAre": "Wer wir sind",
-    "whoWeAreText": "Bei Adama Soaps sind wir stolz darauf, natürliche, umweltfreundliche Seifen aus gebrauchtem Kaffeesatz herzustellen. Unser Fokus liegt auf Einfachheit, Ehrlichkeit und Nachhaltigkeit, mit dem Ziel, Abfall zu reduzieren und gleichzeitig hochwertige Produkte zu liefern, die Ihre Haut pflegen.",
+    "whoWeAreText": "Wir sind Denise und Yoav von Adama und wir sind stolz darauf, rein natürliche und umweltfreundliche Seifen aus recyceltem Kaffeesatz herzustellen. Unser Fokus liegt auf Einfachheit, Ehrlichkeit und Nachhaltigkeit, mit dem Ziel, Abfall zu reduzieren und gleichzeitig hochwertige Produkte zu liefern, die deine Haut pflegen.",
     "ourMission": "Unsere Mission",
-    "ourMissionText": "Wir streben danach, Nachhaltigkeit durch unsere handgemachten Seifen zu fördern und Verbraucher über die Vorteile von Kaffeesatz als Zutat aufzuklären.",
-    "why": "Warum",
-    "whyText": "Unser Engagement für die Umwelt bestimmt jeden Schritt unseres Prozesses, von der Beschaffung der Materialien bis zur Verpackung, um sicherzustellen, dass Ihre Wahl der Seife einen gesunden Planeten unterstützt."
+    "ourMissionText": "Wir streben danach, Nachhaltigkeit durch unsere handgemachten Kaffeeseifen zu fördern. Unser Engagement für die Umwelt bestimmt jeden Schritt unseres Prozesses, von der Beschaffung der Materialien bis zur Verpackung, damit unsere Seife einen gesunden Planeten unterstützt.",
+    "why": "",
+    "whyText": ""
   },
   "cafePartners": {
     "title": "Wir verwandeln ihren Kaffeeabfall in Seifen — Sie finden Adama in diesen Cafés.",
@@ -41,9 +45,9 @@
   "product": {
     "description": "Beschreibung",
     "ingredients": "Inhaltsstoffe",
-    "madeFrom": "Hergestellt aus recyceltem Kaffeesatz",
-    "ecoFriendly": "Umweltfreundlich und nachhaltig",
-    "handcraftedIn": "Handgefertigt in Deutschland",
+    "madeFrom": "Hergestellt mit Upcycling-Kaffeesatz aus Münchner Cafés",
+    "ecoFriendly": "Vegan, plastikfrei und Zero Waste",
+    "handcraftedIn": "Handgemachte kaltgerührte Seife aus München",
     "addToCart": "In den Warenkorb",
     "outOfStock": "Ausverkauft"
   },
@@ -90,12 +94,12 @@
     "sale": "Angebot"
   },
   "about": {
-    "title": "Unsere schaumige Geschichte",
-    "paragraph1": "Alles begann, als mein Freund sagte: \"Schatz, wir sollten Seife machen!\" Ich dachte, er macht sich über unsere Beziehung lustig, aber nein — er meinte buchstäblich Seife.",
-    "paragraph2": "Bewaffnet mit nichts als recyceltem Kaffeesatz (denn anscheinend ist es ein <em>Scheidungsgrund</em>, ihn wegzuwerfen) und einer unvernünftigen Menge an YouTube-Tutorials begannen wir unsere schaumige Reise.",
-    "paragraph3": "Die erste Charge? Sagen wir einfach, sie war ein totaler Reinfall. Die zweite Charge? Ein sauberer Fehlschlag. Aber bei der dritten Charge haben wir es endlich richtig gemacht — und dann ging es richtig ab!",
-    "paragraph4": "Jetzt machen wir alle unsere Seifen von Hand in Deutschland, mit nur den besten natürlichen Zutaten und einer gesunden Portion fragwürdiger Wortspiele. Unser Motto? \"Wir lügen nicht, wenn wir sagen, es ist nicht einfach, aber wir lügen auch nicht über die Qualität!\"",
-    "paragraph5": "P.S. Mein Freund besteht darauf, dass ich erwähne, dass sie 90% der eigentlichen Arbeit macht. Ich biete moralische Unterstützung und schreckliche Witze. Es ist eine saubere Arbeitsteilung. 🧼",
+    "title": "Unsere Geschichte",
+    "paragraph1": "Alles begann, als mein Freund sagte: \"Schatz wir sollten Seife machen!\" Ich dachte er macht sich über unsere Beziehung lustig, aber nein, er meinte echte Seife.",
+    "paragraph2": "Bewaffnet mit nichts als recyceltem Kaffeesatz (denn anscheinend ist es ein Trennungsgrund, den wegzuwerfen) und einer Menge an YouTube-Tutorials begannen wir unsere schaumige Reise.",
+    "paragraph3": "Die erste Charge? Sie war ein totaler Reinfall.\nDie zweite Charge? Ein weiterer Fehlschlag.\nAber bei der dritten Charge hatten wir den Dreh raus und dann ging es richtig ab!",
+    "paragraph4": "Jetzt machen wir all unsere Seifen in liebevoller Handarbeit mit den besten natürlichen Zutaten.",
+    "paragraph5": "P.S. Mein Freund besteht darauf, dass ich erwähne, dass ich 90% der eigentlichen Arbeit mache. Er bietet moralische Unterstützung und schreckliche Witze. Sauber Arbeitsteilung also.",
     "whyCoffeeGrounds": "Warum Kaffeesatz?",
     "whyCoffeeGroundsText": "Weil wir Recycling-Champions sind und weil Kaffeesatz das beste natürliche Peeling ist. Außerdem gibt es uns eine Ausrede, während der \"Forschungsphase\" mehr Kaffee zu trinken. Win-win! ☕"
   },

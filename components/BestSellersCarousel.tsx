@@ -104,7 +104,7 @@ export default function BestSellersCarousel({
                 )}
                 <Image
                   src={product.images[0]}
-                  alt={product.name}
+                  alt={`${product.name} - handmade vegan coffee soap with recycled coffee grounds from Munich`}
                   fill
                   className="object-cover"
                   sizes="(max-width: 768px) 100vw, 50vw"

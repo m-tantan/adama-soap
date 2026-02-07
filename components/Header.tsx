@@ -53,7 +53,8 @@ export default function Header() {
             >
               {t("home")}
             </Link>
-            <Link
+            {/* Shop link commented out - not needed with only 2 soaps both displayed on homepage */}
+            {/* <Link
               href={`/${locale}/shop`}
               className="font-menu transition-opacity duration-300 hover:opacity-70"
               style={{
@@ -64,7 +65,7 @@ export default function Header() {
               }}
             >
               {t("shop")}
-            </Link>
+            </Link> */}
             <Link
               href={`/${locale}/about`}
               className="font-menu transition-opacity duration-300 hover:opacity-70"
@@ -101,7 +102,7 @@ export default function Header() {
           >
             <Image
               src={withBasePath("/images/logo.png")}
-              alt="Adama Soaps"
+              alt="Adama - Handmade Vegan Coffee Soap from Munich"
               width={130}
               height={75}
               className="h-[75px] w-auto"
@@ -151,7 +152,7 @@ export default function Header() {
           >
             <Image
               src={withBasePath("/images/logo.png")}
-              alt="Adama Soaps"
+              alt="Adama - Handmade Vegan Coffee Soap from Munich"
               width={155}
               height={95}
               className="h-[95px] w-auto"
@@ -182,7 +183,8 @@ export default function Header() {
             >
               {t("home")}
             </Link>
-            <Link
+            {/* Shop link commented out - not needed with only 2 soaps both displayed on homepage */}
+            {/* <Link
               href={`/${locale}/shop`}
               className="block font-menu"
               style={{
@@ -191,7 +193,7 @@ export default function Header() {
               }}
             >
               {t("shop")}
-            </Link>
+            </Link> */}
             <Link
               href={`/${locale}/about`}
               className="block font-menu"
