@@ -15,14 +15,16 @@ export default function RootPage() {
   return (
     <>
       <meta httpEquiv="refresh" content="0;url=/en/" />
-      <div style={{ 
-        display: "flex", 
-        justifyContent: "center", 
-        alignItems: "center", 
-        height: "100vh",
-        backgroundColor: "#29291F",
-        color: "#F5F5DC"
-      }}>
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          height: "100vh",
+          backgroundColor: "#29291F",
+          color: "#F5F5DC",
+        }}
+      >
         <p>Redirecting...</p>
       </div>
     </>

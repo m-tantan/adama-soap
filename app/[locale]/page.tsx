@@ -19,54 +19,7 @@ export default function Home() {
 
   return (
     <>
-      {/* Hero */}
-      <section
-        className="text-neutral-white relative overflow-hidden"
-        style={{
-          backgroundColor: "#4D4B36",
-          paddingTop: "100px",
-          paddingBottom: "100px",
-        }}
-      >
-        {/* Background Image with Overlay */}
-        <div className="absolute inset-0 z-0">
-          <Image
-            src={withBasePath("/images/hero-soaps.jpg")}
-            alt="Handcrafted coffee ground soaps"
-            fill
-            className="object-cover"
-            style={{ opacity: 0.2 }}
-            priority
-          />
-        </div>
-        <div className="max-w-[980px] mx-auto px-6 lg:px-8 text-center relative z-10">
-          <h1
-            className="font-title font-bold mb-6"
-            style={{
-              fontSize: "55px",
-              lineHeight: "1.2em",
-              letterSpacing: "-0.02em",
-              color: "#FFFFFF",
-            }}
-          >
-            {t("hero.title")}
-          </h1>
-          <p
-            className="font-heading max-w-[700px] mx-auto"
-            style={{
-              fontSize: "20px",
-              lineHeight: "1.5em",
-              fontWeight: "400",
-              color: "rgb(255, 255, 255)",
-              whiteSpace: "pre-line",
-            }}
-          >
-            {t("hero.description")}
-          </p>
-        </div>
-      </section>
-
-      {/* Best Sellers */}
+      {/* Discover Our Soaps */}
       <section
         style={{
           paddingTop: "64px",
@@ -104,6 +57,53 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Hero */}
+      <section
+        className="text-neutral-white relative overflow-hidden"
+        style={{
+          backgroundColor: "#4D4B36",
+          paddingTop: "100px",
+          paddingBottom: "100px",
+        }}
+      >
+        {/* Background Image with Overlay */}
+        <div className="absolute inset-0 z-0">
+          <Image
+            src={withBasePath("/images/hero-soaps.jpg")}
+            alt="Handmade vegan coffee soap with recycled coffee grounds from Munich"
+            fill
+            className="object-cover"
+            style={{ opacity: 0.2 }}
+            priority
+          />
+        </div>
+        <div className="max-w-[980px] mx-auto px-6 lg:px-8 text-center relative z-10">
+          <h1
+            className="font-title font-bold mb-6"
+            style={{
+              fontSize: "55px",
+              lineHeight: "1.2em",
+              letterSpacing: "-0.02em",
+              color: "#FFFFFF",
+            }}
+          >
+            {t("hero.title")}
+          </h1>
+          <p
+            className="font-heading max-w-[700px] mx-auto"
+            style={{
+              fontSize: "20px",
+              lineHeight: "1.5em",
+              fontWeight: "400",
+              color: "rgb(255, 255, 255)",
+              whiteSpace: "pre-line",
+            }}
+          >
+            {t("hero.description")}
+          </p>
+        </div>
+      </section>
+
       {/* Our Story */}
       <section
         style={{
@@ -120,7 +120,7 @@ export default function Home() {
             <div className="relative" style={{ aspectRatio: "3/4" }}>
               <Image
                 src={withBasePath("/images/about/yoav-denis.jpg")}
-                alt="Denise and Yoav - Adama Soaps Founders"
+                alt="Denis and Yoav, founders of Adama Soaps - handmade vegan coffee soap from Munich"
                 fill
                 className="object-cover"
                 style={{
@@ -184,27 +184,31 @@ export default function Home() {
               >
                 {t("ourStory.ourMissionText")}
               </p>
-              <h3
-                className="font-heading font-normal mb-4"
-                style={{
-                  fontSize: "25px",
-                  lineHeight: "1.4em",
-                  color: "rgb(255, 255, 255)",
-                  fontWeight: "600",
-                }}
-              >
-                {t("ourStory.why")}
-              </h3>
-              <p
-                className="font-body"
-                style={{
-                  fontSize: "17px",
-                  lineHeight: "1.5em",
-                  color: "rgb(255, 255, 255)",
-                }}
-              >
-                {t("ourStory.whyText")}
-              </p>
+              {t("ourStory.why") && (
+                <>
+                  <h3
+                    className="font-heading font-normal mb-4"
+                    style={{
+                      fontSize: "25px",
+                      lineHeight: "1.4em",
+                      color: "rgb(255, 255, 255)",
+                      fontWeight: "600",
+                    }}
+                  >
+                    {t("ourStory.why")}
+                  </h3>
+                  <p
+                    className="font-body"
+                    style={{
+                      fontSize: "17px",
+                      lineHeight: "1.5em",
+                      color: "rgb(255, 255, 255)",
+                    }}
+                  >
+                    {t("ourStory.whyText")}
+                  </p>
+                </>
+              )}
             </div>
           </div>
         </div>
@@ -269,7 +273,7 @@ export default function Home() {
               </p>
             </div>
 
-            {/* Marita Cafe */}
+            {/* Cafe Faber */}
             <div className="bg-white/10 backdrop-blur-sm p-6 rounded-lg">
               <h3
                 className="font-heading mb-4"
@@ -279,7 +283,7 @@ export default function Home() {
                   fontWeight: "600",
                 }}
               >
-                Marita Cafe
+                Cafe Faber
               </h3>
               <p
                 className="mb-3"
@@ -296,24 +300,7 @@ export default function Home() {
                 className="mb-2"
                 style={{ fontSize: "15px", color: "rgb(255, 255, 255)" }}
               >
-                📍 Schulstraße 34, 80634 München, Germany
-              </p>
-              <p
-                className="mb-2"
-                style={{ fontSize: "15px", color: "rgb(255, 255, 255)" }}
-              >
-                📞 089 13 011 652
-              </p>
-              <p style={{ fontSize: "15px", color: "rgb(255, 255, 255)" }}>
-                🌐{" "}
-                <a
-                  href="https://www.marita-cafe.de"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="underline hover:opacity-70"
-                >
-                  marita-cafe.de
-                </a>
+                📍 Zeppelinstraße 5, 81541 München, Germany
               </p>
             </div>
 
