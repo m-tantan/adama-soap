@@ -5,7 +5,7 @@
     "shopTitle": "Shop - Handmade Vegan Coffee Soap | Adama Soaps",
     "shopDescription": "Browse our collection of handmade vegan coffee soaps. Each bar is cold-processed with recycled coffee grounds from Munich cafés. Plastic-free and sustainable.",
     "aboutTitle": "About Adama Soaps - Handmade Vegan Coffee Soap from Munich",
-    "aboutDescription": "Learn the story behind Adama Soaps — handmade vegan coffee soap crafted from recycled coffee grounds in Munich, Germany. Sustainable, plastic-free, zero waste."
+    "aboutDescription": "Learn the story behind Adama Soaps - handmade vegan coffee soap crafted from recycled coffee grounds in Munich, Germany. Sustainable, plastic-free, zero waste."
   },
   "navigation": {
     "home": "Home",
@@ -17,7 +17,7 @@
   },
   "hero": {
     "title": "Handmade Vegan Coffee Soap from Munich",
-    "description": "Discover our handmade soap from Munich — cold-process vegan soap crafted with recycled coffee grounds from local cafés.\n\nEach bar is a natural body scrub that gently exfoliates the skin while deeply nourishing it with rich plant oils. The finely ground upcycled coffee removes dead skin cells and stimulates circulation, leaving your skin smooth, refreshed and alive.\n\nShea butter supports and protects the skin barrier, coconut oil cleanses gently with a creamy lather, olive oil softens and conditions the skin, and castor oil adds an extra layer of care for a silky finish.\n\nPlastic-free, zero waste, and free from microplastics — this sustainable soap from Germany turns café waste into well-being. A daily ritual that's good for your skin and the planet."
+    "description": "Discover our handmade soap from Munich - cold-process vegan soap crafted with recycled coffee grounds from local cafés.\n\nEach bar is a natural body scrub that gently exfoliates the skin while deeply nourishing it with rich plant oils. The finely ground upcycled coffee removes dead skin cells and stimulates circulation, leaving your skin smooth, refreshed and alive.\n\nShea butter supports and protects the skin barrier, coconut oil cleanses gently with a creamy lather, olive oil softens and conditions the skin, and castor oil adds an extra layer of care for a silky finish.\n\nPlastic-free, zero waste, and free from microplastics - this sustainable soap from Germany turns café waste into well-being. A daily ritual that's good for your skin and the planet."
   },
   "shop": {
     "title": "Shop",
@@ -28,14 +28,14 @@
   "ourStory": {
     "title": "Our Story",
     "whoWeAre": "Who We Are",
-    "whoWeAreText": "At Adama Soaps, we make handmade vegan soap in Munich using recycled coffee grounds from local cafés. Our focus is on simplicity, honesty, and sustainability — reducing waste while delivering high-quality, plastic-free soap that nurtures your skin.",
+    "whoWeAreText": "At Adama Soaps, we make handmade vegan soap in Munich using recycled coffee grounds from local cafés. Our focus is on simplicity, honesty, and sustainability - reducing waste while delivering high-quality, plastic-free soap that nurtures your skin.",
     "ourMission": "Our Mission",
     "ourMissionText": "We strive to promote sustainability through our cold-process handcrafted coffee soaps and show how upcycled coffee grounds create an exceptional natural skincare ingredient.",
-    "why": "Why",
+    "why": "",
     "whyText": "Our commitment to the environment guides every step — from collecting coffee grounds at Munich cafés to our zero waste, plastic-free packaging. Every bar of sustainable soap you choose supports a healthier planet."
   },
   "cafePartners": {
-    "title": "We turn their coffee waste into soaps — you'll find Adama available in these cafés.",
+    "title": "We turn their coffee waste into soaps - you'll find Adama available in these cafés.",
     "onlineShop": "Online Shop",
     "cooperationText": "Cooperation with a local cafe, turning their Coffee waste into soaps"
   },
@@ -70,7 +70,7 @@
     },
     "sunny-sage": {
       "name": "Sunny Sage",
-      "description": "Sunny Sage is clarity with a smile.\n\nHerbal, earthy sage meets the bright, uplifting freshness of orange — a scent that feels both cleansing and energising. Sage is traditionally known for its purifying and clarifying qualities, while orange essential oil brings warmth, lightness and a natural mood boost.\n\nThis combination makes Sunny Sage the perfect companion for morning showers or moments when you want to reset, recharge and feel refreshed from head to toe.\n\nA subtle spark of sunshine on your skin.",
+      "description": "Sunny Sage is clarity with a smile.\n\nHerbal, earthy sage meets the bright, uplifting freshness of orange - a scent that feels both cleansing and energising. Sage is traditionally known for its purifying and clarifying qualities, while orange essential oil brings warmth, lightness and a natural mood boost.\n\nThis combination makes Sunny Sage the perfect companion for morning showers or moments when you want to reset, recharge and feel refreshed from head to toe.\n\nA subtle spark of sunshine on your skin.",
       "ingredients": [
         "Olea Europaea Fruit Oil",
         "Cocos Nucifera Oil",
@@ -95,9 +95,9 @@
   },
   "about": {
     "title": "Our Sudsy Story",
-    "paragraph1": "It all started when my boyfriend said, \"Honey, we should make soap!\" I thought he was being clean about our relationship, but no—he literally meant soap.",
+    "paragraph1": "It all started when my boyfriend said, \"Honey, we should make soap!\" I thought he was being clean about our relationship, but no-he literally meant soap.",
     "paragraph2": "Armed with nothing but recycled coffee grounds (because apparently throwing them away is a <em>grounds</em> for divorce) and an unreasonable amount of YouTube tutorials, we embarked on our lathery journey.",
-    "paragraph3": "The first batch? Let's just say it was a total wash. The second batch? A clean sweep of failures. But by the third batch, we finally got it right—and that's when things really started to <em>soap</em> up!",
+    "paragraph3": "The first batch? Let's just say it was a total wash. The second batch? A clean sweep of failures. But by the third batch, we finally got it right-and that's when things really started to <em>soap</em> up!",
     "paragraph4": "Now we make all our soaps by hand in Germany, using only the finest natural ingredients and a healthy dose of questionable puns. Our motto? \"We're lye-ing if we say it's easy, but we're not lye-ing about the quality!\"",
     "paragraph5": "P.S. My boyfriend insists I mention that she does 90% of the actual work. I provide moral support and terrible jokes. It's a clean division of labor. 🧼",
     "whyCoffeeGrounds": "Why Coffee Grounds?",

@@ -1,28 +1,10 @@
-# Adama Soaps - Task List
-
-| # | Task | Context & Details |
-|---|------|-------------------|
-| 1 | **PayPal Integration** | Add PayPal as a payment option for checkout. Currently no payment system is implemented. Could use PayPal Checkout SDK or Stripe (which also supports PayPal). |
-| 2 | **Remove Ingredients List** | Delete the ingredients section from product pages (ProductDetails.tsx). Currently shows ingredients like "Recycled Coffee Grounds, Coconut Oil, etc." |
-| 3 | **Replace placeholder Instagram images with actual posts** | The "Follow Us" section on homepage (app/page.tsx) shows placeholder images (instagram-1.jpg, instagram-2.jpg). Replace with real @adamasoaps Instagram content or embed. |
-| 4 | **Remove "Forest" product** | Delete the Forest soap (id: 3) from data/products.ts. Only keep Calm and Sunny Sage. |
-| 5 | **Fix or remove "More" button in navigation** | The "More" button in Header.tsx currently does nothing (no dropdown/action). Either add a dropdown menu or remove it. |
-| 6 | **Full Online Store (Future Goal)** | Long-term vision: complete e-commerce with cart, checkout, order management, inventory tracking. Currently Phase 2 (static content only). |
-| 7 | **Change favicon logo color to black** | Current favicon (/images/logo-black.png) appears cream/yellow. Need a black version for better visibility in browser tabs. |
-
----
-
-## Priority
-
-### Quick Wins (Can do now):
-- **#2** - Remove ingredients list
-- **#4** - Remove Forest product  
-- **#5** - Remove "More" button
-- **#7** - Create black version of logo for favicon
-
-### Requires Assets/Content:
-- **#3** - Need actual Instagram post images or embed code
-
-### Requires More Planning:
-- **#1** - PayPal integration (need PayPal business account, API keys)
-- **#6** - Full e-commerce (Phase 3-4 in migration plan)
+1. I'd like to edit the feed for Behold. We're replacing it with a JSON feed, and this is the link for the feed: <https://feeds.behold.so/E4NKLuEs4wUnBsOc9pl1>. Find the behold section in the main page and add a carousel effect so that we can only show up to three items at a time and users can scroll to the right and to the left and to reduce CPU if the tab is not active obviously stop the animation. Let's have this auto rotate every three seconds we should automatically scroll to the next image so that the gallery would be visible.
+2. PayPal Button cleanup:
+   - Remove the checkout button from PayPal widget (keep only PayPal button) using document.getElementById
+   - Remove the "Adamasoap" title from the PayPal widget (already shown on page)
+   - Remove the price from the PayPal widget (already shown on page)
+   - Move PayPal button to be directly underneath the product price section
+3. Configure VS Code F5 launch: add a `.vscode/launch.json` (and `tasks.json`) so that pressing F5 automatically runs `npm run dev` and opens the dev server.
+4. In the home page,under the out story section, remove the "why" both from localized German and in English. Just remove that element and bring the two paragraphs closer together.
+5. In the product pages and the German localization, the soap product name is accidentally localized as well. Let's leave it as is. So Calm should be used in German even though it's not translated, as well as the Sunny Sage product.
+6.  I've added a new image. It's an SVG. Let's replace the icon and the navigation bar with this SVG for better resolution. public/adama-svg-logo.svg

@@ -2,8 +2,8 @@
 
 import Link from "next/link";
 import Image from "next/image";
-import Script from "next/script";
 import { useTranslations, useLocale } from "next-intl";
+import InstagramFeed from "@/components/InstagramFeed";
 import BestSellersCarousel from "@/components/BestSellersCarousel";
 import { products } from "@/data/products";
 import { withBasePath } from "@/lib/utils";
@@ -14,7 +14,7 @@ export default function Home() {
 
   // Get Calm and Sunny Sage for Best Sellers carousel
   const bestSellers = products.filter(
-    (p) => p.slug === "calm" || p.slug === "sunny-sage"
+    (p) => p.slug === "calm" || p.slug === "sunny-sage",
   );
 
   return (
@@ -184,31 +184,16 @@ export default function Home() {
               >
                 {t("ourStory.ourMissionText")}
               </p>
-              {t("ourStory.why") && (
-                <>
-                  <h3
-                    className="font-heading font-normal mb-4"
-                    style={{
-                      fontSize: "25px",
-                      lineHeight: "1.4em",
-                      color: "rgb(255, 255, 255)",
-                      fontWeight: "600",
-                    }}
-                  >
-                    {t("ourStory.why")}
-                  </h3>
-                  <p
-                    className="font-body"
-                    style={{
-                      fontSize: "17px",
-                      lineHeight: "1.5em",
-                      color: "rgb(255, 255, 255)",
-                    }}
-                  >
-                    {t("ourStory.whyText")}
-                  </p>
-                </>
-              )}
+              <p
+                className="font-body"
+                style={{
+                  fontSize: "17px",
+                  lineHeight: "1.5em",
+                  color: "rgb(255, 255, 255)",
+                }}
+              >
+                {t("ourStory.whyText")}
+              </p>
             </div>
           </div>
         </div>
@@ -375,19 +360,7 @@ export default function Home() {
           >
             {t("followUs.title")}
           </h2>
-          {/* Behold Widget */}
-          <div
-            className="max-w-[900px] mx-auto mb-8"
-            dangerouslySetInnerHTML={{
-              __html:
-                '<behold-widget feed-id="pZFcMAVkXGWFGApu2F2C"></behold-widget>',
-            }}
-          />
-          <Script
-            src="https://w.behold.so/widget.js"
-            type="module"
-            strategy="lazyOnload"
-          />
+          <InstagramFeed />
           <a
             href="https://instagram.com/adamasoaps"
             target="_blank"

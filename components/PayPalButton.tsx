@@ -47,7 +47,7 @@ export default function PayPalButton({ buttonId }: PayPalButtonProps) {
 
     // Load PayPal SDK
     const script = document.createElement("script");
-    script.src = `https://www.paypal.com/sdk/js?client-id=${clientId}&components=hosted-buttons&disable-funding=venmo&currency=EUR`;
+    script.src = `https://www.paypal.com/sdk/js?client-id=${clientId}&components=hosted-buttons&disable-funding=venmo,card,credit&currency=EUR`;
     script.async = true;
 
     script.onload = renderButton;
@@ -61,6 +61,36 @@ export default function PayPalButton({ buttonId }: PayPalButtonProps) {
         window.paypal
           .HostedButtons({ hostedButtonId: buttonId })
           .render(`#${containerId}`)
+          .then(() => {
+            try {
+              const container = document.getElementById(containerId);
+              if (!container) return;
+              const hideWidgetElements = () => {
+                try {
+                  container.querySelectorAll("*").forEach((el) => {
+                    const htmlEl = el as HTMLElement;
+                    if (htmlEl.innerText?.toLowerCase().includes("adamasoap")) {
+                      htmlEl.style.display = "none";
+                    }
+                  });
+                  container
+                    .querySelectorAll(
+                      ".paypal-powered-by, [class*='price'], [class*='amount']",
+                    )
+                    .forEach((el) => {
+                      (el as HTMLElement).style.display = "none";
+                    });
+                } catch {
+                  // Cross-origin iframe access will fail silently
+                }
+              };
+              hideWidgetElements();
+              const observer = new MutationObserver(hideWidgetElements);
+              observer.observe(container, { childList: true, subtree: true });
+            } catch {
+              // Ignore observer setup errors
+            }
+          })
           .catch(() => setError("Failed to render PayPal button"));
       }
     }
