@@ -5,7 +5,7 @@
     "shopTitle": "Shop - Handgemachte Vegane Kaffeeseife | Adama Soaps",
     "shopDescription": "Entdecken Sie unsere handgemachten veganen Kaffeeseifen. Jedes Stück wird kalt gerührt mit recyceltem Kaffeesatz aus Münchner Cafés. Plastikfrei und nachhaltig.",
     "aboutTitle": "Über Adama Soaps - Handgemachte Vegane Kaffeeseife aus München",
-    "aboutDescription": "Erfahren Sie die Geschichte hinter Adama Soaps — handgemachte vegane Kaffeeseife aus recyceltem Kaffeesatz in München. Nachhaltig, plastikfrei, Zero Waste."
+    "aboutDescription": "Erfahren Sie die Geschichte hinter Adama Soaps - handgemachte vegane Kaffeeseife aus recyceltem Kaffeesatz in München. Nachhaltig, plastikfrei, Zero Waste."
   },
   "navigation": {
     "home": "Startseite",
@@ -17,7 +17,7 @@
   },
   "hero": {
     "title": "Handgemachte Vegane Kaffeeseife aus München",
-    "description": "Entdecken Sie unsere handgemachte Seife aus München — kaltgerührte vegane Seife aus recyceltem Kaffeesatz lokaler Cafés.\n\nJedes Stück ist ein natürliches Körperpeeling, das die Haut sanft peelt und gleichzeitig mit reichhaltigen Pflanzenölen nährt. Der fein gemahlene Upcycling-Kaffee entfernt abgestorbene Hautzellen und regt die Durchblutung an.\n\nSheabutter unterstützt und schützt die Hautbarriere, Kokosöl reinigt sanft mit einem cremigen Schaum, Olivenöl macht die Haut weich und geschmeidig, und Rizinusöl sorgt für ein seidiges Finish.\n\nPlastikfrei, Zero Waste, frei von Mikroplastik — diese nachhaltige Seife aus Deutschland verwandelt Café-Abfall in Wohlbefinden. Ein tägliches Ritual, das gut für Ihre Haut und den Planeten ist."
+    "description": "Entdecken Sie unsere handgemachte Seife aus München - kaltgerührte vegane Seife aus recyceltem Kaffeesatz lokaler Cafés.\n\nJedes Stück ist ein natürliches Körperpeeling, das die Haut sanft peelt und gleichzeitig mit reichhaltigen Pflanzenölen nährt. Der fein gemahlene Upcycling-Kaffee entfernt abgestorbene Hautzellen und regt die Durchblutung an.\n\nSheabutter unterstützt und schützt die Hautbarriere, Kokosöl reinigt sanft mit einem cremigen Schaum, Olivenöl macht die Haut weich und geschmeidig, und Rizinusöl sorgt für ein seidiges Finish.\n\nPlastikfrei, Zero Waste, frei von Mikroplastik - diese nachhaltige Seife aus Deutschland verwandelt Café-Abfall in Wohlbefinden. Ein tägliches Ritual, das gut für Ihre Haut und den Planeten ist."
   },
   "shop": {
     "title": "Shop",
@@ -35,7 +35,7 @@
     "whyText": ""
   },
   "cafePartners": {
-    "title": "Wir verwandeln ihren Kaffeeabfall in Seifen — Sie finden Adama in diesen Cafés.",
+    "title": "Wir verwandeln ihren Kaffeeabfall in Seifen - Sie finden Adama in diesen Cafés.",
     "onlineShop": "Online-Shop",
     "cooperationText": "Zusammenarbeit mit einem lokalen Café, um deren Kaffeeabfall in Seifen zu verwandeln"
   },
@@ -53,8 +53,8 @@
   },
   "products": {
     "calm": {
-      "name": "Ruhe",
-      "description": "Ruhe ist Ihr Moment der Pause.\n\nDer sanfte, blumige Duft von Lavendel umhüllt Ihre Sinne, hilft den Geist zu verlangsamen und das Nervensystem zu entspannen. Bekannt für seine ausgleichenden und beruhigenden Eigenschaften, unterstützt Lavendel tiefe Entspannung und macht diese Seife perfekt für abendliche Duschen oder Momente, in denen Sie abschalten möchten.\n\nKombiniert mit der natürlichen Peeling-Kraft von recyceltem Kaffeesatz und nährenden Pflanzenölen, hinterlässt Ruhe Ihre Haut glatt, gepflegt und Ihren Körper sanft geerdet.\n\nEin ruhiges Ritual. Ein tiefer Atemzug. Ein Gefühl der Leichtigkeit.",
+      "name": "Calm",
+      "description": "Calm ist Ihr Moment der Pause.\n\nDer sanfte, blumige Duft von Lavendel umhüllt Ihre Sinne, hilft den Geist zu verlangsamen und das Nervensystem zu entspannen. Bekannt für seine ausgleichenden und beruhigenden Eigenschaften, unterstützt Lavendel tiefe Entspannung und macht diese Seife perfekt für abendliche Duschen oder Momente, in denen Sie abschalten möchten.\n\nKombiniert mit der natürlichen Peeling-Kraft von recyceltem Kaffeesatz und nährenden Pflanzenölen, hinterlässt Calm Ihre Haut glatt, gepflegt und Ihren Körper sanft geerdet.\n\nEin ruhiges Ritual. Ein tiefer Atemzug. Ein Gefühl der Leichtigkeit.",
       "ingredients": [
         "Olea Europaea Fruit Oil (Olivenöl)",
         "Cocos Nucifera Oil (Kokosöl)",
@@ -69,8 +69,8 @@
       ]
     },
     "sunny-sage": {
-      "name": "Sonniger Salbei",
-      "description": "Sonniger Salbei ist Klarheit mit einem Lächeln.\n\nKräuteriger, erdiger Salbei trifft auf die helle, belebende Frische von Orange — ein Duft, der sich gleichzeitig reinigend und energetisierend anfühlt. Salbei ist traditionell für seine reinigenden und klärenden Eigenschaften bekannt, während ätherisches Orangenöl Wärme, Leichtigkeit und einen natürlichen Stimmungsschub bringt.\n\nDiese Kombination macht Sonniger Salbei zum perfekten Begleiter für morgendliche Duschen oder Momente, in denen Sie sich zurücksetzen, aufladen und von Kopf bis Fuß erfrischt fühlen möchten.\n\nEin subtiler Funke Sonnenschein auf Ihrer Haut.",
+      "name": "Sunny Sage",
+      "description": "Sunny Sage ist Klarheit mit einem Lächeln.\n\nKräuteriger, erdiger Salbei trifft auf die helle, belebende Frische von Orange - ein Duft, der sich gleichzeitig reinigend und energetisierend anfühlt. Salbei ist traditionell für seine reinigenden und klärenden Eigenschaften bekannt, während ätherisches Orangenöl Wärme, Leichtigkeit und einen natürlichen Stimmungsschub bringt.\n\nDiese Kombination macht Sunny Sage zum perfekten Begleiter für morgendliche Duschen oder Momente, in denen Sie sich zurücksetzen, aufladen und von Kopf bis Fuß erfrischt fühlen möchten.\n\nEin subtiler Funke Sonnenschein auf Ihrer Haut.",
       "ingredients": [
         "Olea Europaea Fruit Oil (Olivenöl)",
         "Cocos Nucifera Oil (Kokosöl)",

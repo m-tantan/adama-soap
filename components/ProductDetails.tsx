@@ -164,6 +164,13 @@ export default function ProductDetails({ product }: { product: Product }) {
             )}
           </div>
 
+          {/* PayPal Button */}
+          {paypalButtonId && (
+            <div className="mb-6">
+              <PayPalButton buttonId={paypalButtonId} />
+            </div>
+          )}
+
           {/* Tabs */}
           <div className="mb-6">
             <div
@@ -263,13 +270,6 @@ export default function ProductDetails({ product }: { product: Product }) {
               </div>
             )}
           </div>
-
-          {/* PayPal Button */}
-          {paypalButtonId && (
-            <div className="mb-6">
-              <PayPalButton buttonId={paypalButtonId} />
-            </div>
-          )}
 
           <div
             className="mt-6 p-6"

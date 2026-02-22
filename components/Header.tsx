@@ -101,7 +101,7 @@ export default function Header() {
             style={{ flex: "0 0 auto", margin: "0 60px" }}
           >
             <Image
-              src={withBasePath("/images/logo.png")}
+              src={withBasePath("/adama-svg-logo.svg")}
               alt="Adama - Handmade Vegan Coffee Soap from Munich"
               width={130}
               height={75}
@@ -151,7 +151,7 @@ export default function Header() {
             className="transition-opacity duration-300 hover:opacity-80"
           >
             <Image
-              src={withBasePath("/images/logo.png")}
+              src={withBasePath("/adama-svg-logo.svg")}
               alt="Adama - Handmade Vegan Coffee Soap from Munich"
               width={155}
               height={95}
