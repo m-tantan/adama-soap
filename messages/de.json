@@ -36,8 +36,13 @@
   },
   "cafePartners": {
     "title": "Wir verwandeln ihren Kaffeeabfall in Seifen - Sie finden Adama in diesen Cafés.",
+    "ourPartners": "Unsere Partner",
     "onlineShop": "Online-Shop",
-    "cooperationText": "Zusammenarbeit mit einem lokalen Café, um deren Kaffeeabfall in Seifen zu verwandeln"
+    "cooperationText": "Zusammenarbeit mit einem lokalen Café, um deren Kaffeeabfall in Seifen zu verwandeln",
+    "joinTitle": "Ihr Café hier?",
+    "joinText": "Werden Sie Partner und verwandeln Sie Ihren Kaffeesatz in etwas Schönes.",
+    "sustainabilityPartners": "Nachhaltigkeitspartner",
+    "sustainabilityTitle": "Adama finden Sie auch in diesen umweltfreundlichen Geschäften."
   },
   "followUs": {
     "title": "Folgen Sie uns"

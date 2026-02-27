@@ -37,7 +37,7 @@ export default function Header() {
         `}</style>
         <div
           className="desktop-nav flex justify-between items-center"
-          style={{ height: "80px" }}
+          style={{ height: "100px" }}
         >
           {/* Left Nav */}
           <div className="flex" style={{ gap: "32px", flex: "1" }}>
@@ -103,9 +103,9 @@ export default function Header() {
             <Image
               src={withBasePath("/adama-svg-logo.svg")}
               alt="Adama - Handmade Vegan Coffee Soap from Munich"
-              width={130}
-              height={75}
-              className="h-[75px] w-auto"
+              width={200}
+              height={95}
+              className="h-[95px] w-auto"
               priority
             />
           </Link>

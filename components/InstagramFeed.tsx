@@ -197,7 +197,7 @@ export default function InstagramFeed({
             rel="noopener noreferrer"
             className="group block"
           >
-            <div className="relative aspect-square overflow-hidden rounded-lg mb-3 bg-white/5">
+            <div className="relative aspect-square overflow-hidden rounded-lg bg-white/5">
               <Image
                 src={post.mediaUrl}
                 alt={getFirstSentence(post.caption) || "Instagram post"}
@@ -207,19 +207,6 @@ export default function InstagramFeed({
                 unoptimized
               />
             </div>
-            {post.caption && (
-              <p
-                className="font-body text-center"
-                style={{
-                  fontSize: "14px",
-                  lineHeight: "1.5em",
-                  color: "rgb(255, 255, 255)",
-                  opacity: 0.9,
-                }}
-              >
-                {getFirstSentence(post.caption)}
-              </p>
-            )}
           </a>
         ))}
       </div>

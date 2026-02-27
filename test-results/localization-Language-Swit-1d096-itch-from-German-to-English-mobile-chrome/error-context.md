@@ -1,0 +1,142 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - navigation [ref=e3]:
+      - generic [ref=e4]:
+        - link "Adama - Handmade Vegan Coffee Soap from Munich" [ref=e5] [cursor=pointer]:
+          - /url: /de/
+          - img "Adama - Handmade Vegan Coffee Soap from Munich" [ref=e6]
+        - button "☰" [ref=e7]
+  - main [ref=e8]:
+    - generic [ref=e10]:
+      - generic [ref=e11]:
+        - heading "Shop" [level=2] [ref=e12]
+        - link "Shop entdecken" [ref=e13] [cursor=pointer]:
+          - /url: /de/shop/
+      - generic [ref=e14]:
+        - button "‹" [ref=e15] [cursor=pointer]
+        - button "›" [ref=e16] [cursor=pointer]
+        - generic [ref=e17]:
+          - link "Calm - handmade vegan coffee soap with recycled coffee grounds from Munich Calm Preis €8.50" [ref=e18] [cursor=pointer]:
+            - /url: /de/shop/calm/
+            - generic [ref=e19]:
+              - img "Calm - handmade vegan coffee soap with recycled coffee grounds from Munich" [ref=e21]
+              - generic [ref=e22]:
+                - heading "Calm" [level=3] [ref=e23]
+                - generic [ref=e25]:
+                  - text: Preis
+                  - generic [ref=e26]: €8.50
+          - link "Sunny Sage - handmade vegan coffee soap with recycled coffee grounds from Munich Sunny Sage Preis €8.50" [ref=e27] [cursor=pointer]:
+            - /url: /de/shop/sunny-sage/
+            - generic [ref=e28]:
+              - img "Sunny Sage - handmade vegan coffee soap with recycled coffee grounds from Munich" [ref=e30]
+              - generic [ref=e31]:
+                - heading "Sunny Sage" [level=3] [ref=e32]
+                - generic [ref=e34]:
+                  - text: Preis
+                  - generic [ref=e35]: €8.50
+    - generic [ref=e36]:
+      - img "Handmade vegan coffee soap with recycled coffee grounds from Munich" [ref=e38]
+      - generic [ref=e39]:
+        - heading "Handgemachte Vegane Kaffeeseife aus München" [level=1] [ref=e40]
+        - paragraph [ref=e41]: Entdecken Sie unsere handgemachte Seife aus München - kaltgerührte vegane Seife aus recyceltem Kaffeesatz lokaler Cafés. Jedes Stück ist ein natürliches Körperpeeling, das die Haut sanft peelt und gleichzeitig mit reichhaltigen Pflanzenölen nährt. Der fein gemahlene Upcycling-Kaffee entfernt abgestorbene Hautzellen und regt die Durchblutung an. Sheabutter unterstützt und schützt die Hautbarriere, Kokosöl reinigt sanft mit einem cremigen Schaum, Olivenöl macht die Haut weich und geschmeidig, und Rizinusöl sorgt für ein seidiges Finish. Plastikfrei, Zero Waste, frei von Mikroplastik - diese nachhaltige Seife aus Deutschland verwandelt Café-Abfall in Wohlbefinden. Ein tägliches Ritual, das gut für Ihre Haut und den Planeten ist.
+    - generic [ref=e43]:
+      - paragraph [ref=e44]: Unsere Partner
+      - heading "Wir verwandeln ihren Kaffeeabfall in Seifen - Sie finden Adama in diesen Cafés." [level=2] [ref=e45]
+      - generic [ref=e46]:
+        - link "Stray Coffee Roasters 📍 Gollierstraße 30, 80339 München stray.coffee →" [ref=e47] [cursor=pointer]:
+          - /url: http://www.stray.coffee/
+          - generic [ref=e48]:
+            - heading "Stray Coffee Roasters" [level=3] [ref=e49]
+            - paragraph [ref=e50]: 📍 Gollierstraße 30, 80339 München
+            - generic [ref=e51]:
+              - generic [ref=e52]: stray.coffee
+              - generic [ref=e53]: →
+        - link "Cafe Faber 📍 Zeppelinstraße 5, 81541 München @cafefaber_ →" [ref=e54] [cursor=pointer]:
+          - /url: https://www.instagram.com/cafefaber_/
+          - generic [ref=e55]:
+            - heading "Cafe Faber" [level=3] [ref=e56]
+            - paragraph [ref=e57]: 📍 Zeppelinstraße 5, 81541 München
+            - generic [ref=e58]:
+              - generic [ref=e59]: "@cafefaber_"
+              - generic [ref=e60]: →
+        - link "Poppi Farmer 📍 St.-Bonifatius-Str. 1, 81541 München poppifarmer.de →" [ref=e61] [cursor=pointer]:
+          - /url: https://www.poppifarmer.de/
+          - generic [ref=e62]:
+            - heading "Poppi Farmer" [level=3] [ref=e63]
+            - paragraph [ref=e64]: 📍 St.-Bonifatius-Str. 1, 81541 München
+            - generic [ref=e65]:
+              - generic [ref=e66]: poppifarmer.de
+              - generic [ref=e67]: →
+        - generic [ref=e69]:
+          - generic [ref=e71]: +
+          - heading "Ihr Café hier?" [level=3] [ref=e72]
+          - paragraph [ref=e73]: Werden Sie Partner und verwandeln Sie Ihren Kaffeesatz in etwas Schönes.
+          - link "+49 171 579 8625" [ref=e74] [cursor=pointer]:
+            - /url: tel:+491715798625
+            - generic [ref=e75]: +49 171 579 8625
+      - generic [ref=e76]:
+        - paragraph [ref=e77]: Nachhaltigkeitspartner
+        - heading "Adama finden Sie auch in diesen umweltfreundlichen Geschäften." [level=2] [ref=e78]
+        - link "abgefüllt & unverpackt 📍 Fraunhoferstraße 23, 80469 München aundu.net →" [ref=e81] [cursor=pointer]:
+          - /url: https://www.aundu.net/
+          - generic [ref=e82]:
+            - heading "abgefüllt & unverpackt" [level=3] [ref=e83]
+            - paragraph [ref=e84]: 📍 Fraunhoferstraße 23, 80469 München
+            - generic [ref=e85]:
+              - generic [ref=e86]: aundu.net
+              - generic [ref=e87]: →
+    - generic [ref=e90]:
+      - img "Denis and Yoav, founders of Adama Soaps - handmade vegan coffee soap from Munich" [ref=e92]
+      - generic [ref=e93]:
+        - heading "Unsere Geschichte" [level=2] [ref=e94]
+        - heading "Wer wir sind" [level=3] [ref=e95]
+        - paragraph [ref=e96]: Wir sind Denise und Yoav von Adama und wir sind stolz darauf, rein natürliche und umweltfreundliche Seifen aus recyceltem Kaffeesatz herzustellen. Unser Fokus liegt auf Einfachheit, Ehrlichkeit und Nachhaltigkeit, mit dem Ziel, Abfall zu reduzieren und gleichzeitig hochwertige Produkte zu liefern, die deine Haut pflegen.
+        - heading "Unsere Mission" [level=3] [ref=e97]
+        - paragraph [ref=e98]: Wir streben danach, Nachhaltigkeit durch unsere handgemachten Kaffeeseifen zu fördern. Unser Engagement für die Umwelt bestimmt jeden Schritt unseres Prozesses, von der Beschaffung der Materialien bis zur Verpackung, damit unsere Seife einen gesunden Planeten unterstützt.
+        - paragraph
+    - generic [ref=e100]:
+      - heading "Folgen Sie uns" [level=2] [ref=e101]
+      - generic [ref=e102]:
+        - button "Previous posts" [ref=e103] [cursor=pointer]: ‹
+        - generic [ref=e104]:
+          - link "CALM - Lavender" [ref=e105] [cursor=pointer]:
+            - /url: https://www.instagram.com/p/DUbRjNIjDiK/
+            - img "CALM - Lavender" [ref=e107]
+          - link "Crafted from recycled coffee grounds, this natural body scrub soap gently exfoliates the skin while deeply nourishing..." [ref=e108] [cursor=pointer]:
+            - /url: https://www.instagram.com/p/DUGCPArjI-R/
+            - img "Crafted from recycled coffee grounds, this natural body scrub soap gently exfoliates the skin while deeply nourishing..." [ref=e110]
+          - link "Now also available in a zero-waste space we truly love!" [ref=e111] [cursor=pointer]:
+            - /url: https://www.instagram.com/p/DVDuciVDGbW/
+            - img "Now also available in a zero-waste space we truly love!" [ref=e113]
+        - button "Next posts" [ref=e114] [cursor=pointer]: ›
+  - contentinfo [ref=e115]:
+    - generic [ref=e117]:
+      - generic [ref=e118]:
+        - heading "Adama Soaps" [level=3] [ref=e119]
+        - link "Instagram" [ref=e121] [cursor=pointer]:
+          - /url: https://instagram.com/adamasoaps
+          - img [ref=e122]
+      - generic [ref=e124]:
+        - heading "Kontakt" [level=4] [ref=e125]
+        - generic [ref=e126]:
+          - paragraph [ref=e127]: "+491715798625"
+          - paragraph [ref=e128]: Adamasoaps@gmail.com
+          - paragraph [ref=e129]: Holzstr.11 2/a,
+          - paragraph [ref=e130]: 80469 Munich
+          - paragraph [ref=e131]: Germany
+  - generic [ref=e137] [cursor=pointer]:
+    - button "Open Next.js Dev Tools" [ref=e138]:
+      - img [ref=e139]
+    - generic [ref=e142]:
+      - button "Open issues overlay" [ref=e143]:
+        - generic [ref=e144]:
+          - generic [ref=e145]: "0"
+          - generic [ref=e146]: "1"
+        - generic [ref=e147]: Issue
+      - button "Collapse issues badge" [ref=e148]:
+        - img [ref=e149]
+  - alert [ref=e151]
+```

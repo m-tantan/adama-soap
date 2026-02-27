@@ -75,7 +75,7 @@ export default function PayPalButton({ buttonId }: PayPalButtonProps) {
                   });
                   container
                     .querySelectorAll(
-                      ".paypal-powered-by, [class*='price'], [class*='amount']",
+                      ".paypal-powered-by, [class*='price'], [class*='amount'], [id^='form-container'] > h3 > span",
                     )
                     .forEach((el) => {
                       (el as HTMLElement).style.display = "none";

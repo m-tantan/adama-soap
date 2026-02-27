@@ -1,0 +1,53 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - navigation [ref=e3]:
+      - generic [ref=e4]:
+        - generic [ref=e5]:
+          - link "Home" [ref=e6] [cursor=pointer]:
+            - /url: /en/
+          - link "About" [ref=e7] [cursor=pointer]:
+            - /url: /en/about/
+          - link "Instagram" [ref=e8] [cursor=pointer]:
+            - /url: https://instagram.com/adamasoaps
+        - link "Adama - Handmade Vegan Coffee Soap from Munich" [ref=e9] [cursor=pointer]:
+          - /url: /en/
+          - img "Adama - Handmade Vegan Coffee Soap from Munich" [ref=e10]
+        - combobox [ref=e12] [cursor=pointer]:
+          - option "English" [selected]
+          - option "Deutsch"
+  - main [ref=e13]:
+    - generic [ref=e14]:
+      - heading "Our Soaps" [level=1] [ref=e15]
+      - generic [ref=e16]:
+        - link "Calm - handmade vegan coffee soap with recycled coffee grounds from Munich Calm €8.50" [ref=e17] [cursor=pointer]:
+          - /url: /en/shop/calm/
+          - img "Calm - handmade vegan coffee soap with recycled coffee grounds from Munich" [ref=e19]
+          - heading "Calm" [level=3] [ref=e20]
+          - generic [ref=e22]: €8.50
+        - link "Sunny Sage - handmade vegan coffee soap with recycled coffee grounds from Munich Sunny Sage €8.50" [ref=e23] [cursor=pointer]:
+          - /url: /en/shop/sunny-sage/
+          - img "Sunny Sage - handmade vegan coffee soap with recycled coffee grounds from Munich" [ref=e25]
+          - heading "Sunny Sage" [level=3] [ref=e26]
+          - generic [ref=e28]: €8.50
+  - contentinfo [ref=e29]:
+    - generic [ref=e31]:
+      - generic [ref=e32]:
+        - heading "Adama Soaps" [level=3] [ref=e33]
+        - link "Instagram" [ref=e35] [cursor=pointer]:
+          - /url: https://instagram.com/adamasoaps
+          - img [ref=e36]
+      - generic [ref=e38]:
+        - heading "Contact" [level=4] [ref=e39]
+        - generic [ref=e40]:
+          - paragraph [ref=e41]: "+491715798625"
+          - paragraph [ref=e42]: Adamasoaps@gmail.com
+          - paragraph [ref=e43]: Holzstr.11 2/a,
+          - paragraph [ref=e44]: 80469 Munich
+          - paragraph [ref=e45]: Germany
+  - button "Open Next.js Dev Tools" [ref=e52] [cursor=pointer]:
+    - img [ref=e53]
+  - alert [ref=e56]
+```

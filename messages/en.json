@@ -32,12 +32,17 @@
     "ourMission": "Our Mission",
     "ourMissionText": "We strive to promote sustainability through our cold-process handcrafted coffee soaps and show how upcycled coffee grounds create an exceptional natural skincare ingredient.",
     "why": "",
-    "whyText": "Our commitment to the environment guides every step — from collecting coffee grounds at Munich cafés to our zero waste, plastic-free packaging. Every bar of sustainable soap you choose supports a healthier planet."
+    "whyText": "Our commitment to the environment guides every step - from collecting coffee grounds at Munich cafés to our zero waste, plastic-free packaging. Every bar of sustainable soap you choose supports a healthier planet."
   },
   "cafePartners": {
     "title": "We turn their coffee waste into soaps - you'll find Adama available in these cafés.",
+    "ourPartners": "Our Partners",
     "onlineShop": "Online Shop",
-    "cooperationText": "Cooperation with a local cafe, turning their Coffee waste into soaps"
+    "cooperationText": "Cooperation with a local cafe, turning their Coffee waste into soaps",
+    "joinTitle": "Your café here?",
+    "joinText": "Partner with us and turn your coffee waste into something beautiful.",
+    "sustainabilityPartners": "Sustainability Partners",
+    "sustainabilityTitle": "You can also find Adama at these eco-friendly stores."
   },
   "followUs": {
     "title": "Follow Us"

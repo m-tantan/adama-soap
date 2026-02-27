@@ -1,0 +1,53 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - navigation [ref=e3]:
+      - generic [ref=e4]:
+        - link "Adama - Handmade Vegan Coffee Soap from Munich" [ref=e5] [cursor=pointer]:
+          - /url: /de/
+          - img "Adama - Handmade Vegan Coffee Soap from Munich" [ref=e6]
+        - button "☰" [ref=e7]
+  - main [ref=e8]:
+    - generic [ref=e9]:
+      - heading "Unsere Geschichte" [level=1] [ref=e10]
+      - generic [ref=e11]:
+        - img "Denis and Yoav making handmade vegan coffee soap from recycled coffee grounds in Munich" [ref=e13]
+        - generic [ref=e14]:
+          - paragraph [ref=e15]: "Alles begann, als mein Freund sagte: \"Schatz wir sollten Seife machen!\" Ich dachte er macht sich über unsere Beziehung lustig, aber nein, er meinte echte Seife."
+          - paragraph [ref=e16]: Bewaffnet mit nichts als recyceltem Kaffeesatz (denn anscheinend ist es ein Trennungsgrund, den wegzuwerfen) und einer Menge an YouTube-Tutorials begannen wir unsere schaumige Reise.
+          - paragraph [ref=e17]: Die erste Charge? Sie war ein totaler Reinfall. Die zweite Charge? Ein weiterer Fehlschlag. Aber bei der dritten Charge hatten wir den Dreh raus und dann ging es richtig ab!
+          - paragraph [ref=e18]: Jetzt machen wir all unsere Seifen in liebevoller Handarbeit mit den besten natürlichen Zutaten.
+          - paragraph [ref=e19]: P.S. Mein Freund besteht darauf, dass ich erwähne, dass ich 90% der eigentlichen Arbeit mache. Er bietet moralische Unterstützung und schreckliche Witze. Sauber Arbeitsteilung also.
+      - generic [ref=e20]:
+        - heading "Warum Kaffeesatz?" [level=2] [ref=e21]
+        - paragraph [ref=e22]: Weil wir Recycling-Champions sind und weil Kaffeesatz das beste natürliche Peeling ist. Außerdem gibt es uns eine Ausrede, während der "Forschungsphase" mehr Kaffee zu trinken. Win-win! ☕
+  - contentinfo [ref=e23]:
+    - generic [ref=e25]:
+      - generic [ref=e26]:
+        - heading "Adama Soaps" [level=3] [ref=e27]
+        - link "Instagram" [ref=e29] [cursor=pointer]:
+          - /url: https://instagram.com/adamasoaps
+          - img [ref=e30]
+      - generic [ref=e32]:
+        - heading "Kontakt" [level=4] [ref=e33]
+        - generic [ref=e34]:
+          - paragraph [ref=e35]: "+491715798625"
+          - paragraph [ref=e36]: Adamasoaps@gmail.com
+          - paragraph [ref=e37]: Holzstr.11 2/a,
+          - paragraph [ref=e38]: 80469 Munich
+          - paragraph [ref=e39]: Germany
+  - generic [ref=e45] [cursor=pointer]:
+    - button "Open Next.js Dev Tools" [ref=e46]:
+      - img [ref=e47]
+    - generic [ref=e50]:
+      - button "Open issues overlay" [ref=e51]:
+        - generic [ref=e52]:
+          - generic [ref=e53]: "0"
+          - generic [ref=e54]: "1"
+        - generic [ref=e55]: Issue
+      - button "Collapse issues badge" [ref=e56]:
+        - img [ref=e57]
+  - alert [ref=e59]
+```
