@@ -45,7 +45,7 @@ function PartnerCard({ partner }: { partner: Partner }) {
       href={partner.href}
       target="_blank"
       rel="noopener noreferrer"
-      className="group relative overflow-hidden rounded-2xl transition-all duration-300 hover:-translate-y-1"
+      className="block group relative overflow-hidden rounded-2xl transition-all duration-300 hover:-translate-y-1"
       style={{
         background: "linear-gradient(145deg, rgba(255,255,255,0.08), rgba(255,255,255,0.02))",
         border: "1px solid rgba(255,255,255,0.08)",
@@ -108,7 +108,7 @@ export default function CafePartners() {
           {t("cafePartners.title")}
         </h2>
 
-        <div className="grid grid-cols-2 md:grid-cols-5 gap-5">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-5">
           {cafePartners.map((partner) => (
             <PartnerCard key={partner.name} partner={partner} />
           ))}
@@ -167,12 +167,12 @@ export default function CafePartners() {
             ♻️ {t("cafePartners.sustainabilityPartners")}
           </p>
           <h2
-            className="font-title font-bold text-center mb-14"
+            className="font-heading text-center mb-10"
             style={{
-              fontSize: "36px",
-              lineHeight: "1.3em",
-              color: "#FFFFFF",
-              letterSpacing: "-0.01em",
+              fontSize: "24px",
+              lineHeight: "1.4em",
+              color: "rgb(207, 203, 192)",
+              letterSpacing: "0",
             }}
           >
             {t("cafePartners.sustainabilityTitle")}
