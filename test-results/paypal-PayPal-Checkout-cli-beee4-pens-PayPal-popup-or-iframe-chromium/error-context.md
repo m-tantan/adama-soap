@@ -1,0 +1,85 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - banner [ref=e2]:
+    - navigation [ref=e3]:
+      - generic [ref=e4]:
+        - generic [ref=e5]:
+          - link "Home" [ref=e6] [cursor=pointer]:
+            - /url: /en/
+          - link "About" [ref=e7] [cursor=pointer]:
+            - /url: /en/about/
+          - link "Instagram" [ref=e8] [cursor=pointer]:
+            - /url: https://instagram.com/adamasoaps
+        - link "Adama - Handmade Vegan Coffee Soap from Munich" [ref=e9] [cursor=pointer]:
+          - /url: /en/
+          - img "Adama - Handmade Vegan Coffee Soap from Munich" [ref=e10]
+        - combobox [ref=e12] [cursor=pointer]:
+          - option "English" [selected]
+          - option "Deutsch"
+  - main [ref=e13]:
+    - generic [ref=e15]:
+      - generic [ref=e16]:
+        - img "Calm - handmade vegan coffee soap made with recycled coffee grounds in Munich" [ref=e18]
+        - generic [ref=e19]:
+          - button "Calm handmade vegan coffee soap - view 1" [ref=e20]:
+            - img "Calm handmade vegan coffee soap - view 1" [ref=e21]
+          - button "Calm handmade vegan coffee soap - view 2" [ref=e22]:
+            - img "Calm handmade vegan coffee soap - view 2" [ref=e23]
+          - button "Calm handmade vegan coffee soap - view 3" [ref=e24]:
+            - img "Calm handmade vegan coffee soap - view 3" [ref=e25]
+      - generic [ref=e26]:
+        - heading "Calm" [level=1] [ref=e27]
+        - generic [ref=e29]: €8.50
+        - generic [ref=e35]:
+          - heading "Adama Soap - Calm" [level=3] [ref=e36]:
+            - generic [ref=e37]: Adama Soap - Calm
+          - generic [ref=e38]:
+            - generic [ref=e39]: Quantity
+            - combobox "Quantity" [ref=e41] [cursor=pointer]:
+              - option "1" [selected]
+              - option "2"
+              - option "3"
+            - generic [ref=e42]:
+              - iframe [active] [ref=e45]:
+                - generic "PayPal" [ref=f1e2]:
+                  - link "PayPal" [ref=f1e5] [cursor=pointer]
+              - button "Checkout" [ref=e46] [cursor=pointer]
+            - img "card icons" [ref=e47]
+        - generic [ref=e49]:
+          - button "Description" [ref=e50] [cursor=pointer]
+          - button "Ingredients" [ref=e51] [cursor=pointer]
+        - generic [ref=e53]: Calm is your moment of pause. The soft, floral scent of lavender gently wraps around your senses, helping to slow down the mind and relax the nervous system. Known for its balancing and calming properties, lavender supports deep relaxation and makes this soap perfect for evening showers or moments when you want to unwind. Combined with the natural exfoliating power of recycled coffee grounds and nourishing plant oils, Calm leaves your skin smooth, cared for and your body gently grounded. A quiet ritual. A deep breath. A sense of ease.
+        - generic [ref=e54]:
+          - paragraph [ref=e55]: 🌱 Made with upcycled coffee grounds from Munich cafés
+          - paragraph [ref=e56]: ♻️ Vegan, plastic-free and zero waste
+          - paragraph [ref=e57]: 🇩🇪 Handmade cold-process soap from Munich, Germany
+  - contentinfo [ref=e58]:
+    - generic [ref=e60]:
+      - generic [ref=e61]:
+        - heading "Adama Soaps" [level=3] [ref=e62]
+        - link "Instagram" [ref=e64] [cursor=pointer]:
+          - /url: https://instagram.com/adamasoaps
+          - img [ref=e65]
+      - generic [ref=e67]:
+        - heading "Contact" [level=4] [ref=e68]
+        - generic [ref=e69]:
+          - paragraph [ref=e70]: "+491715798625"
+          - paragraph [ref=e71]: Adamasoaps@gmail.com
+          - paragraph [ref=e72]: Holzstr.11 2/a,
+          - paragraph [ref=e73]: 80469 Munich
+          - paragraph [ref=e74]: Germany
+  - generic [ref=e80] [cursor=pointer]:
+    - button "Open Next.js Dev Tools" [ref=e81]:
+      - img [ref=e82]
+    - generic [ref=e85]:
+      - button "Open issues overlay" [ref=e86]:
+        - generic [ref=e87]:
+          - generic [ref=e88]: "0"
+          - generic [ref=e89]: "1"
+        - generic [ref=e90]: Issue
+      - button "Collapse issues badge" [ref=e91]:
+        - img [ref=e92]
+  - alert [ref=e94]
+```

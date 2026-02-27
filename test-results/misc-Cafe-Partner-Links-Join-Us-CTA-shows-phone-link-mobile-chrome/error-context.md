@@ -1,0 +1,133 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - navigation [ref=e3]:
+      - generic [ref=e4]:
+        - link "Adama - Handmade Vegan Coffee Soap from Munich" [ref=e5] [cursor=pointer]:
+          - /url: /en/
+          - img "Adama - Handmade Vegan Coffee Soap from Munich" [ref=e6]
+        - button "☰" [ref=e7]
+  - main [ref=e8]:
+    - generic [ref=e10]:
+      - generic [ref=e11]:
+        - heading "Shop" [level=2] [ref=e12]
+        - link "Explore shop" [ref=e13] [cursor=pointer]:
+          - /url: /en/shop/
+      - generic [ref=e14]:
+        - button "‹" [ref=e15] [cursor=pointer]
+        - button "›" [ref=e16] [cursor=pointer]
+        - generic [ref=e17]:
+          - link "Calm - handmade vegan coffee soap with recycled coffee grounds from Munich Calm Price €8.50" [ref=e18] [cursor=pointer]:
+            - /url: /en/shop/calm/
+            - generic [ref=e19]:
+              - img "Calm - handmade vegan coffee soap with recycled coffee grounds from Munich" [ref=e21]
+              - generic [ref=e22]:
+                - heading "Calm" [level=3] [ref=e23]
+                - generic [ref=e25]:
+                  - text: Price
+                  - generic [ref=e26]: €8.50
+          - link "Sunny Sage - handmade vegan coffee soap with recycled coffee grounds from Munich Sunny Sage Price €8.50" [ref=e27] [cursor=pointer]:
+            - /url: /en/shop/sunny-sage/
+            - generic [ref=e28]:
+              - img "Sunny Sage - handmade vegan coffee soap with recycled coffee grounds from Munich" [ref=e30]
+              - generic [ref=e31]:
+                - heading "Sunny Sage" [level=3] [ref=e32]
+                - generic [ref=e34]:
+                  - text: Price
+                  - generic [ref=e35]: €8.50
+    - generic [ref=e36]:
+      - img "Handmade vegan coffee soap with recycled coffee grounds from Munich" [ref=e38]
+      - generic [ref=e39]:
+        - heading "Handmade Vegan Coffee Soap from Munich" [level=1] [ref=e40]
+        - paragraph [ref=e41]: Discover our handmade soap from Munich - cold-process vegan soap crafted with recycled coffee grounds from local cafés. Each bar is a natural body scrub that gently exfoliates the skin while deeply nourishing it with rich plant oils. The finely ground upcycled coffee removes dead skin cells and stimulates circulation, leaving your skin smooth, refreshed and alive. Shea butter supports and protects the skin barrier, coconut oil cleanses gently with a creamy lather, olive oil softens and conditions the skin, and castor oil adds an extra layer of care for a silky finish. Plastic-free, zero waste, and free from microplastics - this sustainable soap from Germany turns café waste into well-being. A daily ritual that's good for your skin and the planet.
+    - generic [ref=e43]:
+      - paragraph [ref=e44]: Our Partners
+      - heading "We turn their coffee waste into soaps - you'll find Adama available in these cafés." [level=2] [ref=e45]
+      - generic [ref=e46]:
+        - link "Stray Coffee Roasters 📍 Gollierstraße 30, 80339 München stray.coffee →" [ref=e47] [cursor=pointer]:
+          - /url: http://www.stray.coffee/
+          - generic [ref=e48]:
+            - heading "Stray Coffee Roasters" [level=3] [ref=e49]
+            - paragraph [ref=e50]: 📍 Gollierstraße 30, 80339 München
+            - generic [ref=e51]:
+              - generic [ref=e52]: stray.coffee
+              - generic [ref=e53]: →
+        - link "Cafe Faber 📍 Zeppelinstraße 5, 81541 München @cafefaber_ →" [ref=e54] [cursor=pointer]:
+          - /url: https://www.instagram.com/cafefaber_/
+          - generic [ref=e55]:
+            - heading "Cafe Faber" [level=3] [ref=e56]
+            - paragraph [ref=e57]: 📍 Zeppelinstraße 5, 81541 München
+            - generic [ref=e58]:
+              - generic [ref=e59]: "@cafefaber_"
+              - generic [ref=e60]: →
+        - link "Poppi Farmer 📍 St.-Bonifatius-Str. 1, 81541 München poppifarmer.de →" [ref=e61] [cursor=pointer]:
+          - /url: https://www.poppifarmer.de/
+          - generic [ref=e62]:
+            - heading "Poppi Farmer" [level=3] [ref=e63]
+            - paragraph [ref=e64]: 📍 St.-Bonifatius-Str. 1, 81541 München
+            - generic [ref=e65]:
+              - generic [ref=e66]: poppifarmer.de
+              - generic [ref=e67]: →
+        - generic [ref=e69]:
+          - generic [ref=e71]: +
+          - heading "Your café here?" [level=3] [ref=e72]
+          - paragraph [ref=e73]: Partner with us and turn your coffee waste into something beautiful.
+          - link "+49 171 579 8625" [ref=e74] [cursor=pointer]:
+            - /url: tel:+491715798625
+            - generic [ref=e75]: +49 171 579 8625
+      - generic [ref=e76]:
+        - paragraph [ref=e77]: Sustainability Partners
+        - heading "You can also find Adama at these eco-friendly stores." [level=2] [ref=e78]
+        - link "abgefüllt & unverpackt 📍 Fraunhoferstraße 23, 80469 München aundu.net →" [ref=e81] [cursor=pointer]:
+          - /url: https://www.aundu.net/
+          - generic [ref=e82]:
+            - heading "abgefüllt & unverpackt" [level=3] [ref=e83]
+            - paragraph [ref=e84]: 📍 Fraunhoferstraße 23, 80469 München
+            - generic [ref=e85]:
+              - generic [ref=e86]: aundu.net
+              - generic [ref=e87]: →
+    - generic [ref=e90]:
+      - img "Denis and Yoav, founders of Adama Soaps - handmade vegan coffee soap from Munich" [ref=e92]
+      - generic [ref=e93]:
+        - heading "Our Story" [level=2] [ref=e94]
+        - heading "Who We Are" [level=3] [ref=e95]
+        - paragraph [ref=e96]: At Adama Soaps, we make handmade vegan soap in Munich using recycled coffee grounds from local cafés. Our focus is on simplicity, honesty, and sustainability - reducing waste while delivering high-quality, plastic-free soap that nurtures your skin.
+        - heading "Our Mission" [level=3] [ref=e97]
+        - paragraph [ref=e98]: We strive to promote sustainability through our cold-process handcrafted coffee soaps and show how upcycled coffee grounds create an exceptional natural skincare ingredient.
+        - paragraph [ref=e99]: Our commitment to the environment guides every step - from collecting coffee grounds at Munich cafés to our zero waste, plastic-free packaging. Every bar of sustainable soap you choose supports a healthier planet.
+    - generic [ref=e101]:
+      - heading "Follow Us" [level=2] [ref=e102]
+      - generic [ref=e103]:
+        - button "Previous posts" [ref=e104] [cursor=pointer]: ‹
+        - generic [ref=e105]:
+          - link "We warmly welcome our new partner @cafefaber_" [ref=e106] [cursor=pointer]:
+            - /url: https://www.instagram.com/p/DU8DfgjjHiR/
+            - img "We warmly welcome our new partner @cafefaber_" [ref=e108]
+          - link "SUNNY SAGE - Orange & Sage" [ref=e109] [cursor=pointer]:
+            - /url: https://www.instagram.com/p/DUfl8GCDFIS/
+            - img "SUNNY SAGE - Orange & Sage" [ref=e111]
+          - link "CALM - Lavender" [ref=e112] [cursor=pointer]:
+            - /url: https://www.instagram.com/p/DUbRjNIjDiK/
+            - img "CALM - Lavender" [ref=e114]
+        - button "Next posts" [ref=e115] [cursor=pointer]: ›
+  - contentinfo [ref=e116]:
+    - generic [ref=e118]:
+      - generic [ref=e119]:
+        - heading "Adama Soaps" [level=3] [ref=e120]
+        - link "Instagram" [ref=e122] [cursor=pointer]:
+          - /url: https://instagram.com/adamasoaps
+          - img [ref=e123]
+      - generic [ref=e125]:
+        - heading "Contact" [level=4] [ref=e126]
+        - generic [ref=e127]:
+          - paragraph [ref=e128]: "+491715798625"
+          - paragraph [ref=e129]: Adamasoaps@gmail.com
+          - paragraph [ref=e130]: Holzstr.11 2/a,
+          - paragraph [ref=e131]: 80469 Munich
+          - paragraph [ref=e132]: Germany
+  - button "Open Next.js Dev Tools" [ref=e139] [cursor=pointer]:
+    - img [ref=e140]
+  - alert [ref=e143]
+```

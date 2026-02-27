@@ -1,0 +1,44 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - navigation [ref=e3]:
+      - generic [ref=e4]:
+        - link "Adama - Handmade Vegan Coffee Soap from Munich" [ref=e5] [cursor=pointer]:
+          - /url: /en/
+          - img "Adama - Handmade Vegan Coffee Soap from Munich" [ref=e6]
+        - button "☰" [ref=e7]
+  - main [ref=e8]:
+    - generic [ref=e9]:
+      - heading "Our Soaps" [level=1] [ref=e10]
+      - generic [ref=e11]:
+        - link "Calm - handmade vegan coffee soap with recycled coffee grounds from Munich Calm €8.50" [ref=e12] [cursor=pointer]:
+          - /url: /en/shop/calm/
+          - img "Calm - handmade vegan coffee soap with recycled coffee grounds from Munich" [ref=e14]
+          - heading "Calm" [level=3] [ref=e15]
+          - generic [ref=e17]: €8.50
+        - link "Sunny Sage - handmade vegan coffee soap with recycled coffee grounds from Munich Sunny Sage €8.50" [ref=e18] [cursor=pointer]:
+          - /url: /en/shop/sunny-sage/
+          - img "Sunny Sage - handmade vegan coffee soap with recycled coffee grounds from Munich" [ref=e20]
+          - heading "Sunny Sage" [level=3] [ref=e21]
+          - generic [ref=e23]: €8.50
+  - contentinfo [ref=e24]:
+    - generic [ref=e26]:
+      - generic [ref=e27]:
+        - heading "Adama Soaps" [level=3] [ref=e28]
+        - link "Instagram" [ref=e30] [cursor=pointer]:
+          - /url: https://instagram.com/adamasoaps
+          - img [ref=e31]
+      - generic [ref=e33]:
+        - heading "Contact" [level=4] [ref=e34]
+        - generic [ref=e35]:
+          - paragraph [ref=e36]: "+491715798625"
+          - paragraph [ref=e37]: Adamasoaps@gmail.com
+          - paragraph [ref=e38]: Holzstr.11 2/a,
+          - paragraph [ref=e39]: 80469 Munich
+          - paragraph [ref=e40]: Germany
+  - button "Open Next.js Dev Tools" [ref=e47] [cursor=pointer]:
+    - img [ref=e48]
+  - alert [ref=e51]
+```

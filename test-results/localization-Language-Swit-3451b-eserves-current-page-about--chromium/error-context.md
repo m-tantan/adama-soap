@@ -1,0 +1,64 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e6] [cursor=pointer]:
+    - button "Open Next.js Dev Tools" [ref=e7]:
+      - img [ref=e8]
+    - generic [ref=e11]:
+      - button "Open issues overlay" [ref=e12]:
+        - generic [ref=e13]:
+          - generic [ref=e14]: "1"
+          - generic [ref=e15]: "2"
+        - generic [ref=e16]:
+          - text: Issue
+          - generic [ref=e17]: s
+      - button "Collapse issues badge" [ref=e18]:
+        - img [ref=e19]
+  - alert [ref=e21]: Unsere Geschichte
+  - banner [ref=e22]:
+    - navigation [ref=e23]:
+      - generic [ref=e24]:
+        - generic [ref=e25]:
+          - link "Startseite" [ref=e26] [cursor=pointer]:
+            - /url: /de/
+          - link "Über uns" [ref=e27] [cursor=pointer]:
+            - /url: /de/about/
+          - link "Instagram" [ref=e28] [cursor=pointer]:
+            - /url: https://instagram.com/adamasoaps
+        - link "Adama - Handmade Vegan Coffee Soap from Munich" [ref=e29] [cursor=pointer]:
+          - /url: /de/
+          - img "Adama - Handmade Vegan Coffee Soap from Munich" [ref=e30]
+        - combobox [ref=e32] [cursor=pointer]:
+          - option "English"
+          - option "Deutsch" [selected]
+  - main [ref=e33]:
+    - generic [ref=e34]:
+      - heading "Unsere Geschichte" [level=1] [ref=e35]
+      - generic [ref=e36]:
+        - img "Denis and Yoav making handmade vegan coffee soap from recycled coffee grounds in Munich" [ref=e38]
+        - generic [ref=e39]:
+          - paragraph [ref=e40]: "Alles begann, als mein Freund sagte: \"Schatz wir sollten Seife machen!\" Ich dachte er macht sich über unsere Beziehung lustig, aber nein, er meinte echte Seife."
+          - paragraph [ref=e41]: Bewaffnet mit nichts als recyceltem Kaffeesatz (denn anscheinend ist es ein Trennungsgrund, den wegzuwerfen) und einer Menge an YouTube-Tutorials begannen wir unsere schaumige Reise.
+          - paragraph [ref=e42]: Die erste Charge? Sie war ein totaler Reinfall. Die zweite Charge? Ein weiterer Fehlschlag. Aber bei der dritten Charge hatten wir den Dreh raus und dann ging es richtig ab!
+          - paragraph [ref=e43]: Jetzt machen wir all unsere Seifen in liebevoller Handarbeit mit den besten natürlichen Zutaten.
+          - paragraph [ref=e44]: P.S. Mein Freund besteht darauf, dass ich erwähne, dass ich 90% der eigentlichen Arbeit mache. Er bietet moralische Unterstützung und schreckliche Witze. Sauber Arbeitsteilung also.
+      - generic [ref=e45]:
+        - heading "Warum Kaffeesatz?" [level=2] [ref=e46]
+        - paragraph [ref=e47]: Weil wir Recycling-Champions sind und weil Kaffeesatz das beste natürliche Peeling ist. Außerdem gibt es uns eine Ausrede, während der "Forschungsphase" mehr Kaffee zu trinken. Win-win! ☕
+  - contentinfo [ref=e48]:
+    - generic [ref=e50]:
+      - generic [ref=e51]:
+        - heading "Adama Soaps" [level=3] [ref=e52]
+        - link "Instagram" [ref=e54] [cursor=pointer]:
+          - /url: https://instagram.com/adamasoaps
+          - img [ref=e55]
+      - generic [ref=e57]:
+        - heading "Kontakt" [level=4] [ref=e58]
+        - generic [ref=e59]:
+          - paragraph [ref=e60]: "+491715798625"
+          - paragraph [ref=e61]: Adamasoaps@gmail.com
+          - paragraph [ref=e62]: Holzstr.11 2/a,
+          - paragraph [ref=e63]: 80469 Munich
+          - paragraph [ref=e64]: Germany
+```
