@@ -32,6 +32,8 @@ a {
 /* PayPal Hosted Button Quantity Selector Styling */
 /* Uses design tokens for consistent theming */
 [id^="paypal-container"] select,
+[id^="paypal-form-fields-container"] .selectContainer select,
+#quantity,
 .paypal-button-container select,
 select[aria-label="Quantity"] {
   /* Background - using neutral.dark from design tokens */
@@ -71,6 +73,8 @@ select[aria-label="Quantity"] {
 
 /* Hover state */
 [id^="paypal-container"] select:hover,
+[id^="paypal-form-fields-container"] .selectContainer select:hover,
+#quantity:hover,
 .paypal-button-container select:hover,
 select[aria-label="Quantity"]:hover {
   border-color: rgba(215, 213, 172, 0.6) !important;
@@ -78,6 +82,8 @@ select[aria-label="Quantity"]:hover {
 
 /* Focus state */
 [id^="paypal-container"] select:focus,
+[id^="paypal-form-fields-container"] .selectContainer select:focus,
+#quantity:focus,
 .paypal-button-container select:focus,
 select[aria-label="Quantity"]:focus {
   outline: none !important;
@@ -87,6 +93,8 @@ select[aria-label="Quantity"]:focus {
 
 /* Option styling - limited browser support but helps where available */
 [id^="paypal-container"] select option,
+[id^="paypal-form-fields-container"] .selectContainer select option,
+#quantity option,
 .paypal-button-container select option,
 select[aria-label="Quantity"] option {
   background-color: rgb(41, 41, 31) !important;
@@ -96,6 +104,8 @@ select[aria-label="Quantity"] option {
 
 /* Selected option */
 [id^="paypal-container"] select option:checked,
+[id^="paypal-form-fields-container"] .selectContainer select option:checked,
+#quantity option:checked,
 .paypal-button-container select option:checked,
 select[aria-label="Quantity"] option:checked {
   background-color: rgb(64, 63, 43) !important;
@@ -104,6 +114,8 @@ select[aria-label="Quantity"] option:checked {
 
 /* Hover on options */
 [id^="paypal-container"] select option:hover,
+[id^="paypal-form-fields-container"] .selectContainer select option:hover,
+#quantity option:hover,
 .paypal-button-container select option:hover,
 select[aria-label="Quantity"] option:hover {
   background-color: rgb(77, 75, 54) !important;
@@ -111,8 +123,28 @@ select[aria-label="Quantity"] option:hover {
 
 /* Label styling for Quantity label */
 [id^="paypal-container"] label,
+[id^="paypal-form-fields-container"] label,
 .paypal-button-container label {
   color: #D7D5AC !important;
   font-size: 14px !important;
   font-weight: 500 !important;
+}
+
+/* Hide only the product name in PayPal form header, keep price visible */
+[id^="form-container"] .item-title,
+[id^="paypal-form-fields-container"] .item-title {
+  display: none !important;
+}
+
+/* Style the price displayed in the PayPal form */
+[id^="form-container"] .price-container,
+[id^="paypal-form-fields-container"] .price-container {
+  color: #D7D5AC !important;
+}
+
+[id^="form-container"] #price-text,
+[id^="paypal-form-fields-container"] #price-text {
+  color: #D7D5AC !important;
+  font-size: 16px !important;
+  font-weight: 600 !important;
 }
