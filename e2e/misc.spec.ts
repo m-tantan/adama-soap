@@ -69,12 +69,7 @@ test.describe("Cafe Partner Links", () => {
     await expect(aunduLink).toHaveAttribute("target", "_blank");
   });
 
-  test("Join Us CTA shows phone link", async ({ page }) => {
-    await page.goto("/en/");
-    await expect(page.getByText(/Your café here/i)).toBeVisible();
-    const phoneLink = page.getByRole("link", { name: /4915730104878/i });
-    await expect(phoneLink).toBeVisible();
-  });
+
 });
 
 test.describe("Instagram Feed section", () => {

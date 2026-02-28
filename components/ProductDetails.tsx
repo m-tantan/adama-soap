@@ -4,8 +4,8 @@ import Image from 'next/image';
 import { useState } from 'react';
 import { useTranslations, useMessages } from "next-intl";
 import { Product } from "@/types";
-import PayPalButton from "./PayPalButton";
-import { getPayPalButtonId } from "@/data/paypal-buttons";
+import PayPalAddToCartButton from "./PayPalAddToCartButton";
+import { getPayPalAddToCartButtonId } from "@/data/paypal-buttons";
 
 type Tab = "story" | "ingredients";
 
@@ -17,7 +17,7 @@ export default function ProductDetails({ product }: { product: Product }) {
   const tRibbons = useTranslations("ribbons");
   const messages = useMessages() as any;
 
-  const paypalButtonId = getPayPalButtonId(product.slug);
+  const addToCartButtonId = getPayPalAddToCartButtonId(product.slug);
 
   // Use localized description and ingredients from translation messages, fallback to product data
   const productMessages = messages?.products?.[product.slug];
@@ -165,9 +165,9 @@ export default function ProductDetails({ product }: { product: Product }) {
           </div>
 
           {/* PayPal Button */}
-          {paypalButtonId && (
+          {addToCartButtonId && (
             <div className="mb-6">
-              <PayPalButton buttonId={paypalButtonId} />
+              <PayPalAddToCartButton buttonId={addToCartButtonId} />
             </div>
           )}
 

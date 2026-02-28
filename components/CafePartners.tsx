@@ -142,13 +142,7 @@ export default function CafePartners() {
               <p style={{ fontSize: "12px", color: "rgb(207, 203, 192)", lineHeight: "1.5" }}>
                 {t("cafePartners.joinText")}
               </p>
-              <a
-                href="tel:+491715798625"
-                className="mt-auto pt-3 flex items-center gap-1 font-heading transition-opacity duration-300 hover:opacity-70"
-                style={{ fontSize: "12px", color: "rgb(191, 192, 126)" }}
-              >
-                <span>+49 171 579 8625</span>
-              </a>
+
             </div>
           </div>
         </div>

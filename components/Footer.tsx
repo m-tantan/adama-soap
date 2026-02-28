@@ -79,7 +79,6 @@ export default function Footer() {
                 color: "rgb(255, 255, 255)",
               }}
             >
-              <p>+491715798625</p>
               <p>Adamasoaps@gmail.com</p>
               <p>Holzstr.11 2/a,</p>
               <p>80469 Munich</p>

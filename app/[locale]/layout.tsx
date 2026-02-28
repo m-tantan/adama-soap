@@ -69,6 +69,11 @@ export default async function LocaleLayout({
   return (
     <html lang={locale}>
       <head>
+        <Script
+          src="https://www.paypalobjects.com/ncp/cart/cart.js"
+          data-merchant-id="UDUB5AVZ5MY3G"
+          strategy="afterInteractive"
+        />
         <Script id="clarity-script" strategy="afterInteractive">
           {`
             (function(c,l,a,r,i,t,y){
