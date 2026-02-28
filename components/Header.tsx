@@ -6,6 +6,7 @@ import { useState } from 'react';
 import { useTranslations, useLocale } from "next-intl";
 import { useRouter, usePathname } from "next/navigation";
 import { withBasePath } from "@/lib/utils";
+import PayPalCartButton from "./PayPalCartButton";
 
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -110,11 +111,12 @@ export default function Header() {
             />
           </Link>
 
-          {/* Right Nav - Language Switcher */}
+          {/* Right Nav - Language Switcher + Cart */}
           <div
             className="flex items-center justify-end"
             style={{ gap: "32px", flex: "1" }}
           >
+            <PayPalCartButton />
             <select
               value={locale}
               onChange={(e) => switchLocale(e.target.value)}
@@ -236,6 +238,7 @@ export default function Header() {
                 Deutsch
               </option>
             </select>
+            <PayPalCartButton />
           </div>
         )}
       </nav>
