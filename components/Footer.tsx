@@ -86,8 +86,8 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* Links */}
-          {/* <div>
+          {/* Legal */}
+          <div>
             <h4
               className="font-heading font-normal mb-4"
               style={{
@@ -97,66 +97,33 @@ export default function Footer() {
                 fontWeight: "600",
               }}
             >
-              Policies
+              Legal
             </h4>
             <div className="space-y-2">
               <Link
-                href="/policies/privacy"
+                href="/impressum"
                 className="block font-body transition-opacity duration-300 hover:opacity-70"
                 style={{
                   fontSize: "15px",
                   lineHeight: "24px",
-                  color: "rgb(255, 255, 255)",
+                  color: "rgb(207, 203, 192)",
                 }}
               >
-                Privacy Policy
+                Impressum
               </Link>
               <Link
-                href="/policies/accessibility"
+                href="/datenschutz"
                 className="block font-body transition-opacity duration-300 hover:opacity-70"
                 style={{
                   fontSize: "15px",
                   lineHeight: "24px",
-                  color: "rgb(255, 255, 255)",
+                  color: "rgb(207, 203, 192)",
                 }}
               >
-                Accessibility Statement
-              </Link>
-              <Link
-                href="/policies/shipping"
-                className="block font-body transition-opacity duration-300 hover:opacity-70"
-                style={{
-                  fontSize: "15px",
-                  lineHeight: "24px",
-                  color: "rgb(255, 255, 255)",
-                }}
-              >
-                Shipping Policy
-              </Link>
-              <Link
-                href="/policies/terms"
-                className="block font-body transition-opacity duration-300 hover:opacity-70"
-                style={{
-                  fontSize: "15px",
-                  lineHeight: "24px",
-                  color: "rgb(255, 255, 255)",
-                }}
-              >
-                Terms & Conditions
-              </Link>
-              <Link
-                href="/policies/returns"
-                className="block font-body transition-opacity duration-300 hover:opacity-70"
-                style={{
-                  fontSize: "15px",
-                  lineHeight: "24px",
-                  color: "rgb(255, 255, 255)",
-                }}
-              >
-                Refund Policy
+                Datenschutz
               </Link>
             </div>
-          </div> */}
+          </div>
         </div>
 
         {/* Newsletter Section */}
