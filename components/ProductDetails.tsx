@@ -208,30 +208,32 @@ export default function ProductDetails({ product }: { product: Product }) {
               >
                 {t("description")}
               </button>
-              <button
-                onClick={() => setActiveTab("ingredients")}
-                className="font-heading transition-all duration-300"
-                style={{
-                  fontSize: "17px",
-                  lineHeight: "1.5em",
-                  fontWeight: "600",
-                  color:
-                    activeTab === "ingredients"
-                      ? "#D7D5AC"
-                      : "rgba(215, 213, 172, 0.5)",
-                  padding: "12px 24px",
-                  borderBottom:
-                    activeTab === "ingredients"
-                      ? "2px solid #D7D5AC"
-                      : "2px solid transparent",
-                  marginBottom: "-2px",
-                  background: "none",
-                  border: "none",
-                  cursor: "pointer",
-                }}
-              >
-                {t("ingredients")}
-              </button>
+              {localizedIngredients.length > 0 && (
+                <button
+                  onClick={() => setActiveTab("ingredients")}
+                  className="font-heading transition-all duration-300"
+                  style={{
+                    fontSize: "17px",
+                    lineHeight: "1.5em",
+                    fontWeight: "600",
+                    color:
+                      activeTab === "ingredients"
+                        ? "#D7D5AC"
+                        : "rgba(215, 213, 172, 0.5)",
+                    padding: "12px 24px",
+                    borderBottom:
+                      activeTab === "ingredients"
+                        ? "2px solid #D7D5AC"
+                        : "2px solid transparent",
+                    marginBottom: "-2px",
+                    background: "none",
+                    border: "none",
+                    cursor: "pointer",
+                  }}
+                >
+                  {t("ingredients")}
+                </button>
+              )}
             </div>
           </div>
 
