@@ -111,8 +111,10 @@
   "footer": {
     "brandName": "Adama Soaps",
     "contact": "Contact",
-    "policies": "Policies",
+    "legal": "Legal",
+    "legalNotice": "Legal Notice",
     "privacyPolicy": "Privacy Policy",
+    "policies": "Policies",
     "accessibilityStatement": "Accessibility Statement",
     "shippingPolicy": "Shipping Policy",
     "termsConditions": "Terms & Conditions",
