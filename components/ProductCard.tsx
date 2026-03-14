@@ -41,7 +41,9 @@ export default function ProductCard({ product }: ProductCardProps) {
                   ? "rgb(237, 28, 36)"
                   : product.ribbon === "New"
                     ? "rgb(128, 21, 232)"
-                    : "rgb(0, 0, 0)",
+                    : product.ribbon === "Special Offer"
+                      ? "rgb(180, 130, 0)"
+                      : "rgb(0, 0, 0)",
               color: "rgb(255, 255, 255)",
               padding: "6px 12px",
               fontSize: "14px",
@@ -56,7 +58,9 @@ export default function ProductCard({ product }: ProductCardProps) {
               ? t("sale")
               : product.ribbon === "New"
                 ? t("new")
-                : t("bestSeller")}
+                : product.ribbon === "Special Offer"
+                  ? t("specialOffer")
+                  : t("bestSeller")}
           </div>
         )}
         <Image

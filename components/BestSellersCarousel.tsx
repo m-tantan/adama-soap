@@ -88,9 +88,13 @@ export default function BestSellersCarousel({
                     className="absolute top-4 right-4 z-10 text-white font-heading px-3 py-1 rounded-full"
                     style={{
                       backgroundColor:
-                        product.ribbon === "New"
-                          ? "rgb(128, 21, 232)"
-                          : "rgb(64, 124, 81)",
+                        product.ribbon === "Sale"
+                          ? "rgb(237, 28, 36)"
+                          : product.ribbon === "New"
+                            ? "rgb(128, 21, 232)"
+                            : product.ribbon === "Special Offer"
+                              ? "rgb(180, 130, 0)"
+                              : "rgb(0, 0, 0)",
                       fontSize: "14px",
                       fontWeight: "600",
                     }}
@@ -99,7 +103,9 @@ export default function BestSellersCarousel({
                       ? t("ribbons.sale")
                       : product.ribbon === "New"
                         ? t("ribbons.new")
-                        : t("ribbons.bestSeller")}
+                        : product.ribbon === "Special Offer"
+                          ? t("ribbons.specialOffer")
+                          : t("ribbons.bestSeller")}
                   </div>
                 )}
                 <Image

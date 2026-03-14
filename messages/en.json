@@ -73,6 +73,10 @@
         "Limonene"
       ]
     },
+    "adama-easter-set": {
+      "name": "Adama Easter Set",
+      "description": "This Easter, give a gift that actually means something.\n\nThe Adama Easter Set brings together two of our handmade soaps — Sunny Sage and Calm — alongside a handcrafted wooden soap tray, made to keep your bar dry and your bathroom beautiful.\n\nEvery soap is cold-processed by hand in Munich, made from recycled coffee grounds sourced from local cafés. No plastic. No waste. Just something real.\n\nWhat's inside:\n— 1 × Sunny Sage soap (100g)\n— 1 × Calm soap (100g)\n— 1 × Handmade wooden soap tray\n\nFor the full ingredients list, visit the individual product pages for Sunny Sage and Calm."
+    },
     "sunny-sage": {
       "name": "Sunny Sage",
       "description": "Sunny Sage is clarity with a smile.\n\nHerbal, earthy sage meets the bright, uplifting freshness of orange - a scent that feels both cleansing and energising. Sage is traditionally known for its purifying and clarifying qualities, while orange essential oil brings warmth, lightness and a natural mood boost.\n\nThis combination makes Sunny Sage the perfect companion for morning showers or moments when you want to reset, recharge and feel refreshed from head to toe.\n\nA subtle spark of sunshine on your skin.",
@@ -96,7 +100,8 @@
   "ribbons": {
     "new": "New",
     "bestSeller": "Best Seller",
-    "sale": "Sale"
+    "sale": "Sale",
+    "specialOffer": "Special Offer"
   },
   "about": {
     "title": "Our Sudsy Story",

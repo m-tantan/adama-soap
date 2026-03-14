@@ -6,7 +6,7 @@ export interface Product {
   salePrice?: number;
   images: string[];
   description: string;
-  ribbon?: 'Best Seller' | 'New' | 'Sale';
+  ribbon?: 'Best Seller' | 'New' | 'Sale' | 'Special Offer';
   inStock: boolean;
   ingredients?: string[];
 }

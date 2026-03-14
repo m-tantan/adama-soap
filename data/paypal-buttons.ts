@@ -4,6 +4,7 @@
 export const paypalAddToCartButtons: Record<string, string> = {
   calm: "SCTN97A48MV5L",
   "sunny-sage": "997RRPSCH8KG4",
+  "adama-easter-set": "N7YLSV2NMZ3D8",
 };
 
 export function getPayPalAddToCartButtonId(

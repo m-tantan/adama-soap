@@ -56,7 +56,9 @@ export default function ProductDetails({ product }: { product: Product }) {
                       ? "rgb(237, 28, 36)"
                       : product.ribbon === "New"
                         ? "rgb(128, 21, 232)"
-                        : "rgb(0, 0, 0)",
+                        : product.ribbon === "Special Offer"
+                          ? "rgb(180, 130, 0)"
+                          : "rgb(0, 0, 0)",
                   color: "rgb(255, 255, 255)",
                   padding: "8px 16px",
                   fontSize: "14px",
@@ -71,7 +73,9 @@ export default function ProductDetails({ product }: { product: Product }) {
                   ? tRibbons("sale")
                   : product.ribbon === "New"
                     ? tRibbons("new")
-                    : tRibbons("bestSeller")}
+                    : product.ribbon === "Special Offer"
+                      ? tRibbons("specialOffer")
+                      : tRibbons("bestSeller")}
               </div>
             )}
             <Image
