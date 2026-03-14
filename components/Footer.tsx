@@ -1,10 +1,11 @@
 "use client";
 
 import Link from "next/link";
-import { useTranslations } from "next-intl";
+import { useTranslations, useLocale } from "next-intl";
 
 export default function Footer() {
   const t = useTranslations("footer");
+  const locale = useLocale();
 
   return (
     <footer
@@ -97,11 +98,11 @@ export default function Footer() {
                 fontWeight: "600",
               }}
             >
-              Legal
+              {t("legal")}
             </h4>
             <div className="space-y-2">
               <Link
-                href="/impressum"
+                href={`/${locale}/impressum`}
                 className="block font-body transition-opacity duration-300 hover:opacity-70"
                 style={{
                   fontSize: "15px",
@@ -109,10 +110,10 @@ export default function Footer() {
                   color: "rgb(207, 203, 192)",
                 }}
               >
-                Impressum
+                {t("legalNotice")}
               </Link>
               <Link
-                href="/datenschutz"
+                href={`/${locale}/datenschutz`}
                 className="block font-body transition-opacity duration-300 hover:opacity-70"
                 style={{
                   fontSize: "15px",
@@ -120,7 +121,7 @@ export default function Footer() {
                   color: "rgb(207, 203, 192)",
                 }}
               >
-                Datenschutz
+                {t("privacyPolicy")}
               </Link>
             </div>
           </div>
