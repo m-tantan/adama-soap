@@ -9,9 +9,7 @@ export default function DiscoverSoaps() {
   const t = useTranslations();
   const locale = useLocale();
 
-  const bestSellers = products.filter(
-    (p) => p.slug === "calm" || p.slug === "sunny-sage",
-  );
+  const bestSellers = products;
 
   return (
     <section

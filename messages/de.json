@@ -73,6 +73,10 @@
         "Limonene"
       ]
     },
+    "adama-easter-set": {
+      "name": "Adama Oster-Set",
+      "description": "Dieses Ostern, schenke etwas, das wirklich bedeutet.\n\nDas Adama Oster-Set vereint zwei unserer handgemachten Seifen — Sunny Sage und Calm — zusammen mit einem handgefertigten Holzseifenhalter, der deine Seife trocken und dein Badezimmer schön hält.\n\nJede Seife wird von Hand kalt verarbeitet in München, aus recyceltem Kaffeesatz aus lokalen Cafés. Kein Plastik. Kein Abfall. Nur etwas Echtes.\n\nWas enthalten ist:\n— 1 × Sunny Sage Seife (100g)\n— 1 × Calm Seife (100g)\n— 1 × Handgefertigter Holzseifenhalter\n\nDie vollständige Zutatenliste findest du auf den Produktseiten von Sunny Sage und Calm."
+    },
     "sunny-sage": {
       "name": "Sunny Sage",
       "description": "Sunny Sage ist Klarheit mit einem Lächeln.\n\nKräuteriger, erdiger Salbei trifft auf die helle, belebende Frische von Orange - ein Duft, der sich gleichzeitig reinigend und energetisierend anfühlt. Salbei ist traditionell für seine reinigenden und klärenden Eigenschaften bekannt, während ätherisches Orangenöl Wärme, Leichtigkeit und einen natürlichen Stimmungsschub bringt.\n\nDiese Kombination macht Sunny Sage zum perfekten Begleiter für morgendliche Duschen oder Momente, in denen Sie sich zurücksetzen, aufladen und von Kopf bis Fuß erfrischt fühlen möchten.\n\nEin subtiler Funke Sonnenschein auf Ihrer Haut.",
@@ -96,7 +100,8 @@
   "ribbons": {
     "new": "Neu",
     "bestSeller": "Bestseller",
-    "sale": "Angebot"
+    "sale": "Angebot",
+    "specialOffer": "Sonderangebot"
   },
   "about": {
     "title": "Unsere Geschichte",

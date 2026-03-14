@@ -33,6 +33,20 @@ export const products: Product[] = [
     ],
   },
   {
+    id: "3",
+    name: "Adama Easter Set",
+    slug: "adama-easter-set",
+    price: 19.99,
+    ribbon: "Special Offer",
+    images: [
+      withBasePath("/images/products/EasterSet/EasterSet-1.png"),
+      withBasePath("/images/products/EasterSet/EasterSet-2.png"),
+    ],
+    description:
+      "This Easter, give a gift that actually means something.\n\nThe Adama Easter Set brings together two of our handmade soaps — Sunny Sage and Calm — alongside a handcrafted wooden soap tray, made to keep your bar dry and your bathroom beautiful.\n\nEvery soap is cold-processed by hand in Munich, made from recycled coffee grounds sourced from local cafés. No plastic. No waste. Just something real.\n\nWhat's inside:\n— 1 × Sunny Sage soap (100g)\n— 1 × Calm soap (100g)\n— 1 × Handmade wooden soap tray\n\nFor the full ingredients list, visit the individual product pages for Sunny Sage and Calm.",
+    inStock: true,
+  },
+  {
     id: "2",
     name: "Sunny Sage",
     slug: "sunny-sage",

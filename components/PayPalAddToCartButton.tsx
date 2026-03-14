@@ -15,6 +15,21 @@ interface PayPalAddToCartButtonProps {
   buttonId: string;
 }
 
+function injectPriceHideStyle() {
+  if (document.getElementById("paypal-price-hide-style")) return;
+  const style = document.createElement("style");
+  style.id = "paypal-price-hide-style";
+  style.textContent = `
+    #price-text,
+    paypal-add-to-cart-button #price-text,
+    paypal-add-to-cart-button .price,
+    paypal-add-to-cart-button [class*="price"] {
+      display: none !important;
+    }
+  `;
+  document.head.appendChild(style);
+}
+
 function applyQuantitySelectStyles() {
   const select = document.getElementById("quantity") as HTMLSelectElement | null;
   if (select) {
@@ -42,13 +57,14 @@ function applyQuantitySelectStyles() {
   }
   const priceText = document.getElementById("price-text") as HTMLElement | null;
   if (priceText) {
-    priceText.style.cssText = `color: #D7D5AC !important; font-size: 16px !important; font-weight: 600 !important;`;
+    priceText.style.display = "none";
   }
 }
 
 export default function PayPalAddToCartButton({ buttonId }: PayPalAddToCartButtonProps) {
   useEffect(() => {
     const initialize = () => {
+      injectPriceHideStyle();
       if (window.cartPaypal) {
         window.cartPaypal.AddToCart({ id: buttonId });
       }
