@@ -124,6 +124,12 @@
     "newsletterConsent": "Yes, subscribe me to your newsletter.*",
     "subscribe": "Subscribe"
   },
+  "cookieConsent": {
+    "description": "We use Microsoft Clarity to understand how visitors use our site. This involves cookies and session recordings.",
+    "learnMore": "Privacy Policy",
+    "accept": "Accept",
+    "reject": "Decline"
+  },
   "common": {
     "learnMore": "Learn More",
     "viewProduct": "View Product"

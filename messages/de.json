@@ -124,6 +124,12 @@
     "newsletterConsent": "Ja, ich möchte den Newsletter abonnieren.*",
     "subscribe": "Abonnieren"
   },
+  "cookieConsent": {
+    "description": "Wir verwenden Microsoft Clarity, um zu verstehen, wie Besucher unsere Website nutzen. Dies umfasst Cookies und Sitzungsaufzeichnungen.",
+    "learnMore": "Datenschutz",
+    "accept": "Akzeptieren",
+    "reject": "Ablehnen"
+  },
   "common": {
     "learnMore": "Mehr erfahren",
     "viewProduct": "Produkt ansehen"
