@@ -89,17 +89,6 @@ export default function Footer() {
 
           {/* Legal */}
           <div>
-            <h4
-              className="font-heading font-normal mb-4"
-              style={{
-                fontSize: "17px",
-                lineHeight: "1.5em",
-                color: "rgb(255, 255, 255)",
-                fontWeight: "600",
-              }}
-            >
-              {t("legal")}
-            </h4>
             <div className="space-y-2">
               <Link
                 href={`/${locale}/impressum`}
