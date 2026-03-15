@@ -114,8 +114,11 @@ export default function CafePartners() {
           ))}
 
           {/* Join Us CTA */}
-          <div
-            className="group relative overflow-hidden rounded-2xl transition-all duration-300 hover:-translate-y-1"
+          <a
+            href="https://docs.google.com/forms/d/1U8a2jbLYp4Rx-kO04PvKSqe6hvEqEA05pNa6qL37wIQ/viewform"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group relative overflow-hidden rounded-2xl transition-all duration-300 hover:-translate-y-1 block"
             style={{
               background: "linear-gradient(145deg, rgba(191,192,126,0.15), rgba(191,192,126,0.05))",
               border: "1px dashed rgba(191,192,126,0.4)",
@@ -144,7 +147,7 @@ export default function CafePartners() {
               </p>
 
             </div>
-          </div>
+          </a>
         </div>
 
         {/* Sustainability Partners Section */}
