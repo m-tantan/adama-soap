@@ -38,6 +38,14 @@ export async function generateMetadata({
       siteName: "Adama Soaps",
       locale: locale === "de" ? "de_DE" : "en_US",
       type: "website",
+      images: [
+        {
+          url: "https://adamasoaps.com/images/og-image.jpg",
+          width: 1200,
+          height: 630,
+          alt: "Adama Soaps - Handmade Vegan Coffee Soap from Munich",
+        },
+      ],
     },
     alternates: {
       languages: {
