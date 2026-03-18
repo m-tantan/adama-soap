@@ -46,34 +46,44 @@ export async function generateMetadata({
   };
 }
 
-function getProductJsonLd(product: (typeof products)[number], locale: string) {
-  const baseUrl = "https://adama-soaps.com";
+function getProductSchemas(product: (typeof products)[number], locale: string) {
+  const baseUrl = "https://adamasoaps.com";
   const productUrl = `${baseUrl}/${locale}/shop/${product.slug}/`;
   const isDE = locale === "de";
 
-  return {
+  const productSchema = {
     "@context": "https://schema.org",
     "@type": "Product",
+    "@id": `${productUrl}#product`,
     name: product.name,
-    description: product.description.split("\n")[0],
+    description: product.description.replace(/\n+/g, " ").trim(),
     image: product.images.map((img) =>
       img.startsWith("http") ? img : `${baseUrl}${img}`,
     ),
     brand: {
       "@type": "Brand",
       name: "Adama Soaps",
+      "@id": `${baseUrl}/#organization`,
     },
     url: productUrl,
     sku: product.id,
     category: isDE ? "Handgemachte Seife" : "Handmade Soap",
     material: isDE ? "Natürliche Inhaltsstoffe" : "Natural Ingredients",
+    keywords: isDE
+      ? `${product.name}, handgemachte Seife, Kaffeeseife, vegane Seife, München, nachhaltig, plastikfrei`
+      : `${product.name}, handmade soap, coffee soap, vegan soap, Munich, sustainable, plastic-free`,
     ...(product.ingredients && {
-      additionalProperty: {
+      additionalProperty: product.ingredients.map((ingredient) => ({
         "@type": "PropertyValue",
-        name: "Ingredients",
-        value: product.ingredients.join(", "),
-      },
+        name: isDE ? "Zutat" : "Ingredient",
+        value: ingredient,
+      })),
     }),
+    manufacturer: {
+      "@type": "Organization",
+      name: "Adama Soaps",
+      "@id": `${baseUrl}/#organization`,
+    },
     offers: {
       "@type": "Offer",
       url: productUrl,
@@ -94,6 +104,7 @@ function getProductJsonLd(product: (typeof products)[number], locale: string) {
       seller: {
         "@type": "Organization",
         name: "Adama Soaps",
+        "@id": `${baseUrl}/#organization`,
       },
       shippingDetails: {
         "@type": "OfferShippingDetails",
@@ -104,6 +115,33 @@ function getProductJsonLd(product: (typeof products)[number], locale: string) {
       },
     },
   };
+
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: isDE ? "Startseite" : "Home",
+        item: `${baseUrl}/${locale}/`,
+      },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: "Shop",
+        item: `${baseUrl}/${locale}/shop/`,
+      },
+      {
+        "@type": "ListItem",
+        position: 3,
+        name: product.name,
+        item: productUrl,
+      },
+    ],
+  };
+
+  return [productSchema, breadcrumbSchema];
 }
 
 export default async function ProductPage({
@@ -122,14 +160,17 @@ export default async function ProductPage({
     notFound();
   }
 
-  const jsonLd = getProductJsonLd(product, locale);
+  const schemas = getProductSchemas(product, locale);
 
   return (
     <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
+      {schemas.map((schema, i) => (
+        <script
+          key={i}
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+        />
+      ))}
       <ProductDetails product={product} />
     </>
   );
