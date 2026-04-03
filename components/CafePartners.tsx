@@ -4,7 +4,7 @@ import { useTranslations } from "next-intl";
 
 interface Partner {
   name: string;
-  address: string;
+  address: string | string[];
   href: string;
   linkLabel: string;
 }
@@ -27,6 +27,21 @@ const cafePartners: Partner[] = [
     address: "St.-Bonifatius-Str. 1, 81541 München",
     href: "https://www.poppifarmer.de/",
     linkLabel: "poppifarmer.de",
+  },
+  {
+    name: "Café Blá",
+    address: "Lilienstraße 34, 81669 München",
+    href: "https://www.cafebla.de/",
+    linkLabel: "cafebla.de",
+  },
+  {
+    name: "Pâtisserie | Café Dukatz",
+    address: [
+      "Klenzestraße 69, 80469 München",
+      "St.-Anna-Straße 11, 80538 München",
+    ],
+    href: "https://www.dukatz.de/",
+    linkLabel: "dukatz.de",
   },
 ];
 
@@ -58,9 +73,17 @@ function PartnerCard({ partner }: { partner: Partner }) {
         >
           {partner.name}
         </h3>
-        <p style={{ fontSize: "13px", color: "rgb(207, 203, 192)", lineHeight: "1.5" }}>
-          📍 {partner.address}
-        </p>
+        {Array.isArray(partner.address) ? (
+          <div style={{ fontSize: "13px", color: "rgb(207, 203, 192)", lineHeight: "1.5" }}>
+            {partner.address.map((addr) => (
+              <p key={addr}>📍 {addr}</p>
+            ))}
+          </div>
+        ) : (
+          <p style={{ fontSize: "13px", color: "rgb(207, 203, 192)", lineHeight: "1.5" }}>
+            📍 {partner.address}
+          </p>
+        )}
         <div
           className="mt-auto pt-3 flex items-center gap-1 font-heading transition-colors duration-300"
           style={{ fontSize: "13px", color: "rgb(191, 192, 126)" }}
@@ -108,7 +131,7 @@ export default function CafePartners() {
           {t("cafePartners.title")}
         </h2>
 
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-5">
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-5">
           {cafePartners.map((partner) => (
             <PartnerCard key={partner.name} partner={partner} />
           ))}
