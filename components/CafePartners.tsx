@@ -35,6 +35,12 @@ const cafePartners: Partner[] = [
     linkLabel: "cafebla.de",
   },
   {
+    name: "MARI",
+    address: "Adlzreiterstraße 36, 80337 München",
+    href: "https://www.instagram.com/marigoldmarie2024/",
+    linkLabel: "@marigoldmarie2024",
+  },
+  {
     name: "Pâtisserie | Café Dukatz",
     address: [
       "Klenzestraße 69, 80469 München",
@@ -141,7 +147,7 @@ export default function CafePartners() {
             href="https://docs.google.com/forms/d/1U8a2jbLYp4Rx-kO04PvKSqe6hvEqEA05pNa6qL37wIQ/viewform"
             target="_blank"
             rel="noopener noreferrer"
-            className="group relative overflow-hidden rounded-2xl transition-all duration-300 hover:-translate-y-1 block"
+            className="group relative overflow-hidden rounded-2xl transition-all duration-300 hover:-translate-y-1 block col-start-2"
             style={{
               background: "linear-gradient(145deg, rgba(191,192,126,0.15), rgba(191,192,126,0.05))",
               border: "1px dashed rgba(191,192,126,0.4)",
