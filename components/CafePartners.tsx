@@ -11,12 +11,6 @@ interface Partner {
 
 const cafePartners: Partner[] = [
   {
-    name: "Stray Coffee Roasters",
-    address: "Gollierstraße 30, 80339 München",
-    href: "http://www.stray.coffee/",
-    linkLabel: "stray.coffee",
-  },
-  {
     name: "Cafe Faber",
     address: "Zeppelinstraße 5, 81541 München",
     href: "https://www.instagram.com/cafefaber_/",
@@ -57,6 +51,12 @@ const sustainabilityPartners: Partner[] = [
     address: "Fraunhoferstraße 23, 80469 München",
     href: "https://www.aundu.net/",
     linkLabel: "aundu.net",
+  },
+  {
+    name: "Buch & Bohne",
+    address: "Kapuzinerpl. 4, 80337 München-Ludwigsvorstadt-Isarvorstadt",
+    href: "http://www.buchbohne.de/",
+    linkLabel: "buchbohne.de",
   },
 ];
 

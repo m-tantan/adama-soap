@@ -14,6 +14,7 @@ export default function ProductCard({ product }: ProductCardProps) {
   const [imageIndex, setImageIndex] = useState(0);
   const locale = useLocale();
   const t = useTranslations("ribbons");
+  const tProduct = useTranslations("product");
 
   return (
     <Link
@@ -30,20 +31,13 @@ export default function ProductCard({ product }: ProductCardProps) {
           boxShadow: "0 1px 3px rgba(0, 0, 0, 0.1)",
         }}
       >
-        {product.ribbon && (
+        {!product.inStock ? (
           <div
             className="absolute z-10 font-button"
             style={{
               top: "12px",
               left: "12px",
-              backgroundColor:
-                product.ribbon === "Sale"
-                  ? "rgb(237, 28, 36)"
-                  : product.ribbon === "New"
-                    ? "rgb(128, 21, 232)"
-                    : product.ribbon === "Special Offer"
-                      ? "rgb(180, 130, 0)"
-                      : "rgb(0, 0, 0)",
+              backgroundColor: "rgb(64, 63, 43)",
               color: "rgb(255, 255, 255)",
               padding: "6px 12px",
               fontSize: "14px",
@@ -54,14 +48,42 @@ export default function ProductCard({ product }: ProductCardProps) {
               letterSpacing: "0.5px",
             }}
           >
-            {product.ribbon === "Sale"
-              ? t("sale")
-              : product.ribbon === "New"
-                ? t("new")
-                : product.ribbon === "Special Offer"
-                  ? t("specialOffer")
-                  : t("bestSeller")}
+            {tProduct("outOfStock")}
           </div>
+        ) : (
+          product.ribbon && (
+            <div
+              className="absolute z-10 font-button"
+              style={{
+                top: "12px",
+                left: "12px",
+                backgroundColor:
+                  product.ribbon === "Sale"
+                    ? "rgb(237, 28, 36)"
+                    : product.ribbon === "New"
+                      ? "rgb(128, 21, 232)"
+                      : product.ribbon === "Special Offer"
+                        ? "rgb(180, 130, 0)"
+                        : "rgb(0, 0, 0)",
+                color: "rgb(255, 255, 255)",
+                padding: "6px 12px",
+                fontSize: "14px",
+                lineHeight: "16px",
+                borderRadius: "300px",
+                fontWeight: "600",
+                textTransform: "uppercase",
+                letterSpacing: "0.5px",
+              }}
+            >
+              {product.ribbon === "Sale"
+                ? t("sale")
+                : product.ribbon === "New"
+                  ? t("new")
+                  : product.ribbon === "Special Offer"
+                    ? t("specialOffer")
+                    : t("bestSeller")}
+            </div>
+          )
         )}
         <Image
           src={product.images[imageIndex] || product.images[0]}
@@ -70,6 +92,7 @@ export default function ProductCard({ product }: ProductCardProps) {
           className="object-cover transition-all duration-400"
           style={{
             transform: imageIndex === 1 ? "scale(1.05)" : "scale(1)",
+            opacity: product.inStock ? 1 : 0.6,
           }}
         />
       </div>

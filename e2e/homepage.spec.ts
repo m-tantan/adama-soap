@@ -64,7 +64,6 @@ test.describe("Homepage", () => {
 
   test("renders CafePartners section", async ({ page }) => {
     await expect(page.getByText(/Our Partners/i)).toBeVisible();
-    await expect(page.getByText(/Stray Coffee Roasters/i)).toBeVisible();
     await expect(page.getByText(/Cafe Faber/i)).toBeVisible();
     await expect(page.getByText(/Poppi Farmer/i)).toBeVisible();
   });
