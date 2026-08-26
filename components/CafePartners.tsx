@@ -11,12 +11,6 @@ interface Partner {
 
 const cafePartners: Partner[] = [
   {
-    name: "Stray Coffee Roasters",
-    address: "Gollierstraße 30, 80339 München",
-    href: "http://www.stray.coffee/",
-    linkLabel: "stray.coffee",
-  },
-  {
     name: "Cafe Faber",
     address: "Zeppelinstraße 5, 81541 München",
     href: "https://www.instagram.com/cafefaber_/",
@@ -57,6 +51,12 @@ const sustainabilityPartners: Partner[] = [
     address: "Fraunhoferstraße 23, 80469 München",
     href: "https://www.aundu.net/",
     linkLabel: "aundu.net",
+  },
+  {
+    name: "Buch & Bohne",
+    address: "Kapuzinerpl. 4, 80337 München-Ludwigsvorstadt-Isarvorstadt",
+    href: "http://www.buchbohne.de/",
+    linkLabel: "buchbohne.de",
   },
 ];
 
@@ -147,7 +147,7 @@ export default function CafePartners() {
             href="https://docs.google.com/forms/d/1U8a2jbLYp4Rx-kO04PvKSqe6hvEqEA05pNa6qL37wIQ/viewform"
             target="_blank"
             rel="noopener noreferrer"
-            className="group relative overflow-hidden rounded-2xl transition-all duration-300 hover:-translate-y-1 block col-start-2"
+            className="group relative overflow-hidden rounded-2xl transition-all duration-300 hover:-translate-y-1 block"
             style={{
               background: "linear-gradient(145deg, rgba(191,192,126,0.15), rgba(191,192,126,0.05))",
               border: "1px dashed rgba(191,192,126,0.4)",

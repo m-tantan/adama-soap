@@ -40,7 +40,7 @@ export const products: Product[] = [
     ],
     description:
       "Sunny Sage is clarity with a smile.\n\nHerbal, earthy sage meets the bright, uplifting freshness of orange - a scent that feels both cleansing and energising. Sage is traditionally known for its purifying and clarifying qualities, while orange essential oil brings warmth, lightness and a natural mood boost.\n\nThis combination makes Sunny Sage the perfect companion for morning showers or moments when you want to reset, recharge and feel refreshed from head to toe.\n\nA subtle spark of sunshine on your skin.",
-    inStock: true,
+    inStock: false,
     ingredients: [
       "Olea Europaea Fruit Oil",
       "Cocos Nucifera Oil",

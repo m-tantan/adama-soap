@@ -168,11 +168,29 @@ export default function ProductDetails({ product }: { product: Product }) {
             )}
           </div>
 
-          {/* PayPal Button */}
-          {addToCartButtonId && (
-            <div className="mb-6">
-              <PayPalAddToCartButton buttonId={addToCartButtonId} />
+          {/* PayPal Button / Out of Stock */}
+          {!product.inStock ? (
+            <div
+              className="mb-6 font-button text-center"
+              style={{
+                padding: "12px 24px",
+                borderRadius: "300px",
+                backgroundColor: "rgba(215, 213, 172, 0.15)",
+                color: "#D7D5AC",
+                fontWeight: "600",
+                textTransform: "uppercase",
+                letterSpacing: "0.5px",
+                width: "fit-content",
+              }}
+            >
+              {t("outOfStock")}
             </div>
+          ) : (
+            addToCartButtonId && (
+              <div className="mb-6">
+                <PayPalAddToCartButton buttonId={addToCartButtonId} />
+              </div>
+            )
           )}
 
           {/* Tabs */}
