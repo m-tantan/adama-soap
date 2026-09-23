@@ -73,10 +73,11 @@ export const products: Product[] = [
   },
   {
     id: "4",
-    name: "Vibrant Lemon Grass",
+    name: "Vibrant Lemongrass",
     slug: "vibrant-lemon-grass",
     price: 8.5,
     ribbon: "New",
+    availableFrom: "October 2026",
     images: [
       withBasePath("/images/products/VibrantLemonGrass/1.png"),
       withBasePath("/images/products/VibrantLemonGrass/2.png"),

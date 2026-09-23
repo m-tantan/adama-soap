@@ -28,6 +28,8 @@ export default function ProductDetails({ product }: { product: Product }) {
   )
     ? productMessages.ingredients
     : product.ingredients || [];
+  const localizedAvailableFrom =
+    productMessages?.availableFrom || product.availableFrom;
 
   return (
     <div
@@ -167,6 +169,15 @@ export default function ProductDetails({ product }: { product: Product }) {
               </span>
             )}
           </div>
+
+          {localizedAvailableFrom && (
+            <div
+              className="mb-6 font-body"
+              style={{ fontSize: "14px", color: "rgb(191, 192, 126)" }}
+            >
+              🗓 {localizedAvailableFrom}
+            </div>
+          )}
 
           {/* PayPal Button / Out of Stock */}
           {!product.inStock ? (
