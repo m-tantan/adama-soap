@@ -17,12 +17,6 @@ const cafePartners: Partner[] = [
     linkLabel: "@cafefaber_",
   },
   {
-    name: "Poppi Farmer",
-    address: "St.-Bonifatius-Str. 1, 81541 München",
-    href: "https://www.poppifarmer.de/",
-    linkLabel: "poppifarmer.de",
-  },
-  {
     name: "Café Blá",
     address: "Lilienstraße 34, 81669 München",
     href: "https://www.cafebla.de/",
@@ -137,9 +131,11 @@ export default function CafePartners() {
           {t("cafePartners.title")}
         </h2>
 
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-5">
+        <div className="flex flex-wrap justify-center gap-5">
           {cafePartners.map((partner) => (
-            <PartnerCard key={partner.name} partner={partner} />
+            <div key={partner.name} className="flex-none w-[calc(50%-10px)] md:w-[calc(33.333%-13.333px)]">
+              <PartnerCard partner={partner} />
+            </div>
           ))}
 
           {/* Join Us CTA */}
@@ -147,7 +143,7 @@ export default function CafePartners() {
             href="https://docs.google.com/forms/d/1U8a2jbLYp4Rx-kO04PvKSqe6hvEqEA05pNa6qL37wIQ/viewform"
             target="_blank"
             rel="noopener noreferrer"
-            className="group relative overflow-hidden rounded-2xl transition-all duration-300 hover:-translate-y-1 block"
+            className="group relative overflow-hidden rounded-2xl transition-all duration-300 hover:-translate-y-1 block flex-none w-[calc(50%-10px)] md:w-[calc(33.333%-13.333px)]"
             style={{
               background: "linear-gradient(145deg, rgba(191,192,126,0.15), rgba(191,192,126,0.05))",
               border: "1px dashed rgba(191,192,126,0.4)",

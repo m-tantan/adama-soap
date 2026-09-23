@@ -95,6 +95,24 @@
         "Geraniol",
         "Citral"
       ]
+    },
+    "vibrant-lemon-grass": {
+      "name": "Vibrant Lemongrass",
+      "description": "Vibrant Lemon Grass ist ein Schub morgendlicher Energie.\n\nDie klare, zitrusfrische Note von Zitronengras-Öl weckt die Sinne und hebt die Stimmung vom ersten Atemzug an. Zitronengras wird traditionell für seine klärende, belebende Wirkung geschätzt und bringt eine frische, spritzige Helligkeit in deine tägliche Dusch-Routine.\n\nKombiniert mit der natürlichen Peeling-Kraft von recyceltem Kaffeesatz und nährenden Pflanzenölen, hinterlässt Vibrant Lemon Grass deine Haut glatt, gepflegt und deine Sinne hellwach.\n\nEin heller Start. Ein klarer Kopf. Ein lebendiges Du.",
+      "availableFrom": "Verfügbar ab Oktober 2026",
+      "ingredients": [
+        "Olea Europaea Fruit Oil (Olivenöl)",
+        "Cocos Nucifera Oil (Kokosöl)",
+        "Aqua (Wasser)",
+        "Sodium Hydroxide (Natriumhydroxid)",
+        "Butyrospermum Parkii Butter (Sheabutter)",
+        "Ricinus Communis Seed Oil (Rizinusöl)",
+        "Coffea Arabica Seed Powder (Kaffeepulver)",
+        "Cymbopogon Flexuosus Oil (Zitronengrasöl)",
+        "Citral",
+        "Geraniol",
+        "Limonene"
+      ]
     }
   },
   "ribbons": {

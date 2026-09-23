@@ -145,6 +145,19 @@ export default function ProductCard({ product }: ProductCardProps) {
           </span>
         )}
       </div>
+
+      {product.availableFrom && (
+        <p
+          className="font-body"
+          style={{
+            fontSize: "13px",
+            color: "rgb(128, 21, 232)",
+            marginTop: "4px",
+          }}
+        >
+          🗓 Available from {product.availableFrom}
+        </p>
+      )}
     </Link>
   );
 }

@@ -9,6 +9,7 @@ export interface Product {
   ribbon?: 'Best Seller' | 'New' | 'Sale' | 'Special Offer';
   inStock: boolean;
   ingredients?: string[];
+  availableFrom?: string;
 }
 
 export interface CartItem {
