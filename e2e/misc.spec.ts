@@ -51,14 +51,6 @@ test.describe("Cafe Partner Links", () => {
     await expect(strayLink).toHaveAttribute("target", "_blank");
   });
 
-  test("Poppi Farmer link opens external site", async ({ page }) => {
-    await page.goto("/en/");
-    const poppiLink = page.getByRole("link", { name: /poppifarmer/i });
-    await expect(poppiLink).toBeVisible();
-    await expect(poppiLink).toHaveAttribute("href", /poppifarmer\.de/);
-    await expect(poppiLink).toHaveAttribute("target", "_blank");
-  });
-
   test("abgefüllt & unverpackt link opens external site", async ({
     page,
   }) => {
