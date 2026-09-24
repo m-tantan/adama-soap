@@ -64,8 +64,8 @@ export const products: Product[] = [
     price: 19.99,
     ribbon: "Special Offer",
     images: [
-      withBasePath("/images/products/EasterSet/EasterSet-1.png"),
-      withBasePath("/images/products/EasterSet/EasterSet-2.png"),
+      withBasePath("/images/products/AdamaBundle/1.png"),
+      withBasePath("/images/products/AdamaBundle/2.png"),
     ],
     description:
       "Two bars. One tray. The whole ritual.\n\nThe Adama Bundle pairs both of our handmade coffee-scrub bars - Sunny Sage (orange + sage) and Calm (lavender) with a handcrafted wooden soap tray made to keep them dry between showers.\n\nBoth bars are cold-processed by hand here in Munich, made with coffee grounds we upcycle from local cafés. Vegan. Plastic-free. Nothing in here we wouldn't put on our own skin.\n\nFor yourself. Or for someone you'd give something real to.\n\nWhat's inside:\n- 1 × Sunny Sage soap (100g)\n- 1 × Calm soap (100g)\n- 1 × Handmade wooden soap tray\n\nFor the full ingredient lists, see the Sunny Sage and Calm product pages.\n\nAdama. Stay clean. Stay grounded.",
