@@ -9,15 +9,16 @@ test.describe("PayPal Checkout", () => {
     await expect(paypalContainer).toBeVisible({ timeout: 15000 });
   });
 
-  test("Sunny Sage product page shows Out of Stock instead of PayPal button", async ({
+  test("Sunny Sage product page is in stock and renders the PayPal button", async ({
     page,
   }) => {
     await page.goto("/en/shop/sunny-sage");
 
-    // Sunny Sage is currently out of stock, so no PayPal container should render
-    const paypalContainer = page.locator("#paypal-container-5UMAKGJHZHBEU");
-    await expect(paypalContainer).toHaveCount(0);
-    await expect(page.getByText(/Out of Stock/i)).toBeVisible();
+    // Sunny Sage is back in stock, so the add-to-cart button should render
+    await expect(
+      page.locator('paypal-add-to-cart-button[data-id="997RRPSCH8KG4"]'),
+    ).toHaveCount(1, { timeout: 15000 });
+    await expect(page.getByText(/Out of Stock/i)).toHaveCount(0);
   });
 
   test("clicking first PayPal purchase button opens PayPal popup or iframe", async ({

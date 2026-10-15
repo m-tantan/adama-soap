@@ -39,8 +39,8 @@ export const products: Product[] = [
       withBasePath("/images/products/SunnySage/3.png"),
     ],
     description:
-      "Sunny Sage is clarity with a smile.\n\nHerbal, earthy sage meets the bright, uplifting freshness of orange - a scent that feels both cleansing and energising. Sage is traditionally known for its purifying and clarifying qualities, while orange essential oil brings warmth, lightness and a natural mood boost.\n\nThis combination makes Sunny Sage the perfect companion for morning showers or moments when you want to reset, recharge and feel refreshed from head to toe.\n\nA subtle spark of sunshine on your skin.",
-    inStock: false,
+      "Our gentlest scent. Clear-headed and quietly bright.\n\nSunny Sage is clarity with a smile.\n\nThis is the softest bar in our range: a light touch of essential oils that stays close to the skin and blooms when the soap meets water. Herbal, earthy sage with a bright, citrusy lift of orange.\n\nSage is traditionally valued for its clarifying, purifying character, while orange essential oil adds warmth and lightness. Together they make a gentle companion for morning showers, or for anyone who prefers a whisper of scent over a statement one.\n\nLight on scent, kind to your skin, and a subtle spark of sunshine every time you wash.",
+    inStock: true,
     ingredients: [
       "Olea Europaea Fruit Oil",
       "Cocos Nucifera Oil",
