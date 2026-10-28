@@ -9,7 +9,14 @@ export default function DiscoverSoaps() {
   const t = useTranslations();
   const locale = useLocale();
 
-  const bestSellers = products;
+  // Carousel opens on the first two: Calm and Vibrant
+  const featuredOrder = ["calm", "vibrant-lemon-grass"];
+  const bestSellers = [
+    ...featuredOrder
+      .map((slug) => products.find((p) => p.slug === slug))
+      .filter((p): p is (typeof products)[number] => Boolean(p)),
+    ...products.filter((p) => !featuredOrder.includes(p.slug)),
+  ];
 
   return (
     <section
