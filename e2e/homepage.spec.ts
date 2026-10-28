@@ -33,9 +33,9 @@ test.describe("Homepage", () => {
       page.getByRole("link", { name: /Explore Shop/i }),
     ).toBeVisible();
 
-    // Product cards for Calm and Vibrant Lemongrass
+    // Product cards for Calm and Vibrant
     await expect(page.getByText("Calm").first()).toBeVisible();
-    await expect(page.getByText("Vibrant Lemongrass").first()).toBeVisible();
+    await expect(page.getByText("Vibrant").first()).toBeVisible();
   });
 
   test("renders HeroSection with title and description", async ({ page }) => {

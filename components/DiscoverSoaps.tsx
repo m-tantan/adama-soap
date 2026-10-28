@@ -9,7 +9,7 @@ export default function DiscoverSoaps() {
   const t = useTranslations();
   const locale = useLocale();
 
-  // Carousel opens on the first two: Calm and Vibrant Lemongrass
+  // Carousel opens on the first two: Calm and Vibrant
   const featuredOrder = ["calm", "vibrant-lemon-grass"];
   const bestSellers = [
     ...featuredOrder

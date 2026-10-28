@@ -73,7 +73,7 @@ export const products: Product[] = [
   },
   {
     id: "4",
-    name: "Vibrant Lemongrass",
+    name: "Vibrant",
     slug: "vibrant-lemon-grass",
     price: 8.5,
     ribbon: "New",
