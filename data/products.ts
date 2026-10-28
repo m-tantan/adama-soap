@@ -84,7 +84,7 @@ export const products: Product[] = [
       withBasePath("/images/products/VibrantLemonGrass/3.png"),
     ],
     description:
-      "Vibrant Lemon Grass is a burst of morning energy.\n\nThe sharp, citrusy freshness of lemongrass essential oil wakes up the senses and lifts the mood from the very first breath. Traditionally valued for its clarifying, uplifting character, lemongrass brings a clean, zesty brightness to your daily shower routine.\n\nCombined with the natural exfoliating power of recycled coffee grounds and nourishing plant oils, Vibrant Lemon Grass leaves your skin smooth, cared for and your senses wide awake.\n\nA bright start. A clear head. A vibrant you.",
+      "Vibrant is a burst of morning energy.\n\nThe sharp, citrusy freshness of lemongrass essential oil wakes up the senses and lifts the mood from the very first breath. Traditionally valued for its clarifying, uplifting character, lemongrass brings a clean, zesty brightness to your daily shower routine.\n\nCombined with the natural exfoliating power of recycled coffee grounds and nourishing plant oils, Vibrant Lemon Grass leaves your skin smooth, cared for and your senses wide awake.\n\nA bright start. A clear head. A vibrant you.",
     inStock: true,
     ingredients: [
       "Olea Europaea Fruit Oil",
