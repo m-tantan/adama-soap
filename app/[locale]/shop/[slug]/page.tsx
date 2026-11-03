@@ -97,7 +97,7 @@ function getProductSchemas(product: (typeof products)[number], locale: string) {
           valueAddedTaxIncluded: true,
         },
       }),
-      availability: product.inStock
+      availability: product.inStock && !product.availableFrom
         ? "https://schema.org/InStock"
         : "https://schema.org/OutOfStock",
       itemCondition: "https://schema.org/NewCondition",
