@@ -179,8 +179,8 @@ export default function ProductDetails({ product }: { product: Product }) {
             </div>
           )}
 
-          {/* PayPal Button / Out of Stock */}
-          {!product.inStock ? (
+          {/* PayPal Button / Out of Stock (hidden while not yet available) */}
+          {localizedAvailableFrom ? null : !product.inStock ? (
             <div
               className="mb-6 font-button text-center"
               style={{
