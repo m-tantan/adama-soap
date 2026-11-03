@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import Image from 'next/image';
-import { useLocale, useTranslations } from "next-intl";
+import { useLocale, useTranslations, useMessages } from "next-intl";
 import { Product } from "@/types";
 import { useState } from "react";
 
@@ -15,6 +15,9 @@ export default function ProductCard({ product }: ProductCardProps) {
   const locale = useLocale();
   const t = useTranslations("ribbons");
   const tProduct = useTranslations("product");
+  const messages = useMessages() as any;
+  const localizedAvailableFrom =
+    messages?.products?.[product.slug]?.availableFrom || product.availableFrom;
 
   return (
     <Link
@@ -146,7 +149,7 @@ export default function ProductCard({ product }: ProductCardProps) {
         )}
       </div>
 
-      {product.availableFrom && (
+      {localizedAvailableFrom && (
         <p
           className="font-body"
           style={{
@@ -155,7 +158,7 @@ export default function ProductCard({ product }: ProductCardProps) {
             marginTop: "4px",
           }}
         >
-          🗓 Available from {product.availableFrom}
+          🗓 {localizedAvailableFrom}
         </p>
       )}
     </Link>
