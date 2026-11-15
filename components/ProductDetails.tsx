@@ -5,7 +5,6 @@ import { useState } from 'react';
 import { useTranslations, useMessages } from "next-intl";
 import { Product } from "@/types";
 import PayPalAddToCartButton from "./PayPalAddToCartButton";
-import DuoSelector from "./DuoSelector";
 import { getPayPalAddToCartButtonId } from "@/data/paypal-buttons";
 
 type Tab = "story" | "ingredients";
@@ -197,8 +196,6 @@ export default function ProductDetails({ product }: { product: Product }) {
             >
               {t("outOfStock")}
             </div>
-          ) : product.duoOptions ? (
-            <DuoSelector options={product.duoOptions} />
           ) : (
             addToCartButtonId && (
               <div className="mb-6">

@@ -54,10 +54,7 @@
     "ecoFriendly": "Vegan, plastikfrei und Zero Waste",
     "handcraftedIn": "Handgemachte kaltgerührte Seife aus München",
     "addToCart": "In den Warenkorb",
-    "outOfStock": "Ausverkauft",
-    "soap1": "Seife 1",
-    "soap2": "Seife 2",
-    "chooseBoth": "Wähle beide Seifen aus, um das Duo in den Warenkorb zu legen"
+    "outOfStock": "Ausverkauft"
   },
   "products": {
     "calm": {

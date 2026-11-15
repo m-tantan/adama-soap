@@ -145,6 +145,5 @@ export const products: Product[] = [
     description:
       "Two bars. One box. Your choice.\n\nThe Adama Christmas Duo is a gift box with two of our handmade coffee-scrub bars, nestled in straw and ready to give. Pick any two scents - Vibrant (lemongrass), Calm (lavender), Sunny Sage (orange + sage) or Forest (cedarwood + pine) - or choose the same one twice.\n\nEvery bar is cold-processed by hand here in Munich, made with coffee grounds we upcycle from local cafés. Vegan. Plastic-free. Nothing in here we wouldn't put on our own skin.\n\nFor someone you'd give something real to. Or for yourself.\n\nWhat's inside:\n- 2 × Adama soap of your choice (100g each)\n- Gift box with straw filling\n\nFor the full ingredient lists, see each soap's product page.\n\nAdama. Stay clean. Stay grounded.",
     inStock: true,
-    duoOptions: ["vibrant-lemon-grass", "calm", "sunny-sage", "forest"],
   },
 ];

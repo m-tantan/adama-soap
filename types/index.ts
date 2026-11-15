@@ -10,8 +10,6 @@ export interface Product {
   inStock: boolean;
   ingredients?: string[];
   availableFrom?: string;
-  /** Pick-two gift box: slugs of the soaps the customer can choose from. */
-  duoOptions?: string[];
 }
 
 export interface CartItem {
