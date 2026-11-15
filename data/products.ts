@@ -112,9 +112,9 @@ export const products: Product[] = [
     price: 8.5,
     ribbon: "New",
     images: [
-      withBasePath("/images/products/Forest/1.png"),
-      withBasePath("/images/products/Forest/2.png"),
       withBasePath("/images/products/Forest/3.png"),
+      withBasePath("/images/products/Forest/2.png"),
+      withBasePath("/images/products/Forest/1.png"),
     ],
     description:
       "Forest is your walk in the woods.\n\nThe warm, woody scent of Atlas cedarwood meets the fresh, green notes of Scots pine needles and brings the calm of the forest into your shower. Traditionally valued for its grounding, clearing character, this evergreen blend is perfect for slow mornings, after a long day, or whenever you want to feel rooted again.\n\nCombined with the natural exfoliating power of recycled coffee grounds and nourishing plant oils, Forest leaves your skin smooth, cared for and your body firmly grounded.\n\nA deep breath of fresh air. A steady mind. A grounded you.",

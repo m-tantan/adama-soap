@@ -9,8 +9,8 @@ export default function DiscoverSoaps() {
   const t = useTranslations();
   const locale = useLocale();
 
-  // Carousel opens on the first two: Calm and Vibrant
-  const featuredOrder = ["calm", "vibrant-lemon-grass"];
+  // Carousel opens on the first three: Forest, Vibrant and the Christmas Duo
+  const featuredOrder = ["forest", "vibrant-lemon-grass", "adama-christmas-duo"];
   const bestSellers = [
     ...featuredOrder
       .map((slug) => products.find((p) => p.slug === slug))
