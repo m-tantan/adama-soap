@@ -75,7 +75,7 @@
     },
     "adama-bundle": {
       "name": "Adama Bundle",
-      "description": "Zwei Seifen. Eine Schale. Das ganze Ritual.\n\nDas Adama Bundle vereint unsere beiden handgemachten Kaffee-Peeling-Seifen - Sunny Sage (Orange + Salbei) und Calm (Lavendel) mit einer handgefertigten Holzseifenschale, die sie zwischen den Duschen trocken hält.\n\nBeide Seifen werden hier in München von Hand kalt verseift, hergestellt mit Kaffeesatz, den wir aus lokalen Cafés upcyceln. Vegan. Plastikfrei. Nichts darin, was wir nicht selbst auf unsere Haut geben würden.\n\nFür dich selbst. Oder für jemanden, dem du etwas Echtes schenken möchtest.\n\nWas enthalten ist:\n- 1 × Sunny Sage Seife (100g)\n- 1 × Calm Seife (100g)\n- 1 × Handgefertigte Holzseifenschale\n\nDie vollständige Zutatenliste findest du auf den Produktseiten von Sunny Sage und Calm.\n\nAdama. Stay clean. Stay grounded."
+      "description": "Zwei Seifen. Eine Schale. Das ganze Ritual.\n\nDas Adama Bundle vereint zwei unserer handgemachten Kaffee-Peeling-Seifen - Vibrant (Zitronengras) und Calm (Lavendel) - mit einer handgefertigten Holzseifenschale, die sie zwischen den Duschen trocken hält.\n\nVibrant zum Wachwerden am Morgen. Calm zum Runterkommen am Abend.\n\nBeide Seifen werden hier in München von Hand kalt verseift, hergestellt mit Kaffeesatz, den wir aus lokalen Cafés upcyceln. Vegan. Plastikfrei. Nichts darin, was wir nicht selbst auf unsere Haut geben würden.\n\nFür dich selbst. Oder für jemanden, dem du etwas Echtes schenken möchtest.\n\nWas enthalten ist:\n- 1 × Vibrant Seife (100g)\n- 1 × Calm Seife (100g)\n- 1 × Handgefertigte Holzseifenschale\n\nDie vollständige Zutatenliste findest du auf den Produktseiten von Vibrant und Calm.\n\nAdama. Stay clean. Stay grounded."
     },
     "sunny-sage": {
       "name": "Sunny Sage",
@@ -98,8 +98,7 @@
     },
     "vibrant-lemon-grass": {
       "name": "Vibrant",
-      "description": "Vibrant ist ein Schub morgendlicher Energie.\n\nDie klare, zitrusfrische Note von Zitronengras-Öl weckt die Sinne und hebt die Stimmung vom ersten Atemzug an. Zitronengras wird traditionell für seine klärende, belebende Wirkung geschätzt und bringt eine frische, spritzige Helligkeit in deine tägliche Dusch-Routine.\n\nKombiniert mit der natürlichen Peeling-Kraft von recyceltem Kaffeesatz und nährenden Pflanzenölen, hinterlässt Vibrant Lemon Grass deine Haut glatt, gepflegt und deine Sinne hellwach.\n\nEin heller Start. Ein klarer Kopf. Ein lebendiges Du.",
-      "availableFrom": "Bald verfügbar",
+      "description": "Vibrant ist ein Schub morgendlicher Energie.\n\nDie klare, zitrusfrische Note von Zitronengras-Öl weckt die Sinne und hebt die Stimmung vom ersten Atemzug an. Zitronengras wird traditionell für seine klärende, belebende Wirkung geschätzt und bringt eine frische, spritzige Helligkeit in deine tägliche Dusch-Routine.\n\nKombiniert mit der natürlichen Peeling-Kraft von recyceltem Kaffeesatz und nährenden Pflanzenölen, hinterlässt Vibrant deine Haut glatt, gepflegt und deine Sinne hellwach.\n\nEin heller Start. Ein klarer Kopf. Ein lebendiges Du.",
       "ingredients": [
         "Olea Europaea Fruit Oil (Olivenöl)",
         "Cocos Nucifera Oil (Kokosöl)",

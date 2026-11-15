@@ -68,7 +68,7 @@ export const products: Product[] = [
       withBasePath("/images/products/AdamaBundle/2.png"),
     ],
     description:
-      "Two bars. One tray. The whole ritual.\n\nThe Adama Bundle pairs both of our handmade coffee-scrub bars - Sunny Sage (orange + sage) and Calm (lavender) with a handcrafted wooden soap tray made to keep them dry between showers.\n\nBoth bars are cold-processed by hand here in Munich, made with coffee grounds we upcycle from local cafés. Vegan. Plastic-free. Nothing in here we wouldn't put on our own skin.\n\nFor yourself. Or for someone you'd give something real to.\n\nWhat's inside:\n- 1 × Sunny Sage soap (100g)\n- 1 × Calm soap (100g)\n- 1 × Handmade wooden soap tray\n\nFor the full ingredient lists, see the Sunny Sage and Calm product pages.\n\nAdama. Stay clean. Stay grounded.",
+      "Two bars. One tray. The whole ritual.\n\nThe Adama Bundle pairs two of our handmade coffee-scrub bars - Vibrant (lemongrass) and Calm (lavender) - with a handcrafted wooden soap tray made to keep them dry between showers.\n\nVibrant to wake you up in the morning. Calm to wind you down at night.\n\nBoth bars are cold-processed by hand here in Munich, made with coffee grounds we upcycle from local cafés. Vegan. Plastic-free. Nothing in here we wouldn't put on our own skin.\n\nFor yourself. Or for someone you'd give something real to.\n\nWhat's inside:\n- 1 × Vibrant soap (100g)\n- 1 × Calm soap (100g)\n- 1 × Handmade wooden soap tray\n\nFor the full ingredient lists, see the Vibrant and Calm product pages.\n\nAdama. Stay clean. Stay grounded.",
     inStock: true,
   },
   {
@@ -77,14 +77,13 @@ export const products: Product[] = [
     slug: "vibrant-lemon-grass",
     price: 8.5,
     ribbon: "New",
-    availableFrom: "Available soon",
     images: [
       withBasePath("/images/products/VibrantLemonGrass/1.png"),
       withBasePath("/images/products/VibrantLemonGrass/2.png"),
       withBasePath("/images/products/VibrantLemonGrass/3.png"),
     ],
     description:
-      "Vibrant is a burst of morning energy.\n\nThe sharp, citrusy freshness of lemongrass essential oil wakes up the senses and lifts the mood from the very first breath. Traditionally valued for its clarifying, uplifting character, lemongrass brings a clean, zesty brightness to your daily shower routine.\n\nCombined with the natural exfoliating power of recycled coffee grounds and nourishing plant oils, Vibrant Lemon Grass leaves your skin smooth, cared for and your senses wide awake.\n\nA bright start. A clear head. A vibrant you.",
+      "Vibrant is a burst of morning energy.\n\nThe sharp, citrusy freshness of lemongrass essential oil wakes up the senses and lifts the mood from the very first breath. Traditionally valued for its clarifying, uplifting character, lemongrass brings a clean, zesty brightness to your daily shower routine.\n\nCombined with the natural exfoliating power of recycled coffee grounds and nourishing plant oils, Vibrant leaves your skin smooth, cared for and your senses wide awake.\n\nA bright start. A clear head. A vibrant you.",
     inStock: true,
     ingredients: [
       "Olea Europaea Fruit Oil",
