@@ -77,7 +77,6 @@ export const products: Product[] = [
     slug: "vibrant-lemon-grass",
     price: 8.5,
     ribbon: "New",
-    availableFrom: "Available soon",
     images: [
       withBasePath("/images/products/VibrantLemonGrass/1.png"),
       withBasePath("/images/products/VibrantLemonGrass/2.png"),
