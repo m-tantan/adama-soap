@@ -112,7 +112,7 @@ export const products: Product[] = [
     price: 8.5,
     ribbon: "New",
     images: [
-      withBasePath("/images/products/Forest/3.png"),
+      withBasePath("/images/products/Forest/4.png"),
       withBasePath("/images/products/Forest/2.png"),
       withBasePath("/images/products/Forest/1.png"),
     ],
