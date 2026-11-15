@@ -25,10 +25,11 @@ export default function BestSellersCarousel({
     setCurrentIndex((prev) => (prev - 1 + products.length) % products.length);
   };
 
-  // Show 2 products at a time
+  // Show 3 products at a time
   const visibleProducts = [
     products[currentIndex],
     products[(currentIndex + 1) % products.length],
+    products[(currentIndex + 2) % products.length],
   ];
 
   return (
@@ -73,7 +74,7 @@ export default function BestSellersCarousel({
       </button>
 
       {/* Product Cards */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 px-12">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-6 px-12">
         {visibleProducts.map((product, index) => (
           <Link
             key={product.id + "-" + index}
@@ -113,7 +114,7 @@ export default function BestSellersCarousel({
                   alt={`${product.name} - handmade vegan coffee soap with recycled coffee grounds from Munich`}
                   fill
                   className="object-cover"
-                  sizes="(max-width: 768px) 100vw, 50vw"
+                  sizes="(max-width: 768px) 100vw, 33vw"
                 />
               </div>
 

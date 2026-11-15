@@ -118,6 +118,29 @@
         "Beta-Caryophyllene",
         "Pinene"
       ]
+    },
+    "forest": {
+      "name": "Forest",
+      "description": "Forest ist dein Spaziergang im Wald.\n\nDer warme, holzige Duft von Atlas-Zedernholz trifft auf die frischen, grünen Noten von Waldkiefernnadeln und bringt die Ruhe des Waldes in deine Dusche. Traditionell für ihren erdenden, klärenden Charakter geschätzt, ist diese immergrüne Mischung perfekt für langsame Morgen, nach einem langen Tag oder immer dann, wenn du dich wieder verwurzelt fühlen möchtest.\n\nKombiniert mit der natürlichen Peeling-Kraft von recyceltem Kaffeesatz und nährenden Pflanzenölen, hinterlässt Forest deine Haut glatt, gepflegt und deinen Körper fest geerdet.\n\nEin tiefer Atemzug frischer Luft. Ein ruhiger Geist. Ein geerdetes Du.",
+      "ingredients": [
+        "Olea Europaea Fruit Oil (Olivenöl)",
+        "Cocos Nucifera Oil (Kokosöl)",
+        "Aqua (Wasser)",
+        "Sodium Hydroxide (Natriumhydroxid)",
+        "Butyrospermum Parkii Butter (Sheabutter)",
+        "Ricinus Communis Seed Oil (Rizinusöl)",
+        "Coffea Arabica Seed Powder (Kaffeepulver)",
+        "Cedrus Atlantica Bark Oil (Atlas-Zedernholzöl)",
+        "Pinus Sylvestris Leaf Oil (Waldkiefernnadelöl)",
+        "Limonene",
+        "Pinene",
+        "Beta-Caryophyllene",
+        "Terpinolene"
+      ]
+    },
+    "adama-christmas-duo": {
+      "name": "Adama Christmas Duo",
+      "description": "Zwei Seifen. Eine Box. Deine Wahl.\n\nDas Adama Christmas Duo ist eine Geschenkbox mit zwei unserer handgemachten Kaffee-Peeling-Seifen, gebettet in Stroh und bereit zum Verschenken. Wähle zwei beliebige Düfte - Vibrant (Zitronengras), Calm (Lavendel), Sunny Sage (Orange + Salbei) oder Forest (Zedernholz + Kiefer) - oder zweimal denselben.\n\nJede Seife wird hier in München von Hand kalt verseift, hergestellt mit Kaffeesatz, den wir aus lokalen Cafés upcyceln. Vegan. Plastikfrei. Nichts darin, was wir nicht selbst auf unsere Haut geben würden.\n\nFür jemanden, dem du etwas Echtes schenken möchtest. Oder für dich selbst.\n\nWas enthalten ist:\n- 2 × Adama Seife deiner Wahl (je 100g)\n- Geschenkbox mit Strohfüllung\n\nDie vollständigen Zutatenlisten findest du auf den Produktseiten der einzelnen Seifen.\n\nAdama. Stay clean. Stay grounded."
     }
   },
   "ribbons": {
